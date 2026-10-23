@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Ochre-and-cream editorial with a saffron portrait cover; display stands in heavy grotesk where the original uses expressive lettering.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Anton",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Ochre Editorial",
+ "palette": {
+  "accent": "#DE9A16",
+  "accent2": "#C34A24",
+  "bg": "#F6EFDD",
+  "ink": "#191713",
+  "line": "#E7DCC0",
+  "muted": "#6E6455",
+  "surface": "#FFFFFF"
+ },
+ "radius": 10,
+ "slug": "ochre-editorial-deck"
+}

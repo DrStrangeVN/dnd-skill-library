@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Cool grey report field, oversized blue display, B/W cut-out team photos, tilted pill labels.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Slate Social Report",
+ "palette": {
+  "accent": "#4C54F2",
+  "accent2": "#9AA1AC",
+  "bg": "#F1F1EF",
+  "ink": "#2E3138",
+  "line": "#DEDEDA",
+  "muted": "#767B84",
+  "surface": "#FFFFFF"
+ },
+ "radius": 12,
+ "slug": "slate-social-report-deck"
+}

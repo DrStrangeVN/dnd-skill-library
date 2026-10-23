@@ -1,0 +1,22 @@
+{
+ "decor": "band",
+ "decor_note": "Tactile paper-collage hills (pink/mint/violet) along the bottom of a near-black field; cream grotesk, lavender CTA chip.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Chromatic Futures",
+ "palette": {
+  "accent": "#CDBCF2",
+  "accent2": "#FF8A1E",
+  "bg": "#171512",
+  "ink": "#F2ECDC",
+  "line": "#38332A",
+  "muted": "#A79E8C",
+  "surface": "#23201B"
+ },
+ "radius": 12,
+ "slug": "chromatic-futures-deck"
+}

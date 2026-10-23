@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Hand-drawn marker system on cream: mint highlighter strokes, workshop photographs, plain grotesk.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Mint Marker",
+ "palette": {
+  "accent": "#2FA89A",
+  "accent2": "#7FC8BC",
+  "bg": "#F7F4EC",
+  "ink": "#1E2422",
+  "line": "#E4DFCE",
+  "muted": "#6E7268",
+  "surface": "#FFFFFF"
+ },
+ "radius": 8,
+ "slug": "mint-marker-deck"
+}

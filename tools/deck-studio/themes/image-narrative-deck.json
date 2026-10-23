@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Dark expedition field; one full-frame painted/photographic scene per slide, short live captions, story in the notes.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Image Narrative",
+ "palette": {
+  "accent": "#E8A33D",
+  "accent2": "#7FB2A3",
+  "bg": "#081C20",
+  "ink": "#E3EDDA",
+  "line": "#1E3D42",
+  "muted": "#8FA89B",
+  "surface": "#10292E"
+ },
+ "radius": 0,
+ "slug": "image-narrative-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "grid",
+ "decor_note": "Lavender-grey field, fine grid, red-orange signal colour; everything native shapes — editing is the feature.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Editable Visual",
+ "palette": {
+  "accent": "#F04E30",
+  "accent2": "#8B84D9",
+  "bg": "#ECEAF4",
+  "ink": "#17141F",
+  "line": "#D5D2E4",
+  "muted": "#6E6A80",
+  "surface": "#FFFFFF"
+ },
+ "radius": 0,
+ "slug": "editable-visual-deck"
+}

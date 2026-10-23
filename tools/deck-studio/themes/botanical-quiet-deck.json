@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Powder-blue paper, flat teal foliage, peach accents; display face stands in for the original delicate hand script.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Botanical Quiet",
+ "palette": {
+  "accent": "#0A93B2",
+  "accent2": "#F5A583",
+  "bg": "#F7FAFB",
+  "ink": "#43302A",
+  "line": "#C9E2EE",
+  "muted": "#7A6A5E",
+  "surface": "#DCEEF6"
+ },
+ "radius": 6,
+ "slug": "botanical-quiet-deck"
+}

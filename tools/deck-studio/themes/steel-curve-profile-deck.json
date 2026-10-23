@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Ice-white pages, steel-blue panels, curved image frames, rounded metric cards, triple-dot accent mark.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Steel Curve Profile",
+ "palette": {
+  "accent": "#4A7188",
+  "accent2": "#9FB8C4",
+  "bg": "#F2F6F8",
+  "ink": "#1E2E3A",
+  "line": "#DCE6EC",
+  "muted": "#637684",
+  "surface": "#FFFFFF"
+ },
+ "radius": 24,
+ "slug": "steel-curve-profile-deck"
+}

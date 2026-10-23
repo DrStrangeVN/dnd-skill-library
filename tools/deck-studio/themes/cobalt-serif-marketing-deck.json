@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Midnight field, ivory serif display, slim cobalt rules and ghost numerals; whisper-quiet marketing deck.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Cobalt Serif Marketing",
+ "palette": {
+  "accent": "#4453E8",
+  "accent2": "#8E97F5",
+  "bg": "#101014",
+  "ink": "#F2EEE2",
+  "line": "#2A2A33",
+  "muted": "#9C98A8",
+  "surface": "#1A1A21"
+ },
+ "radius": 8,
+ "slug": "cobalt-serif-marketing-deck"
+}

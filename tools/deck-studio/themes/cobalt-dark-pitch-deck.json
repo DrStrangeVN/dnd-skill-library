@@ -1,0 +1,22 @@
+{
+ "decor": "band",
+ "decor_note": "Black canvas; cobalt glass-ribbon artwork enters from the right on the cover and runs dim behind content slides (3 strength variants: full / dim / left-darkened). Pale blue (#A9C6FF family) is reserved for evidence: the chart highlight bar and the 3 bottom cards of the method slide. One LIGHT slide (#EDF2FA) near the end inverts the deck. Logo chrome top-left on every slide; no footer, no page numbers. Original deck = 8 slides: cover / problem / shared picture / method / evidence / scale (light) / team / ask.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Cobalt Ribbon Pitch",
+ "palette": {
+  "accent": "#2E6BFF",
+  "accent2": "#A9C6FF",
+  "bg": "#04060A",
+  "ink": "#F4F7FF",
+  "line": "#1E2C47",
+  "muted": "#93A5C4",
+  "surface": "#0C1424"
+ },
+ "radius": 10,
+ "slug": "cobalt-dark-pitch-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Notebook deck: full-frame field photography covers, sage-green rounded cards inside, quiet grotesk.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Field Notes",
+ "palette": {
+  "accent": "#3E7CB1",
+  "accent2": "#7A9B6D",
+  "bg": "#FFFFFF",
+  "ink": "#1C2A22",
+  "line": "#DCE8DC",
+  "muted": "#5F7264",
+  "surface": "#EFF5EE"
+ },
+ "radius": 22,
+ "slug": "field-notes-deck"
+}

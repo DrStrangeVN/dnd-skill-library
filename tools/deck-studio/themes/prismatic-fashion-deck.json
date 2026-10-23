@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Fashion editorial on cream: prismatic light streaks in photography, serif display, cobalt/pink colour notes.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Prismatic Fashion",
+ "palette": {
+  "accent": "#1E40D8",
+  "accent2": "#E86AA8",
+  "bg": "#F7F2EA",
+  "ink": "#1B2432",
+  "line": "#E3DACA",
+  "muted": "#6E6A72",
+  "surface": "#FFFFFF"
+ },
+ "radius": 6,
+ "slug": "prismatic-fashion-deck"
+}

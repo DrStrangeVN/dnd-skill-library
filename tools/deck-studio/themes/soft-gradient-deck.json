@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Grainy pastel gradient wash (pink/mint/butter) as fields; engine themes use the cream base — gradient lives in image slides.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Soft Gradient",
+ "palette": {
+  "accent": "#E88CA0",
+  "accent2": "#7FC8A9",
+  "bg": "#FAF3E3",
+  "ink": "#191919",
+  "line": "#EFE6CC",
+  "muted": "#6E675E",
+  "surface": "#FFFFFF"
+ },
+ "radius": 16,
+ "slug": "soft-gradient-deck"
+}

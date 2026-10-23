@@ -1,0 +1,22 @@
+{
+ "decor": "grid",
+ "decor_note": "Mustard panels and white/graphite grids; chamfered photo cards; dense project-data deck.",
+ "density": "dense",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Sunlit Structure",
+ "palette": {
+  "accent": "#E3A008",
+  "accent2": "#5A7184",
+  "bg": "#FFFFFF",
+  "ink": "#2E3138",
+  "line": "#E4E0D2",
+  "muted": "#6E7268",
+  "surface": "#F7F4EC"
+ },
+ "radius": 2,
+ "slug": "sunlit-structure-deck"
+}

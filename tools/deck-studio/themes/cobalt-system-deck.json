@@ -1,0 +1,22 @@
+{
+ "decor": "grid",
+ "decor_note": "Cobalt divided layout: text left, speckled data-viz right; yellow reserved for signal values on blue.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Cobalt System",
+ "palette": {
+  "accent": "#FFD81E",
+  "accent2": "#DCE9FF",
+  "bg": "#0A48D2",
+  "ink": "#FFFFFF",
+  "line": "#2E6BE0",
+  "muted": "#BCD2FA",
+  "surface": "#0E56E8"
+ },
+ "radius": 0,
+ "slug": "cobalt-system-deck"
+}

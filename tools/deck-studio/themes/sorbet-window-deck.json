@@ -1,0 +1,22 @@
+{
+ "decor": "frame",
+ "decor_note": "Sherbet palette in window frames: lemon frame, coral photo fields, white reading panels, serif+italic titles.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Sorbet Window",
+ "palette": {
+  "accent": "#FFC81E",
+  "accent2": "#F2785C",
+  "bg": "#FFF6D8",
+  "ink": "#26221A",
+  "line": "#F0E3AE",
+  "muted": "#7A7261",
+  "surface": "#FFFFFF"
+ },
+ "radius": 8,
+ "slug": "sorbet-window-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "White modular grid; capsules in orange, lime and lavender label the chapters; one pale grey loop motif behind.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Citrus Loop",
+ "palette": {
+  "accent": "#FF7A1A",
+  "accent2": "#9B7EDE",
+  "bg": "#FFFFFF",
+  "ink": "#191919",
+  "line": "#E3E3DE",
+  "muted": "#6E6E68",
+  "surface": "#F4F4F2"
+ },
+ "radius": 20,
+ "slug": "citrus-loop-deck"
+}

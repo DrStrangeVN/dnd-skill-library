@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Danang Dragons — Báo cáo mùa giải (DEMO)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{ --bg:#0B1226; --surface:#131C3A; --ink:#F2F4FA; --muted:#97A1BC;
+  --accent:#2E5BFF; --accent2:#7D97FF; --line:#26335F;
+  --fd:"Space Grotesk", "Be Vietnam Pro", "Segoe UI", Arial, sans-serif; --fb:"Be Vietnam Pro", "Segoe UI", Arial, sans-serif; --fm:"IBM Plex Mono", "SFMono-Regular", Consolas, monospace; }
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;background:#0a0a0c;font-family:var(--fb);overflow:hidden}
+#viewport{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+#stage{position:relative;width:1280px;height:720px;flex:none;transform-origin:center center}
+.slide{position:absolute;inset:0;background:var(--bg);overflow:hidden;display:none}
+.slide.active{display:block}
+.el{position:absolute}
+.txt{white-space:pre-wrap;word-break:break-word;z-index:3}
+.shape{z-index:1}
+.img{z-index:0}
+body.editing .txt{outline:1px dashed var(--accent);outline-offset:2px;cursor:text}
+#hud{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:50;
+  display:flex;gap:8px;align-items:center;background:rgba(12,12,16,.82);color:#e8e8ee;
+  padding:7px 12px;border-radius:99px;font:12px var(--fm);backdrop-filter:blur(6px)}
+#hud button{background:#23232c;color:#e8e8ee;border:1px solid #3a3a46;border-radius:99px;
+  padding:4px 11px;font:12px var(--fm);cursor:pointer}
+#hud button.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--accent);z-index:60;transition:width .25s}
+#notes{position:fixed;left:0;right:0;bottom:0;z-index:40;background:rgba(10,10,14,.94);
+  color:#dcdce4;padding:16px 26px 52px;font-size:15px;line-height:1.55;display:none;
+  border-top:2px solid var(--accent);max-height:34vh;overflow:auto;white-space:pre-wrap}
+#notes.show{display:block}
+#notes b{color:var(--accent);font-family:var(--fm);font-size:11px;letter-spacing:2px;display:block;margin-bottom:6px}
+body.overview #stage{transform:none!important}
+body.overview #viewport{display:block;overflow:auto;padding:26px}
+body.overview .slide{display:block;position:relative;float:left;margin:0 18px 18px 0;
+  transform:scale(.243);transform-origin:top left;margin-right:-967px;margin-bottom:-527px;cursor:pointer}
+@media print{
+  @page{size:13.333in 7.5in;margin:0}
+  html,body{background:#fff;overflow:visible}
+  #hud,#notes,#progress{display:none!important}
+  #viewport{position:static;display:block}
+  #stage{transform:none!important;width:1280px;height:auto}
+  .slide{display:block!important;position:relative;page-break-after:always;
+    width:1280px;height:720px}
+}
+</style></head>
+<body>
+<div id="progress"></div>
+<div id="viewport"><div id="stage">
+<section class="slide" data-notes="Trang bìa. Toàn bộ số liệu trong deck này là số tròn minh họa để kiểm thử engine deck-studio — KHÔNG phải số liệu chính thức của CLB.">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">01 / 09</div>
+<div class="el shape" style="left:72px;top:128px;width:64px;height:7px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:152px;width:1050px;height:30px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:15.0px;color:#2E5BFF;text-align:left;font-weight:400;letter-spacing:3.5px;line-height:1.25;">BÁO CÁO NỘI BỘ — DEMO</div>
+<div class="el txt" data-edit style="left:72px;top:196px;width:1100px;height:210px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:80.0px;color:#F2F4FA;text-align:left;font-weight:700;line-height:1.04;">Danang Dragons
+Báo cáo mùa giải</div>
+<div class="el txt" data-edit style="left:72px;top:436px;width:860px;height:90px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:23.0px;color:#97A1BC;text-align:left;font-weight:400;line-height:1.35;">Tổng kết hoạt động đội bóng, vận hành sân nhà và kế hoạch thương mại — bản dựng thử bằng deck-studio.</div>
+<div class="el txt" data-edit style="left:72px;top:612px;width:1000px;height:26px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:13.0px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:2.0px;line-height:1.25;">DEMO • DỮ LIỆU MINH HỌA • ĐÀ NẴNG, 2026</div>
+</section>
+<section class="slide" data-notes="Mở phần 1: tổng quan mùa giải.">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">02 / 09</div>
+<div class="el txt" data-edit style="left:72px;top:148px;width:500px;height:190px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:170.0px;color:#7D97FF;text-align:left;font-weight:700;line-height:1.25;">01</div>
+<div class="el shape" style="left:76px;top:348px;width:88px;height:6px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:376px;width:1080px;height:90px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:58.0px;color:#F2F4FA;text-align:left;font-weight:700;line-height:1.08;">Tổng quan mùa giải</div>
+<div class="el txt" data-edit style="left:72px;top:486px;width:880px;height:80px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#97A1BC;text-align:left;font-weight:400;line-height:1.4;">Nhìn lại những gì đội đã làm được, những điểm cần cải thiện và định hướng cho mùa giải tiếp theo.</div>
+</section>
+<section class="slide" data-notes="Slide nội dung: 5 điểm nhấn vận hành (minh họa).">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">03 / 09</div>
+<div class="el txt" data-edit style="left:72px;top:58px;width:1136px;height:54px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:38.0px;color:#F2F4FA;text-align:left;font-weight:700;line-height:1.25;">Điểm nhấn vận hành</div>
+<div class="el shape" style="left:72px;top:122px;width:56px;height:5px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:140px;width:1050px;height:34px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:19.0px;color:#97A1BC;text-align:left;font-weight:400;line-height:1.25;">Năm mảng công việc trọng tâm của CLB trong mùa giải.</div>
+<div class="el shape" style="left:74px;top:207px;width:11px;height:11px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:106px;top:196px;width:1090px;height:48px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.3;"><strong>Vận hành trận đấu:</strong> quy trình game-day chuẩn hóa, soát vé QR tại cổng</div>
+<div class="el shape" style="left:74px;top:261.0px;width:11px;height:11px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:106px;top:250.0px;width:1090px;height:48px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.3;"><strong>Đội hình:</strong> giữ bộ khung nội binh, bổ sung ngoại binh theo vị trí thiếu</div>
+<div class="el shape" style="left:74px;top:315.0px;width:11px;height:11px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:106px;top:304.0px;width:1090px;height:48px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.3;"><strong>Khán giả:</strong> chương trình hội viên và hoạt động cộng đồng tại Đà Nẵng</div>
+<div class="el shape" style="left:74px;top:369.0px;width:11px;height:11px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:106px;top:358.0px;width:1090px;height:48px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.3;"><strong>Thương mại:</strong> gói tài trợ theo hạng mục cho đối tác địa phương</div>
+<div class="el shape" style="left:74px;top:423.0px;width:11px;height:11px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:106px;top:412.0px;width:1090px;height:48px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.3;"><strong>Truyền thông:</strong> lịch nội dung cố định theo tuần thi đấu</div>
+</section>
+<section class="slide" data-notes="Hai cột: thách thức / cơ hội (minh họa).">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">04 / 09</div>
+<div class="el txt" data-edit style="left:72px;top:58px;width:1136px;height:54px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:38.0px;color:#F2F4FA;text-align:left;font-weight:700;line-height:1.25;">Thách thức &amp; cơ hội</div>
+<div class="el shape" style="left:72px;top:122px;width:56px;height:5px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:72px;top:180px;width:536px;height:430px;background:#131C3A;border:1.0px solid #26335F;border-radius:14px;"></div>
+<div class="el shape" style="left:72px;top:180px;width:536px;height:6px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:106px;top:216px;width:470px;height:40px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:24.0px;color:#2E5BFF;text-align:left;font-weight:700;line-height:1.25;">Thách thức</div>
+<div class="el txt" data-edit style="left:106px;top:272px;width:470px;height:320px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:19.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.45;">Đội ngũ vận hành mỏng, nhiều đầu việc dồn vào ngày thi đấu. Quy trình soát vé và an ninh còn phụ thuộc vào điều phối thủ công giữa các bộ phận.</div>
+<div class="el shape" style="left:644px;top:180px;width:536px;height:430px;background:#131C3A;border:1.0px solid #26335F;border-radius:14px;"></div>
+<div class="el shape" style="left:644px;top:180px;width:536px;height:6px;background:#7D97FF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:678px;top:216px;width:470px;height:40px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:24.0px;color:#7D97FF;text-align:left;font-weight:700;line-height:1.25;">Cơ hội</div>
+<div class="el txt" data-edit style="left:678px;top:272px;width:470px;height:320px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:19.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.45;">Lượng khán giả trẻ tại Đà Nẵng tăng đều. Kênh bán vé trực tuyến và nội dung hậu trường là hai đòn bẩy tăng trưởng rõ nhất cho mùa tới.</div>
+</section>
+<section class="slide" data-notes="Bốn chỉ số minh họa — số tròn dùng để test layout data, không phải số liệu thật.">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">05 / 09</div>
+<div class="el txt" data-edit style="left:72px;top:58px;width:1136px;height:54px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:38.0px;color:#F2F4FA;text-align:left;font-weight:700;line-height:1.25;">Mùa giải qua những con số</div>
+<div class="el shape" style="left:72px;top:122px;width:56px;height:5px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:72.0px;top:190px;width:266.0px;height:238px;background:#131C3A;border:1.0px solid #26335F;border-radius:14px;"></div>
+<div class="el txt" data-edit style="left:94.0px;top:226px;width:222.0px;height:84px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:56.0px;color:#2E5BFF;text-align:left;font-weight:700;line-height:1.25;">24</div>
+<div class="el txt" data-edit style="left:94.0px;top:322px;width:222.0px;height:66px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:14.0px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.2px;line-height:1.35;">TRẬN ĐẤU TRONG MÙA (MINH HỌA)</div>
+<div class="el shape" style="left:362.0px;top:190px;width:266.0px;height:238px;background:#131C3A;border:1.0px solid #26335F;border-radius:14px;"></div>
+<div class="el txt" data-edit style="left:384.0px;top:226px;width:222.0px;height:84px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:56.0px;color:#2E5BFF;text-align:left;font-weight:700;line-height:1.25;">8.000</div>
+<div class="el txt" data-edit style="left:384.0px;top:322px;width:222.0px;height:66px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:14.0px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.2px;line-height:1.35;">KHÁN GIẢ TRUNG BÌNH / TRẬN</div>
+<div class="el shape" style="left:652.0px;top:190px;width:266.0px;height:238px;background:#131C3A;border:1.0px solid #26335F;border-radius:14px;"></div>
+<div class="el txt" data-edit style="left:674.0px;top:226px;width:222.0px;height:84px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:56.0px;color:#2E5BFF;text-align:left;font-weight:700;line-height:1.25;">18</div>
+<div class="el txt" data-edit style="left:674.0px;top:322px;width:222.0px;height:66px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:14.0px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.2px;line-height:1.35;">ĐỐI TÁC &amp; NHÀ TÀI TRỢ</div>
+<div class="el shape" style="left:942.0px;top:190px;width:266.0px;height:238px;background:#131C3A;border:1.0px solid #26335F;border-radius:14px;"></div>
+<div class="el txt" data-edit style="left:964.0px;top:226px;width:222.0px;height:84px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:56.0px;color:#2E5BFF;text-align:left;font-weight:700;line-height:1.25;">85</div>
+<div class="el txt" data-edit style="left:964.0px;top:322px;width:222.0px;height:66px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:14.0px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.2px;line-height:1.35;">TỈ LỆ LẤP ĐẦY SÂN NHÀ (%)</div>
+<div class="el shape" style="left:72px;top:478px;width:1136px;height:96px;background:#131C3A;border:1.0px solid #26335F;border-radius:14px;"></div>
+<div class="el shape" style="left:72px;top:478px;width:7px;height:96px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:104px;top:478px;width:1072px;height:96px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#F2F4FA;text-align:left;font-weight:400;line-height:1.35;display:flex;align-items:center;">Số liệu minh họa phục vụ demo — không phải số liệu chính thức của Danang Dragons.</div>
+</section>
+<section class="slide" data-notes="Biểu đồ cột native trong PPTX — dữ liệu minh họa.">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">06 / 09</div>
+<div class="el txt" data-edit style="left:72px;top:58px;width:1136px;height:54px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:38.0px;color:#F2F4FA;text-align:left;font-weight:700;line-height:1.25;">Tương tác truyền thông theo tháng</div>
+<div class="el shape" style="left:72px;top:122px;width:56px;height:5px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:130.6px;top:406.8235294117647px;width:110px;height:141.1764705882353px;background:#7D97FF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:100.6px;top:368.8235294117647px;width:170px;height:30px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:20.0px;color:#F2F4FA;text-align:center;font-weight:700;line-height:1.25;">40</div>
+<div class="el txt" data-edit style="left:72.0px;top:562px;width:227.2px;height:26px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:13.0px;color:#97A1BC;text-align:center;font-weight:400;letter-spacing:0.8px;line-height:1.25;">THÁNG 6</div>
+<div class="el shape" style="left:357.79999999999995px;top:353.88235294117646px;width:110px;height:194.11764705882354px;background:#7D97FF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:327.79999999999995px;top:315.88235294117646px;width:170px;height:30px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:20.0px;color:#F2F4FA;text-align:center;font-weight:700;line-height:1.25;">55</div>
+<div class="el txt" data-edit style="left:299.2px;top:562px;width:227.2px;height:26px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:13.0px;color:#97A1BC;text-align:center;font-weight:400;letter-spacing:0.8px;line-height:1.25;">THÁNG 7</div>
+<div class="el shape" style="left:585.0px;top:300.94117647058823px;width:110px;height:247.05882352941177px;background:#7D97FF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:555.0px;top:262.94117647058823px;width:170px;height:30px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:20.0px;color:#F2F4FA;text-align:center;font-weight:700;line-height:1.25;">70</div>
+<div class="el txt" data-edit style="left:526.4px;top:562px;width:227.2px;height:26px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:13.0px;color:#97A1BC;text-align:center;font-weight:400;letter-spacing:0.8px;line-height:1.25;">THÁNG 8</div>
+<div class="el shape" style="left:812.1999999999999px;top:318.5882352941177px;width:110px;height:229.41176470588235px;background:#7D97FF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:782.1999999999999px;top:280.5882352941177px;width:170px;height:30px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:20.0px;color:#F2F4FA;text-align:center;font-weight:700;line-height:1.25;">65</div>
+<div class="el txt" data-edit style="left:753.5999999999999px;top:562px;width:227.2px;height:26px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:13.0px;color:#97A1BC;text-align:center;font-weight:400;letter-spacing:0.8px;line-height:1.25;">THÁNG 9</div>
+<div class="el shape" style="left:1039.3999999999999px;top:248.0px;width:110px;height:300.0px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:1009.3999999999999px;top:210.0px;width:170px;height:30px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:20.0px;color:#F2F4FA;text-align:center;font-weight:700;line-height:1.25;">85</div>
+<div class="el txt" data-edit style="left:980.8px;top:562px;width:227.2px;height:26px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:13.0px;color:#97A1BC;text-align:center;font-weight:400;letter-spacing:0.8px;line-height:1.25;">THÁNG 10</div>
+<div class="el shape" style="left:72px;top:548px;width:1136px;height:2px;background:#26335F;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:606px;width:1136px;height:34px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:18.0px;color:#97A1BC;text-align:left;font-weight:400;line-height:1.25;">Chỉ số tương tác trên các kênh truyền thông của CLB theo tháng (minh họa).</div>
+</section>
+<section class="slide" data-notes="Slide trích dẫn (minh họa).">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">07 / 09</div>
+<div class="el txt" data-edit style="left:96px;top:108px;width:200px;height:130px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:120.0px;color:#2E5BFF;text-align:left;font-weight:700;line-height:1.25;">“</div>
+<div class="el txt" data-edit style="left:120px;top:252px;width:1020px;height:240px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:42.0px;color:#F2F4FA;text-align:left;font-weight:400;font-style:italic;line-height:1.3;">Chúng tôi xây đội bóng bằng kỷ luật mỗi ngày và niềm tin của người hâm mộ Đà Nẵng.</div>
+<div class="el shape" style="left:122px;top:512px;width:64px;height:5px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:120px;top:534px;width:900px;height:30px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:15.0px;color:#2E5BFF;text-align:left;font-weight:400;letter-spacing:2.0px;line-height:1.25;">BAN HUẤN LUYỆN — TRÍCH DẪN MINH HỌA</div>
+</section>
+<section class="slide" data-notes="Slide ảnh full-bleed với dải overlay chứa tiêu đề + chú thích.">
+<img class="el img" src="assets/arena.jpg" style="left:0;top:0;width:1280px;height:720px;object-fit:cover">
+<div class="el shape" style="left:0px;top:512px;width:1280px;height:208px;background:#0B1226;opacity:0.82;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:552px;width:1100px;height:58px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:40.0px;color:#F2F4FA;text-align:left;font-weight:700;line-height:1.25;">Sân nhà — Cung Thể thao Tiên Sơn</div>
+<div class="el txt" data-edit style="left:72px;top:618px;width:1050px;height:34px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:18.0px;color:#97A1BC;text-align:left;font-weight:400;line-height:1.25;">Ảnh placeholder do engine tạo để kiểm thử layout — thay bằng ảnh thật khi dùng chính thức.</div>
+</section>
+<section class="slide" data-notes="Slide kết: lời kêu gọi hành động + liên hệ.">
+<div class="el shape" style="left:36px;top:36px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:36px;top:36px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1210px;top:684px;width:34px;height:10px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el shape" style="left:1244px;top:650px;width:10px;height:34px;background:#2E5BFF;border-radius:0;"></div>
+<div class="el txt" data-edit style="left:72px;top:676px;width:700px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:left;font-weight:400;letter-spacing:1.5px;line-height:1.25;">Danang Dragons — Báo cáo mùa giải (DEMO)</div>
+<div class="el txt" data-edit style="left:1108px;top:676px;width:100px;height:24px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:11px;color:#97A1BC;text-align:right;font-weight:400;letter-spacing:1.5px;line-height:1.25;">09 / 09</div>
+<div class="el txt" data-edit style="left:140px;top:208px;width:1000px;height:170px;font-family:'Space Grotesk', 'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:62.0px;color:#F2F4FA;text-align:center;font-weight:700;line-height:1.12;">Sẵn sàng cho
+mùa giải mới</div>
+<div class="el shape" style="left:452px;top:416px;width:376px;height:70px;background:#2E5BFF;border-radius:14px;"></div>
+<div class="el txt" data-edit style="left:452px;top:416px;width:376px;height:70px;font-family:'Be Vietnam Pro', 'Segoe UI', Arial, sans-serif;font-size:21.0px;color:#0B1226;text-align:center;font-weight:700;line-height:1.25;display:flex;align-items:center;justify-content:center;">Xem kế hoạch chi tiết</div>
+<div class="el txt" data-edit style="left:140px;top:534px;width:1000px;height:28px;font-family:'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;font-size:14.0px;color:#97A1BC;text-align:center;font-weight:400;letter-spacing:1.6px;line-height:1.25;">GM@DANANGDRAGONS.COM • BẢN DEMO</div>
+</section>
+</div></div>
+<div id="notes"><b>SPEAKER NOTES</b><span id="notesBody"></span></div>
+<div id="hud"><button id="btnPrev">&#8592;</button><span id="counter"></span>
+<button id="btnNext">&#8594;</button><button id="btnOverview">Overview (O)</button>
+<button id="btnNotes">Notes (N)</button><button id="btnEdit">Edit (E)</button></div>
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+let cur=0;
+const counter=document.getElementById('counter'),notesEl=document.getElementById('notes'),
+      notesBody=document.getElementById('notesBody'),prog=document.getElementById('progress');
+function show(i){
+  cur=Math.max(0,Math.min(slides.length-1,i));
+  slides.forEach((s,k)=>s.classList.toggle('active',k===cur));
+  counter.textContent=(cur+1)+' / '+slides.length;
+  notesBody.textContent=slides[cur].dataset.notes||'(không có ghi chú)';
+  prog.style.width=((cur+1)/slides.length*100)+'%';
+  if(document.body.classList.contains('overview')) toggleOverview(false);
+}
+function toggleOverview(force){
+  const on=force!==undefined?force:!document.body.classList.contains('overview');
+  document.body.classList.toggle('overview',on);
+  document.getElementById('btnOverview').classList.toggle('on',on);
+}
+function fit(){
+  if(document.body.classList.contains('overview'))return;
+  const s=Math.min(innerWidth/1280,innerHeight/720);
+  document.getElementById('stage').style.transform='scale('+s+')';
+}
+addEventListener('resize',fit);
+document.getElementById('btnPrev').onclick=()=>show(cur-1);
+document.getElementById('btnNext').onclick=()=>show(cur+1);
+document.getElementById('btnOverview').onclick=()=>toggleOverview();
+document.getElementById('btnNotes').onclick=e=>{
+  notesEl.classList.toggle('show');e.target.classList.toggle('on',notesEl.classList.contains('show'));};
+document.getElementById('btnEdit').onclick=e=>{
+  const on=document.body.classList.toggle('editing');e.target.classList.toggle('on',on);
+  document.querySelectorAll('[data-edit]').forEach(el=>el.contentEditable=on);};
+slides.forEach((s,k)=>s.addEventListener('click',()=>{if(document.body.classList.contains('overview'))show(k);}));
+addEventListener('keydown',e=>{
+  if(document.body.classList.contains('editing')&&e.key!=='Escape')return;
+  if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown')show(cur+1);
+  else if(e.key==='ArrowLeft'||e.key==='PageUp')show(cur-1);
+  else if(e.key==='Home')show(0); else if(e.key==='End')show(slides.length-1);
+  else if(e.key==='o'||e.key==='O')toggleOverview();
+  else if(e.key==='n'||e.key==='N')document.getElementById('btnNotes').click();
+  else if(e.key==='e'||e.key==='E')document.getElementById('btnEdit').click();
+  else if(e.key==='Escape')toggleOverview(false);
+});
+window.__deck={goto:show,count:slides.length};
+fit();show(0);
+</script>
+</body></html>

@@ -1,0 +1,22 @@
+{
+ "decor": "band",
+ "decor_note": "Sun-warm market field: cream ground, golden bands, teal counter-accent; stall photography and price-tag labels.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Golden Market",
+ "palette": {
+  "accent": "#F5A800",
+  "accent2": "#1F7A8C",
+  "bg": "#FFF9EE",
+  "ink": "#3A2E14",
+  "line": "#F0DCAE",
+  "muted": "#7A6A4A",
+  "surface": "#FFF1D6"
+ },
+ "radius": 14,
+ "slug": "golden-market-deck"
+}

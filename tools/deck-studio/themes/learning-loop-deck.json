@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Loop-structured course deck: mint loop cards, navy ink, orange practice accents; every module ends in an action.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Learning Loop",
+ "palette": {
+  "accent": "#1FA98C",
+  "accent2": "#F08A3C",
+  "bg": "#F7F7F1",
+  "ink": "#16213B",
+  "line": "#DCE8E0",
+  "muted": "#5E6B7A",
+  "surface": "#E4F3EC"
+ },
+ "radius": 20,
+ "slug": "learning-loop-deck"
+}

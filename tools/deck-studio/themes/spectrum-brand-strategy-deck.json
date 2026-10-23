@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Black strategy field; spectrum tiles (green/blue/orange/yellow) form the audience and channel grids.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Spectrum Brand Strategy",
+ "palette": {
+  "accent": "#FFC81E",
+  "accent2": "#1E8FE8",
+  "bg": "#0C1210",
+  "ink": "#F4EFE2",
+  "line": "#26312B",
+  "muted": "#9AA79E",
+  "surface": "#161E1A"
+ },
+ "radius": 18,
+ "slug": "spectrum-brand-strategy-deck"
+}

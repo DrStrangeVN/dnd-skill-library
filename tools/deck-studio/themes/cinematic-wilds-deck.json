@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Pure black cinema field; painterly animal/landscape artwork full-bleed; white brush-style display approximated by Archivo black.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Cinematic Wilds",
+ "palette": {
+  "accent": "#E8A33D",
+  "accent2": "#3FA7C4",
+  "bg": "#000000",
+  "ink": "#FFFFFF",
+  "line": "#2A2A2A",
+  "muted": "#A8A8A8",
+  "surface": "#141414"
+ },
+ "radius": 0,
+ "slug": "cinematic-wilds-deck"
+}

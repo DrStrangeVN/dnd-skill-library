@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Sky-cyan fields and yellow geometry on white; circular portraits, dot grids, heavy rounded headings.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Baloo 2",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Aqua Campus",
+ "palette": {
+  "accent": "#2E9BE6",
+  "accent2": "#FFC531",
+  "bg": "#FFFFFF",
+  "ink": "#28283D",
+  "line": "#D9EAF5",
+  "muted": "#6E7486",
+  "surface": "#EAF5FD"
+ },
+ "radius": 24,
+ "slug": "aqua-campus-deck"
+}

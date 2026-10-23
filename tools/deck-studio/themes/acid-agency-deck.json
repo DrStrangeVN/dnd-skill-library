@@ -1,0 +1,22 @@
+{
+ "decor": "band",
+ "decor_note": "Acid fields (lime/orange/violet) behind oversized condensed type; retro desktop photography in big rounded frames.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Anton",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Acid Agency",
+ "palette": {
+  "accent": "#FF6A00",
+  "accent2": "#BFE82E",
+  "bg": "#F4F1EA",
+  "ink": "#111111",
+  "line": "#D8D2C4",
+  "muted": "#5A564E",
+  "surface": "#FFFFFF"
+ },
+ "radius": 18,
+ "slug": "acid-agency-deck"
+}

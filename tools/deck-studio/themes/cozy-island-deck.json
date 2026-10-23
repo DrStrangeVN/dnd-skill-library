@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Warm cream, rounded travel cards, cyan sea and amber sun; island-map motifs and luggage-tag labels.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Baloo 2",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Cozy Island",
+ "palette": {
+  "accent": "#12B5C9",
+  "accent2": "#FFB63D",
+  "bg": "#FBF3DC",
+  "ink": "#26425C",
+  "line": "#EADFC2",
+  "muted": "#6E8296",
+  "surface": "#FFFFFF"
+ },
+ "radius": 26,
+ "slug": "cozy-island-deck"
+}

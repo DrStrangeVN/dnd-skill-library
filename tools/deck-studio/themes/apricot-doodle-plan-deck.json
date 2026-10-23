@@ -1,0 +1,22 @@
+{
+ "decor": "band",
+ "decor_note": "Cream paper with a burnt-orange bottom band; ink-line character illustration carries the warmth, type stays heavy grotesk.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Apricot Ink Plan",
+ "palette": {
+  "accent": "#E85D04",
+  "accent2": "#8A5A2B",
+  "bg": "#F7F1E6",
+  "ink": "#1C1B17",
+  "line": "#E7DCC6",
+  "muted": "#6E675A",
+  "surface": "#FFFFFF"
+ },
+ "radius": 4,
+ "slug": "apricot-doodle-plan-deck"
+}

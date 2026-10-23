@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Pastel paper cutouts: dusty-pink field, cream shapes, orange/yellow pop accents; collage-first deck.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Anton",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Pastel Cutout",
+ "palette": {
+  "accent": "#F26722",
+  "accent2": "#FFD93B",
+  "bg": "#EBCFD2",
+  "ink": "#17130F",
+  "line": "#DDB4BA",
+  "muted": "#7A5E62",
+  "surface": "#FFF7F0"
+ },
+ "radius": 18,
+ "slug": "pastel-cutout-deck"
+}

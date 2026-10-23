@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Ice-blue and navy pages, organic contour shapes, open typography, service tables, connected journey steps.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Tidal Service Playbook",
+ "palette": {
+  "accent": "#1D5C8A",
+  "accent2": "#7FB8CE",
+  "bg": "#DFF2F7",
+  "ink": "#16324A",
+  "line": "#C2E2EC",
+  "muted": "#5A7386",
+  "surface": "#FFFFFF"
+ },
+ "radius": 20,
+ "slug": "tidal-service-playbook-deck"
+}

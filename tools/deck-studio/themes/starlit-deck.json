@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Deep navy with procedural starfield dots; gold serif for the Midnight Gold preset. Variants: Aurora Teal, Dawn Rose (clone theme to switch).",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Starlit",
+ "palette": {
+  "accent": "#E9C46A",
+  "accent2": "#7FD1C0",
+  "bg": "#081426",
+  "ink": "#F3EAD2",
+  "line": "#1E3A5C",
+  "muted": "#9FB2C8",
+  "surface": "#0E2038"
+ },
+ "radius": 0,
+ "slug": "starlit-deck"
+}

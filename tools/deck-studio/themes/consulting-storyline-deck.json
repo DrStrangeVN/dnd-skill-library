@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Cream paper, dusty-pink sidebar washing down the deck, crimson display serif approximated by Archivo; deck ends on a decision.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Consulting Storyline",
+ "palette": {
+  "accent": "#B3242E",
+  "accent2": "#D98E8E",
+  "bg": "#F7F3EC",
+  "ink": "#1E2126",
+  "line": "#E0D5C8",
+  "muted": "#7A7268",
+  "surface": "#F1E6DE"
+ },
+ "radius": 2,
+ "slug": "consulting-storyline-deck"
+}

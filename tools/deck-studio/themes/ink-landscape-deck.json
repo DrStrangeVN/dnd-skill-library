@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Ink-painting deck: rice-paper field, one vermilion seal, mountain/line artwork, chapters named like landscape terms.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Space Grotesk",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Ink Landscape",
+ "palette": {
+  "accent": "#C8431F",
+  "accent2": "#5A7184",
+  "bg": "#F5F0E4",
+  "ink": "#1E1E1E",
+  "line": "#E0D9C6",
+  "muted": "#7A766B",
+  "surface": "#FFFFFF"
+ },
+ "radius": 0,
+ "slug": "ink-landscape-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Bare white field, one rust mono micro-label top-right, teal bullet dots; the argument is the decoration.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Academic Argument",
+ "palette": {
+  "accent": "#2F7D6B",
+  "accent2": "#B4552D",
+  "bg": "#FFFFFF",
+  "ink": "#26303C",
+  "line": "#DEE3E0",
+  "muted": "#6B7684",
+  "surface": "#F4F6F5"
+ },
+ "radius": 0,
+ "slug": "academic-argument-deck"
+}

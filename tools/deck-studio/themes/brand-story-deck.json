@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Black editorial field, cream condensed display over acid chartreuse; one red stamp motif per deck.",
+ "density": "standard",
+ "fonts": {
+  "body": "Playfair Display",
+  "display": "Anton",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Brand Story",
+ "palette": {
+  "accent": "#D8F526",
+  "accent2": "#F03E21",
+  "bg": "#101010",
+  "ink": "#EFE9DC",
+  "line": "#2E2E2A",
+  "muted": "#9A968A",
+  "surface": "#1B1B18"
+ },
+ "radius": 0,
+ "slug": "brand-story-deck"
+}

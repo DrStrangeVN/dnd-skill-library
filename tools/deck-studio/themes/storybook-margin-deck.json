@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Ivory storybook: gouache portraits, oversized chapter numerals, vertical marginal labels, one small blue block.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Storybook Margin",
+ "palette": {
+  "accent": "#1E6FA8",
+  "accent2": "#E86A4A",
+  "bg": "#F7F1DF",
+  "ink": "#1E1C16",
+  "line": "#E4DCC2",
+  "muted": "#6E675A",
+  "surface": "#FFFDF4"
+ },
+ "radius": 2,
+ "slug": "storybook-margin-deck"
+}

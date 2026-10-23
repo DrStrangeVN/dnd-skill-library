@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Cream storybook default theme; the style itself is theme-agnostic — narration script lives in speaker notes.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Audio Report (Narrated)",
+ "palette": {
+  "accent": "#1E8FB8",
+  "accent2": "#E8A33D",
+  "bg": "#F6F1E2",
+  "ink": "#1E1E1C",
+  "line": "#DDD5BF",
+  "muted": "#6E6A5E",
+  "surface": "#FFFFFF"
+ },
+ "radius": 2,
+ "slug": "audio-report-deck"
+}

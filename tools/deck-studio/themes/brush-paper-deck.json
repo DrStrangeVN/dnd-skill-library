@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Cream paper, dry-brush primary marks (cobalt/red/yellow), fine black natural-history illustration; script headings approximated by Playfair italic.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Brush Paper",
+ "palette": {
+  "accent": "#123FA8",
+  "accent2": "#F03A1E",
+  "bg": "#FBF6E8",
+  "ink": "#1D1A14",
+  "line": "#E4DCC4",
+  "muted": "#6E675A",
+  "surface": "#FFFFFF"
+ },
+ "radius": 10,
+ "slug": "brush-paper-deck"
+}

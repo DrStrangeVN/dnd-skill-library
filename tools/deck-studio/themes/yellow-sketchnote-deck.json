@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Oversized black and yellow type, crisp white space, asymmetric copy islands, fine ink figures with star asterisks.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Yellow Sketchnote",
+ "palette": {
+  "accent": "#FFC81E",
+  "accent2": "#F0A500",
+  "bg": "#FFFFFF",
+  "ink": "#141414",
+  "line": "#EDEAE0",
+  "muted": "#5E5A52",
+  "surface": "#FFF8E1"
+ },
+ "radius": 0,
+ "slug": "yellow-sketchnote-deck"
+}

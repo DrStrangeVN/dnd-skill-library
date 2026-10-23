@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "White notebook field, primary-colour doodles, hand-drawn arrows; friendly explainer system.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Baloo 2",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Primary Doodle",
+ "palette": {
+  "accent": "#0B4BD6",
+  "accent2": "#F04E23",
+  "bg": "#FFFFFF",
+  "ink": "#16130F",
+  "line": "#E2E6F0",
+  "muted": "#5E5A52",
+  "surface": "#F4F7FF"
+ },
+ "radius": 16,
+ "slug": "primary-doodle-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Cream ground, cut-paper people shapes in many skin tones and bright primaries+green; plain-language deck.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Inclusive Cut-paper",
+ "palette": {
+  "accent": "#12A150",
+  "accent2": "#7B3FE4",
+  "bg": "#FBF4E4",
+  "ink": "#141310",
+  "line": "#EFE3C4",
+  "muted": "#6E675A",
+  "surface": "#FFFFFF"
+ },
+ "radius": 18,
+ "slug": "inclusive-cutpaper-deck"
+}

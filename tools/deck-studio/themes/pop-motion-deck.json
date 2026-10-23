@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Pop sky-blue field, sticker dots, yellow/pink burst accents; campaign-motion energy in stills.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Baloo 2",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Pop Motion",
+ "palette": {
+  "accent": "#FFC81E",
+  "accent2": "#FF5A76",
+  "bg": "#2BB3E6",
+  "ink": "#141C2E",
+  "line": "#7FD0F0",
+  "muted": "#3E5A6B",
+  "surface": "#FFFFFF"
+ },
+ "radius": 26,
+ "slug": "pop-motion-deck"
+}

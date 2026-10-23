@@ -1,0 +1,22 @@
+{
+ "decor": "frame",
+ "decor_note": "Maker fair poster system: framed panels, neon label colours (violet/orange), condensed display, photo cards.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Anton",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Neon Makers",
+ "palette": {
+  "accent": "#7B3FE4",
+  "accent2": "#FF7A1A",
+  "bg": "#EFEDEA",
+  "ink": "#141414",
+  "line": "#D8D4CE",
+  "muted": "#5E5A54",
+  "surface": "#FFFFFF"
+ },
+ "radius": 28,
+ "slug": "neon-makers-deck"
+}

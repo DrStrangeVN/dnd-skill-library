@@ -1,0 +1,22 @@
+{
+ "decor": "frame",
+ "decor_note": "Light-grey studio wall, framed panels, violet-to-orange electric pairing; condensed display type.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Anton",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Electric Studio",
+ "palette": {
+  "accent": "#6C2BD9",
+  "accent2": "#FF5A1F",
+  "bg": "#ECECEC",
+  "ink": "#131313",
+  "line": "#D5D5D5",
+  "muted": "#5E5E5E",
+  "surface": "#FFFFFF"
+ },
+ "radius": 28,
+ "slug": "electric-studio-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "grid",
+ "decor_note": "Near-black board, ivory serif display, one vermilion massing block; faint survey grid and mono drawing codes.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Architectural Project",
+ "palette": {
+  "accent": "#C8431F",
+  "accent2": "#D8D2BE",
+  "bg": "#181816",
+  "ink": "#F0EBDD",
+  "line": "#34342E",
+  "muted": "#9A968A",
+  "surface": "#232320"
+ },
+ "radius": 0,
+ "slug": "architectural-project-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Spacious lilac pages, deep-violet glass cover in the original; airy grotesk, soft gradients between sections.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Lilac Pitch",
+ "palette": {
+  "accent": "#7B3FE4",
+  "accent2": "#B79CFF",
+  "bg": "#ECE7FA",
+  "ink": "#241B3A",
+  "line": "#DCD2F2",
+  "muted": "#6E6390",
+  "surface": "#FFFFFF"
+ },
+ "radius": 22,
+ "slug": "lilac-pitch-deck"
+}

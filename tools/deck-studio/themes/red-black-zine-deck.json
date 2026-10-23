@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Locked 3-surface zine: cream newsprint, full black, poster red; serif display with mono body.",
+ "density": "standard",
+ "fonts": {
+  "body": "IBM Plex Mono",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Red Black Zine",
+ "palette": {
+  "accent": "#D92323",
+  "accent2": "#A31616",
+  "bg": "#EFE7D3",
+  "ink": "#16130E",
+  "line": "#DCD0B2",
+  "muted": "#6E6455",
+  "surface": "#FBF7EA"
+ },
+ "radius": 0,
+ "slug": "red-black-zine-deck"
+}

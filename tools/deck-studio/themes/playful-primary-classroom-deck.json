@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Classroom deck: pale sky ground, primary-colour dots and cards, rounded heavy type, zero jargon.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Baloo 2",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Playful Primary Classroom",
+ "palette": {
+  "accent": "#FF6B5E",
+  "accent2": "#FFC531",
+  "bg": "#EFF6FC",
+  "ink": "#1D1D22",
+  "line": "#DCEAF6",
+  "muted": "#5E6B7A",
+  "surface": "#FFFFFF"
+ },
+ "radius": 22,
+ "slug": "playful-primary-classroom-deck"
+}

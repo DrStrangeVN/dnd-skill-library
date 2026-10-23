@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Pink gathering-poster field with confetti dots; cream reading panels; teal and yellow action pills.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Baloo 2",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Confetti Gathering",
+ "palette": {
+  "accent": "#12A5E8",
+  "accent2": "#FFC81E",
+  "bg": "#F8B4C6",
+  "ink": "#16130F",
+  "line": "#F28BA8",
+  "muted": "#6E5548",
+  "surface": "#FFF6E8"
+ },
+ "radius": 24,
+ "slug": "confetti-gathering-deck"
+}

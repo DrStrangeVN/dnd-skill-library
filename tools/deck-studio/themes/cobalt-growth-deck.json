@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Full cobalt field; one huge pale ghost word per deck; pills in white/lime; people photography in oversized rounded cards.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Cobalt Growth",
+ "palette": {
+  "accent": "#D9F45C",
+  "accent2": "#A9C6FF",
+  "bg": "#2542D8",
+  "ink": "#FFFFFF",
+  "line": "#4660E8",
+  "muted": "#C3CFF7",
+  "surface": "#2F4CE0"
+ },
+ "radius": 28,
+ "slug": "cobalt-growth-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Black-and-white system broken by a single acid-yellow-green; rounded cards, strict mono labels.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Mono Acid",
+ "palette": {
+  "accent": "#E4F51E",
+  "accent2": "#111111",
+  "bg": "#FAF8F5",
+  "ink": "#111111",
+  "line": "#DDD8D0",
+  "muted": "#6E6A64",
+  "surface": "#EFECE6"
+ },
+ "radius": 18,
+ "slug": "mono-acid-deck"
+}

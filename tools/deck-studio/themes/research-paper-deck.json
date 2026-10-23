@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Deep green paper deck: figure-first pages, amber highlights, captions with citations under every figure.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Research Paper",
+ "palette": {
+  "accent": "#E8A317",
+  "accent2": "#BFDCC8",
+  "bg": "#0C3B2E",
+  "ink": "#F2F5EC",
+  "line": "#1E5741",
+  "muted": "#A8C4B2",
+  "surface": "#123F31"
+ },
+ "radius": 0,
+ "slug": "research-paper-deck"
+}

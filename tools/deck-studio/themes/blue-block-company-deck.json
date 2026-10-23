@@ -1,0 +1,22 @@
+{
+ "decor": "frame",
+ "decor_note": "Rectangular deep-blue framing blocks offset against architectural photography; all-caps kickers, serif display.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Blue Block Company",
+ "palette": {
+  "accent": "#1D4E7E",
+  "accent2": "#7E97AB",
+  "bg": "#FFFFFF",
+  "ink": "#1F2A33",
+  "line": "#D5DCE3",
+  "muted": "#68727C",
+  "surface": "#EDF1F5"
+ },
+ "radius": 0,
+ "slug": "blue-block-company-deck"
+}

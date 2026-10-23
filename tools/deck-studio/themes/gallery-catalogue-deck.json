@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Gallery catalogue on white: still-life photography, serif display, mustard rules and captions set like wall labels.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Playfair Display",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Gallery Catalogue",
+ "palette": {
+  "accent": "#D9A404",
+  "accent2": "#7A4A21",
+  "bg": "#FFFFFF",
+  "ink": "#1C1A14",
+  "line": "#E7DFC8",
+  "muted": "#6E675A",
+  "surface": "#FBF6E9"
+ },
+ "radius": 0,
+ "slug": "gallery-catalogue-deck"
+}

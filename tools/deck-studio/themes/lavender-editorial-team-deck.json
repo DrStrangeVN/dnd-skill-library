@@ -1,0 +1,22 @@
+{
+ "decor": "corner",
+ "decor_note": "Newsroom deck: paper-white ground, violet corner marks, halftone team portraits, one quote card per profile.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Lavender Editorial Team",
+ "palette": {
+  "accent": "#6D28F5",
+  "accent2": "#B79CFF",
+  "bg": "#F4F4F2",
+  "ink": "#121212",
+  "line": "#DEDEDA",
+  "muted": "#6B6B66",
+  "surface": "#FFFFFF"
+ },
+ "radius": 0,
+ "slug": "lavender-editorial-team-deck"
+}

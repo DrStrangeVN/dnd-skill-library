@@ -1,0 +1,22 @@
+{
+ "decor": "frame",
+ "decor_note": "Deep forest-green field, lime signal colour, framed route/terrain photography; built for long efforts.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Lime Endurance",
+ "palette": {
+  "accent": "#CDE94A",
+  "accent2": "#E8DCC4",
+  "bg": "#0E2417",
+  "ink": "#FFFFFF",
+  "line": "#274434",
+  "muted": "#A9BFAE",
+  "surface": "#173324"
+ },
+ "radius": 30,
+ "slug": "lime-endurance-deck"
+}

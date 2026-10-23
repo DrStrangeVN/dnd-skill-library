@@ -1,0 +1,22 @@
+{
+ "decor": "corner",
+ "decor_note": "Exploratory canvas boards: cobalt field, cream condensed walls of type, acid-green and black boards; each slide its own composition. Sample board shown; 3 colourways in notes.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Anton",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Visual Canvas",
+ "palette": {
+  "accent": "#B8F526",
+  "accent2": "#0E0E12",
+  "bg": "#1E3AF2",
+  "ink": "#F2ECDC",
+  "line": "#4A63F7",
+  "muted": "#B9C4FA",
+  "surface": "#2A48F5"
+ },
+ "radius": 0,
+ "slug": "visual-canvas-deck"
+}

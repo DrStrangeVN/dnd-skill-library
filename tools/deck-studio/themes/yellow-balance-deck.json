@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "White and pale-grey fields, sunny yellow rounded cards, delicate grotesk; calm focus-planning system.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Yellow Balance",
+ "palette": {
+  "accent": "#FFC81E",
+  "accent2": "#2E4A6B",
+  "bg": "#F7F7F4",
+  "ink": "#22252A",
+  "line": "#E7E7E0",
+  "muted": "#6E7268",
+  "surface": "#FFFFFF"
+ },
+ "radius": 26,
+ "slug": "yellow-balance-deck"
+}

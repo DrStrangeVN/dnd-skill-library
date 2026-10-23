@@ -1,0 +1,22 @@
+{
+ "decor": "dots",
+ "decor_note": "Golden orbital field: dotted orbit rings, navy ink, orange/blue module chips; space-workshop energy.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Orbital Workshop",
+ "palette": {
+  "accent": "#FF7A33",
+  "accent2": "#0E8AC0",
+  "bg": "#FFCE54",
+  "ink": "#22304A",
+  "line": "#F0B93E",
+  "muted": "#6E6242",
+  "surface": "#FFF6DE"
+ },
+ "radius": 24,
+ "slug": "orbital-workshop-deck"
+}

@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Deep slate-navy field, cream grotesk, one salmon micro-label; mono furniture at the four corners.",
+ "density": "airy",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Article Brief",
+ "palette": {
+  "accent": "#D97B5F",
+  "accent2": "#7FA6C9",
+  "bg": "#222E44",
+  "ink": "#F2EEE2",
+  "line": "#3A4A6B",
+  "muted": "#9AA7BF",
+  "surface": "#2C3A57"
+ },
+ "radius": 0,
+ "slug": "article-brief-deck"
+}

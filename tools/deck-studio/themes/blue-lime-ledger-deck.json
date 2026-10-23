@@ -1,0 +1,22 @@
+{
+ "decor": "none",
+ "decor_note": "Tall rounded editorial photo cards; electric-blue pills, one lime pill for the human outcome; bold black grotesk.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Blue Lime Ledger",
+ "palette": {
+  "accent": "#2B50E0",
+  "accent2": "#BFE83C",
+  "bg": "#FFFFFF",
+  "ink": "#14181A",
+  "line": "#E0E4DE",
+  "muted": "#5C6660",
+  "surface": "#F2F4F1"
+ },
+ "radius": 26,
+ "slug": "blue-lime-ledger-deck"
+}

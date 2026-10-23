@@ -1,0 +1,22 @@
+{
+ "decor": "band",
+ "decor_note": "Beamer/metropolis homage: teal section bands, progress bar, page numbers, equations with plain readings.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Research Talk (Beamer-style)",
+ "palette": {
+  "accent": "#F5A623",
+  "accent2": "#DFF5EE",
+  "bg": "#0A6B5E",
+  "ink": "#FFFFFF",
+  "line": "#2E8C7A",
+  "muted": "#BFE3DA",
+  "surface": "#0D7A6A"
+ },
+ "radius": 0,
+ "slug": "research-talk-deck"
+}

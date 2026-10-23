@@ -1,0 +1,22 @@
+{
+ "decor": "band",
+ "decor_note": "Deep cobalt pages with a continuous blue ribbon graphic; centered kicker/title/stat stacks; glyph-only marks.",
+ "density": "standard",
+ "fonts": {
+  "body": "Be Vietnam Pro",
+  "display": "Archivo",
+  "mono": "IBM Plex Mono"
+ },
+ "name": "Cobalt Ribbon Profile",
+ "palette": {
+  "accent": "#66A3FF",
+  "accent2": "#D6E6FF",
+  "bg": "#0B3D91",
+  "ink": "#FFFFFF",
+  "line": "#2A5CA8",
+  "muted": "#B9CFF2",
+  "surface": "#0F4AA8"
+ },
+ "radius": 0,
+ "slug": "cobalt-ribbon-profile-deck"
+}
