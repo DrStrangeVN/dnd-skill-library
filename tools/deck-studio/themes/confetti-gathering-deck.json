@@ -1,21 +1,21 @@
 {
  "decor": "dots",
- "decor_note": "Pink gathering-poster field with confetti dots; cream reading panels; teal and yellow action pills.",
+ "decor_note": "Poster fields: one flat colour per slide (pink/azure/sky/yellow/green/coral) with a faint grid; flat shapes (4-point stars, starbursts, corner sunburst fans, squiggles, dot stacks, edge blobs); heavy italic grotesk display in black or white; circle-cropped photos; cream reading panels. No footer, no page numbers. Original deck = 12 slides, each a different composition (see demo PREVIEW-MAP.md).",
  "density": "standard",
  "fonts": {
+  "display": "Be Vietnam Pro",
   "body": "Be Vietnam Pro",
-  "display": "Baloo 2",
   "mono": "IBM Plex Mono"
  },
  "name": "Confetti Gathering",
  "palette": {
-  "accent": "#12A5E8",
-  "accent2": "#FFC81E",
-  "bg": "#F8B4C6",
+  "bg": "#F6AFC2",
+  "surface": "#FFF6DC",
   "ink": "#16130F",
-  "line": "#F28BA8",
   "muted": "#6E5548",
-  "surface": "#FFF6E8"
+  "accent": "#0B96E6",
+  "accent2": "#FFC61A",
+  "line": "#F28BA8"
  },
  "radius": 24,
  "slug": "confetti-gathering-deck"

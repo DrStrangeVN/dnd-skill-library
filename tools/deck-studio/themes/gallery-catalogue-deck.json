@@ -1,21 +1,22 @@
 {
  "decor": "none",
- "decor_note": "Gallery catalogue on white: still-life photography, serif display, mustard rules and captions set like wall labels.",
+ "decor_note": "Exhibition catalogue on white: serif display with mixed roman/italic lines (Playfair), gold label chips (#DFA320, white caps), thin gold frames inset over photos, captions set like wall labels, script italic accents (Dancing Script) over photos. Footer chrome on nearly every slide: tiny caps deck title left, gold hairline, counter NN / 12 right. Original deck = 12 slides (see demo PREVIEW-MAP.md).",
  "density": "standard",
  "fonts": {
-  "body": "Be Vietnam Pro",
   "display": "Playfair Display",
-  "mono": "IBM Plex Mono"
+  "body": "Be Vietnam Pro",
+  "mono": "IBM Plex Mono",
+  "script": "Dancing Script"
  },
  "name": "Gallery Catalogue",
  "palette": {
-  "accent": "#D9A404",
-  "accent2": "#7A4A21",
   "bg": "#FFFFFF",
-  "ink": "#1C1A14",
-  "line": "#E7DFC8",
-  "muted": "#6E675A",
-  "surface": "#FBF6E9"
+  "surface": "#FBF6E9",
+  "ink": "#1D1B18",
+  "muted": "#8A857C",
+  "accent": "#DFA320",
+  "accent2": "#7A4A21",
+  "line": "#C7A962"
  },
  "radius": 0,
  "slug": "gallery-catalogue-deck"
