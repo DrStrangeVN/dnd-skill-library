@@ -1,0 +1,22 @@
+# audio-music — 18 skills
+
+| Skill | Description |
+|---|---|
+| [affinity-diagram](affinity-diagram/) | Cluster many qualitative data points into themes and insight statements. Use when synthesising across multiple sessions or sources. For a single transcript use `summarize-interview`; for one segment's inner state use `e… |
+| [apply-aesthetic](apply-aesthetic/) | Apply a visual direction — an archetype (high-end agency, editorial minimal, brutalist, soft-SaaS, dark-tech) or one of 138 named design systems (apple, linear-app, stripe, vercel, notion, material, shadcn, spotify, tes… |
+| [audio-pro](audio-pro/) | Handle professional audio tasks with recording, editing, mixing basics, formats, and loudness standards. |
+| [follow-up-after-call](follow-up-after-call/) | Use after a completed customer, prospect, partner, or important internal sales call, discovery session, demo, or conversation, including when the user supplies or uploads a transcript, notes, recording summary, or other… |
+| [game-audio-engineer](game-audio-engineer/) | Interactive audio specialist - Masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines |
+| [hyperframes-creative](hyperframes-creative/) | Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / sty… |
+| [learning-sprint-planner](learning-sprint-planner/) | Learn any topic in a focused 2–4 week sprint: define a concrete outcome, break it into daily 25-minute sessions mixing input, practice, and recall, with the assistant quizzing you at checkpoints and running a final self… |
+| [meeting-insights-analyzer](meeting-insights-analyzer/) | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportun… |
+| [multicam-sync](multicam-sync/) | Synchronize footage from a multi-camera / multi-recorder shoot — several cameras plus separate audio recorders covering one session, imported as loose clips — and optionally turn all or part of it into speaker-follow fo… |
+| [multimodal-audiocraft](multimodal-audiocraft/) | PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music… |
+| [music](music/) | Shared ChatCut entry point for newly generated music, soundtrack, theme music, 配乐, background music, an intro theme, a music bed, BGM, or vocal songs. If vocals are unspecified, ask whether the user wants a vocal song o… |
+| [pdf-to-word-vietnamese](pdf-to-word-vietnamese/) | Convert a Vietnamese PDF, including scanned or image-only pages, into an editable DOCX. Use when the user wants PDF-to-Word conversion, OCR transcription, or a faithful editable copy that preserves the source wording an… |
+| [pollinations-guide](pollinations-guide/) | Free, open AI APIs via Pollinations — text, image, and audio generation with minimal setup. |
+| [summarize-interview](summarize-interview/) | Turn one interview transcript into themes, supporting quotes, and action items. Use immediately after a session. For synthesising many sessions at once, use `affinity-diagram`. |
+| [swarmvault](swarmvault/) | Use SwarmVault when the user needs a local-first knowledge vault that writes durable markdown, graph, search, dashboard, review, and MCP artifacts to disk from books, notes, transcripts, exports, datasets, slide decks,… |
+| [terraform-specialist](terraform-specialist/) | Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. |
+| [transcription-pro](transcription-pro/) | Master transcription — speech-to-text workflows, accuracy optimization, speaker diarization, and transcript management. |
+| [transformers](transformers/) | This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, trans… |

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 120" role="img" aria-label="PIL — Personal Instagram Library">
+  <title>PIL — Personal Instagram Library</title>
+  <!-- bookmark: heavier stroke for presence at small sizes, deeper ribbon cut -->
+  <path d="M4.5 22.5 A18 18 0 0 1 22.5 4.5 H73.5 A18 18 0 0 1 91.5 22.5 V106 L48 82 L4.5 106 Z"
+        fill="none" stroke="#FF5A1F" stroke-width="9" stroke-linejoin="round"/>
+  <text x="48" y="56" text-anchor="middle" dominant-baseline="central"
+        font-family="'Arial Black',Arial,'Helvetica Neue','Segoe UI',sans-serif" font-weight="900"
+        font-size="31" letter-spacing="1" fill="#ECE7DB">PIL</text>
+</svg>

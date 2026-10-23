@@ -1,0 +1,123 @@
+{
+  "clips": [
+    {
+      "author": "MART PRODUCTION",
+      "duration_s": 9.2,
+      "file": "broll-pho-dem.mp4",
+      "mood": "Người đàn ông đi một mình qua phố đêm, silhouette dưới đèn đường. Cô độc, trầm tư.",
+      "pillar": "xa-hoi-su-that-phu",
+      "source_url": "https://www.pexels.com/video/a-man-crossing-a-street-7252264/"
+    },
+    {
+      "author": "Charles Parker",
+      "duration_s": 10.0,
+      "file": "broll-toa-nha.mp4",
+      "mood": "Nhìn lên tòa nhà chọc trời rực sáng trong đêm. Choáng ngợp, quyền lực, khoảng cách tầng lớp.",
+      "pillar": "tu-duy-tang-lop",
+      "source_url": "https://www.pexels.com/video/night-vertical-video-of-a-building-at-night-5827631/"
+    },
+    {
+      "author": "Engin Akyurt",
+      "duration_s": 12.0,
+      "file": "broll-bokeh-xe.mp4",
+      "mood": "Lái xe đêm, đèn thành phố bokeh nhòe đầy màu sắc. Đô thị hoa lệ, chuyển động không ngừng.",
+      "pillar": "tien-lam-giau",
+      "source_url": "https://www.pexels.com/video/vibrant-urban-night-drive-with-blurred-city-lights-31845195/"
+    },
+    {
+      "author": "Mustafa Damra",
+      "duration_s": 14.0,
+      "file": "broll-dam-dong.mp4",
+      "mood": "Phố đêm nhòe, dòng người/khuôn mặt lướt qua ẩn danh. Dùng khi nói về bản chất con người.",
+      "pillar": "doc-vi-con-nguoi",
+      "source_url": "https://www.pexels.com/video/blurred-city-street-at-night-11910743/"
+    },
+    {
+      "author": "Abdulvahap Demir",
+      "duration_s": 12.0,
+      "file": "broll-mua-kinh.mp4",
+      "mood": "Mưa rơi trên cửa kính đêm, thành phố nhòe phía sau. Buồn, suy tư, khoảng cách trong quan hệ.",
+      "pillar": "gia-dinh-quan-he",
+      "source_url": "https://www.pexels.com/video/a-window-with-rain-drops-on-it-and-a-building-in-the-background-19802056/"
+    },
+    {
+      "author": "Diana",
+      "duration_s": 14.0,
+      "file": "broll-bien-dem.mp4",
+      "mood": "Sóng biển đêm tương phản cao, dữ dội. Cô độc, nội tâm, cảm xúc mạnh.",
+      "pillar": "du-phong",
+      "source_url": "https://www.pexels.com/video/dark-ocean-waves-in-high-contrast-motion-28915823/"
+    },
+    {
+      "author": "Bahri Gün",
+      "duration_s": 12.0,
+      "file": "broll-nen.mp4",
+      "mood": "Ngọn nến cháy trong bóng tối. Ấm, tĩnh, hy vọng le lói — dùng cho beat kết/cứu rỗi.",
+      "pillar": "du-phong",
+      "source_url": "https://www.pexels.com/video/serene-candle-flame-flickering-in-darkness-29555838/"
+    },
+    {
+      "file": "broll-pho-dem-full.mp4",
+      "duration_s": 60.03,
+      "source_url": "https://www.pexels.com/video/aerial-video-of-a-city-at-night-9370018/",
+      "author": "Altaf Shah",
+      "mood": "Toàn cảnh thành phố về đêm từ trên cao, đường phố và tòa nhà rực sáng. Nhỏ bé, cô độc giữa đô thị rộng lớn. (Thay thế: không tìm được clip người đi bộ đơn độc ≥60s đạt chuẩn.)",
+      "pillar": "xa-hoi-su-that-phu",
+      "note": "full-duration, dùng cho video 60s+ (luật v1.3.7: nền chạy đủ giờ, CẤM loop clip ngắn)"
+    },
+    {
+      "file": "broll-bokeh-xe-full.mp4",
+      "duration_s": 108.14,
+      "source_url": "https://www.pexels.com/video/out-of-focus-footage-of-city-and-car-lights-at-night-3175515/",
+      "author": "Dan Cristian Pădureț",
+      "mood": "Bokeh đèn xe và skyline thành phố đêm nhòe qua hàng rào. Đô thị hoa lệ, chuyển động không ngừng.",
+      "pillar": "tien-lam-giau",
+      "note": "full-duration, dùng cho video 60s+ (luật v1.3.7: nền chạy đủ giờ, CẤM loop clip ngắn)"
+    },
+    {
+      "file": "broll-toa-nha-full.mp4",
+      "duration_s": 116.07,
+      "source_url": "https://www.pexels.com/video/night-skyline-overlooking-cityscape-capture-34587630/",
+      "author": "Sapol Churanon",
+      "mood": "Skyline thành phố về đêm, tòa nhà chọc trời rực sáng. Choáng ngợp, quyền lực, khoảng cách tầng lớp.",
+      "pillar": "tu-duy-tang-lop",
+      "note": "full-duration, dùng cho video 60s+ (luật v1.3.7: nền chạy đủ giờ, CẤM loop clip ngắn)"
+    },
+    {
+      "file": "broll-nen-full.mp4",
+      "duration_s": 62.78,
+      "source_url": "https://www.pexels.com/video/cozy-campfire-with-flickering-flames-at-night-35611685/",
+      "author": "Andrew Jackson",
+      "mood": "Lửa trại bập bùng với than hồng trong đêm, 9:16 dọc native. Ấm, tĩnh, hy vọng le lói — dùng cho beat kết/cứu rỗi.",
+      "pillar": "du-phong",
+      "note": "full-duration, dùng cho video 60s+ (luật v1.3.7: nền chạy đủ giờ, CẤM loop clip ngắn)"
+    },
+    {
+      "file": "broll-bien-dem-full.mp4",
+      "duration_s": 66.67,
+      "source_url": "https://www.pexels.com/video/sea-under-storm-clouds-13649472/",
+      "author": "Tom Fisk",
+      "mood": "Biển động dưới mây bão lúc chạng vạng, vệt sáng mặt trời trên mặt nước. Cảm xúc mạnh, nội tâm, giông tố.",
+      "pillar": "du-phong",
+      "note": "TẠM CHẤP NHẬN: độ sáng trung bình (~112/255, không phải đêm hẳn) — overlay đen 40% của pipeline sẽ đưa về tông u ám; BẮT BUỘC kiểm tra lại khi render QA. full-duration, dùng cho video 60s+ (luật v1.3.7)."
+    }
+  ],
+  "license_note": "Tất cả clip từ Pexels (giấy phép miễn phí dùng thương mại, không bắt buộc ghi nguồn). URL + tác giả lưu ở đây để minh bạch.",
+  "specs": "Clip ngắn: 1080x1920, 10-15s. Clip full-duration (từ v1.3.7): 60-120s, nguồn 4K/1440p crop về 9:16 hoặc 9:16 native, h264.",
+  "usage": "Mỗi beat map 1 clip theo cảm xúc (xem references/style.md). LUẬT v1.3.7: nền phải chạy ĐỦ GIỜ video, CẤM lấy clip ngắn loop lại — ưu tiên dùng bản full-duration cho mọi video từ 12/10/2026. KHÔNG dùng clip sáng/chói; nếu không có clip hợp thì fallback nền gradient tối thuần.",
+  "version": "1.3.7",
+  "full_duration_gaps": [
+    {
+      "mood": "mua-kinh",
+      "pillar": "gia-dinh-quan-he",
+      "status": "chưa có bản full-duration",
+      "nearest": "Raindrops Falling In The Street At Night (0:46, thiếu 14s); Rain Falling on a Glass Surface — Abdulvahap Demir (0:50, thiếu 10s); Slow Motion Video of Raindrops (1:23 nhưng 1080p, crop 9:16 chỉ 608x1080 < tối thiểu 720x1280)"
+    },
+    {
+      "mood": "dam-dong",
+      "pillar": "doc-vi-con-nguoi",
+      "status": "chưa có bản full-duration",
+      "nearest": "A Group of People Walking at Shibuya Crossing at Night (0:54, 4K, thiếu 6s); các clip đám đông ≥60s khác: biểu tình/lễ hội (sai mood) hoặc quay ban ngày"
+    }
+  ]
+}

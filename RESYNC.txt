@@ -1,0 +1,24 @@
+RESYNC BEFORE FIRST PUSH
+========================
+Built 2026-10-23 while a fidelity pass was concurrently reworking the three
+deck demos below against their Skillry previews. The copies in this repo are
+complete and valid, but may pre-date the final fidelity edits. Before the
+first `git push`, re-copy these folders from the origin machine:
+
+  slides-presentation/deck-cobalt-dark-pitch-deck/
+      <- ~/workspace/custom-skills/deck-cobalt-dark-pitch-deck/
+      + refresh samples/house-demo-sheet.jpg
+        from ~/workspace/skillry-slides/demos/cobalt-dark-pitch-deck/sheet.jpg
+
+  slides-presentation/deck-gallery-catalogue-deck/
+      <- ~/workspace/custom-skills/deck-gallery-catalogue-deck/
+      + refresh samples/house-demo-sheet.jpg
+        from ~/workspace/skillry-slides/demos/gallery-catalogue-deck/sheet.jpg
+
+  slides-presentation/deck-confetti-gathering-deck/
+      <- ~/workspace/custom-skills/deck-confetti-gathering-deck/
+      + refresh samples/house-demo-sheet.jpg
+        from ~/workspace/skillry-slides/demos/confetti-gathering-deck/sheet.jpg
+
+After re-copying: `git add -A && git commit -m "Resync 3 deck skills after fidelity pass"`,
+then delete this file in the same commit.

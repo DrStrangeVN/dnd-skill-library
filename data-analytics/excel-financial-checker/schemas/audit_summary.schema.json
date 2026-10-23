@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Excel Financial Checker Audit Issue",
+  "type": "object",
+  "required": ["issue_id", "severity", "sheet", "location", "category", "reason", "confidence", "status"],
+  "properties": {
+    "issue_id": {"type": "string"},
+    "severity": {"enum": ["CRITICAL", "HIGH", "MEDIUM", "LOW"]},
+    "sheet": {"type": "string"},
+    "location": {"type": "string"},
+    "category": {"type": "string"},
+    "current": {},
+    "suggested": {},
+    "reason": {"type": "string"},
+    "confidence": {"enum": ["High", "Medium", "Low"]},
+    "status": {"enum": ["Fixed", "Needs Review", "Advisory"]}
+  }
+}

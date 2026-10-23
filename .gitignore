@@ -1,0 +1,21 @@
+# caches / deps / OS noise
+__pycache__/
+*.py[cod]
+node_modules/
+.DS_Store
+
+# Secret material — second line of defence.
+# (All skills were hand-reviewed before the initial commit; see BUILD-REPORT.md.
+#  .env.example templates with empty/placeholder values are intentional and kept.)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+id_rsa*
+id_ed25519*
+
+# dark-wisdom B-roll media stays on the origin machine only (DECISIONS.md #1)
+**/dark-wisdom/assets/broll/*.mp4

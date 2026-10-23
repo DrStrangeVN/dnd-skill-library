@@ -1,0 +1,3 @@
+#!/bin/sh
+# Shim: runs notebooklm from the dedicated venv at ~/.venvs/notebooklm
+exec "$HOME/.venvs/notebooklm/bin/notebooklm" "$@"

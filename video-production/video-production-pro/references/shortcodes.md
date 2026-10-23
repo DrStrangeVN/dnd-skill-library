@@ -1,0 +1,44 @@
+# Video Production Pro — Shortcodes
+
+Use these as optional natural-language shortcuts. They are not required for activation.
+
+- `/video` — Auto-detect and run the full workflow
+- `/concept` — Big Idea and creative direction
+- `/story` — Story concept and emotional arc
+- `/script` — Full timecoded script
+- `/hook` — Opening hook options
+- `/vo` — Voice-over script
+- `/storyboard` — Storyboard breakdown
+- `/shotlist` — Production shot list
+- `/cinematography` — Camera, lens and movement direction
+- `/lighting` — Lighting design
+- `/artdirection` — Location, props, wardrobe and visual world
+- `/moodboard` — Moodboard direction
+- `/imageprompts` — AI image / storyboard prompts
+- `/videoprompts` — AI video generation prompts
+- `/continuity` — Character, product and brand continuity
+- `/music` — Music direction
+- `/sounddesign` — Sound-design map
+- `/editplan` — Edit rhythm and transitions
+- `/production` — Production requirements
+- `/schedule` — Shooting schedule
+- `/callsheet` — Call-sheet-ready information
+- `/post` — Post-production workflow
+- `/social` — TikTok/Reels/Shorts optimization
+- `/sports` — Sports promo mode
+- `/gameday` — Game-day hype mode
+- `/playerintro` — Player-introduction mode
+- `/eventrecap` — Event recap mode
+- `/eventteaser` — Event teaser mode
+- `/commercial` — Product / brand commercial mode
+- `/brandfilm` — Brand-film mode
+- `/documentary` — Documentary mode
+- `/interview` — Interview mode
+- `/testimonial` — Testimonial mode
+- `/explainer` — Explainer mode
+- `/educational` — Educational mode
+- `/aionly` — AI-only production workflow
+- `/hybrid` — Real-footage + AI workflow
+- `/cutdowns` — Multi-format derivative plan
+- `/fullpack` — Complete production package
+- `/qc` — Final quality-control and red-team review

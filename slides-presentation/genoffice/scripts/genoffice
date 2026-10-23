@@ -1,0 +1,3 @@
+#!/bin/sh
+# Shim: runs genoffice CLI built from source at ~/workspace/skill-repos/genoffice
+exec "$HOME/workspace/skill-repos/genoffice/packages/cli/bin/genoffice" "$@"
