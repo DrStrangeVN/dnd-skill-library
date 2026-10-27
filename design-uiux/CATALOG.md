@@ -1,4 +1,4 @@
-# design-uiux — 332 skills
+# design-uiux — 333 skills
 
 | Skill | Description |
 |---|---|
@@ -315,6 +315,7 @@
 | [vercel-react-native-skills](vercel-react-native-skills/) | React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on task… |
 | [vercel-react-view-transitions](vercel-react-view-transitions/) | Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user w… |
 | [version-control-strategy](version-control-strategy/) | Define version control for design files, components, and libraries — branching, naming, and release. Use when file history is chaotic. For design system contribution rules, use `design-system-governance` (design-systems… |
+| [viet-font-kit](viet-font-kit/) | Việt hoá font chữ (.otf/.ttf thiếu ậ ặ ơ ư…): dựng đủ chữ Việt từ chính bộ phận của font, duyệt từng VER trên trang artifact có khung kéo và bàn vẽ, chỉ xuất file khi người dùng chốt VER. |
 | [visual-hierarchy](visual-hierarchy/) | Establish hierarchy through size, weight, colour, spacing, and position so the eye lands in the intended order. Use when composing new work. For judging an existing screen, use `critique-visual-hierarchy` (visual-critiq… |
 | [vite-vibe-coding](vite-vibe-coding/) | Prototype at speed with Vite + AI coding assistants: scaffolding, rapid iteration loops, and knowing when to slow down for production. Use for fast AI-assisted prototyping. |
 | [von-restorff-effect](von-restorff-effect/) | Apply the Von Restorff Effect — the element that differs from its neighbours is the one remembered. Use when a single action must dominate. For overall ordering rather than single-element emphasis, use `visual-hierarchy… |
