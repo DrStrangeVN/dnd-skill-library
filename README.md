@@ -8,7 +8,7 @@ and **INDEX.md** for the full skill list.
 
 ## Contents
 
-- **2,384 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
+- **2,407 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
 - `INDEX.md` — every skill with its category and one-line description.
 - `<category>/CATALOG.md` — per-category table.
 - `SETUP.md` — install + toolchain + verification steps for a new machine.
@@ -24,6 +24,10 @@ Assembled 2026-10-23 from `~/workspace/custom-skills/` on the origin machine:
 - Authored packs (deck-*, Opus55 family, ReelCrew video skills, opuscar-telestrator,
   web-liquid-glass-landing) carry a `samples/` subfolder with representative
   demo stills so a reader can see the output before using the skill.
+
+Update 2026-10-27: +23 skills (11 YouTube `yt-*`, 11 official Remotion skills +
+router `remotion-best-practices`, `pr-review-expert`) and the 15 Superpowers
+skills refreshed to upstream v7.0.1. Total 2,407.
 
 ## Updating incrementally
 

@@ -1,6 +1,6 @@
 # Skill Index
 
-All 2384 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
+All 2407 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
 
 ## ai-agents-llm (258)
 
@@ -1540,7 +1540,7 @@ All 2384 skills in this library, grouped by category. Descriptions come from eac
 | [behavioral-modes](behavioral-modes/) | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. |
 | [book-to-skill](book-to-skill/) | Converts books, documentation folders, and source collections (PDF, EPUB, |
 | [bookmark-manager](bookmark-manager/) | Build a bookmark system you'll actually use: capture, tagging, retrieval, and regular pruning. Use when bookmarks pile up unfindable or you keep losing useful links. |
-| [brainstorming](brainstorming/) | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. |
+| [brainstorming](brainstorming/) | You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation). |
 | [c-pro](c-pro/) | Professional C: memory ownership, defensive programming, build hygiene, and systems-level correctness. Use when writing, reviewing, or maintaining C code. |
 | [calendar-guardian](calendar-guardian/) | Protect your time with Muse as calendar guardian: time-blocking, buffer time, declining gracefully, weekly calendar audits, and defending focus and personal time. |
 | [calendar-pro](calendar-pro/) | Run your calendar like a pro: timeboxing, calendar layering, meeting hygiene, buffer design, and weekly planning rituals. Use when your schedule feels chaotic or your calendar controls you instead of the reverse. |
@@ -2010,7 +2010,7 @@ All 2384 skills in this library, grouped by category. Descriptions come from eac
 | [write-like-me](write-like-me/) | Use when creating documents, emails, reports, proposals, presentations, or messages on the user's behalf to ensure they match the user's writing style. Skip minor edits and requests that explicitly do not want style mat… |
 | [writing-texts](writing-texts/) | Write, rewrite, or review Russian and English prose so it reads as written by a person, not a model. Use for requests to make text more human, simplify language, remove formulaic writing, or edit articles, notes, docs,… |
 
-## software-engineering (107)
+## software-engineering (108)
 
 | Skill | Description |
 |---|---|
@@ -2078,6 +2078,7 @@ All 2384 skills in this library, grouped by category. Descriptions come from eac
 | [ponytail-review](ponytail-review/) | Code review focused exclusively on over-engineering. Finds what to delete: reinvented standard library, unneeded dependencies, speculative abstractions, dead flexibility. One line per finding: location, what to cut, wha… |
 | [post-training-openrlhf](post-training-openrlhf/) | High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU… |
 | [postmortem](postmortem/) | /em:postmortem — Honest analysis of what went wrong. Use after a failed |
+| [pr-review-expert](pr-review-expert/) | Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs. |
 | [production-audit](production-audit/) | Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and "what breaks in prod?" questions without sending repo data to an external audit service. Use when auditing productio… |
 | [production-code-audit](production-code-audit/) | Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations |
 | [push-notifications-pro](push-notifications-pro/) | Engineer push notification systems — architecture, delivery, personalization, and cross-platform best practices. |
@@ -2108,7 +2109,7 @@ All 2384 skills in this library, grouped by category. Descriptions come from eac
 | [systematic-debugging](systematic-debugging/) | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [tdd-workflow](tdd-workflow/) | Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle. |
 | [technical-interview-prep](technical-interview-prep/) | Prepare for coding interviews with DSA patterns, timed practice, and communication coaching. |
-| [test-driven-development](test-driven-development/) | Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when… |
+| [test-driven-development](test-driven-development/) | Use when implementing any feature or bugfix, before writing implementation code |
 | [test-fixing](test-fixing/) | Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass. |
 | [the-pragmatic-programmer](the-pragmatic-programmer/) | Apply Hunt and Thomas-inspired pragmatic programming rules when improving engineering judgment, feedback loops, DRY knowledge, orthogonality, automation, or adaptability. |
 | [to-spec](to-spec/) | Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed. |
@@ -2129,7 +2130,7 @@ All 2384 skills in this library, grouped by category. Descriptions come from eac
 | [basketball](basketball/) | Bộ quản lý đội, câu lạc bộ hoặc học viện bóng rổ dùng cho roster, lịch tập, vận hành trận đấu và giải, ngân sách, tuyển thành viên, tài trợ và báo cáo mùa; không thay thế chuyên môn y tế. |
 | [leadership-coach](leadership-coach/) | Develop leadership capability with frameworks for influence, decision-making, feedback, and team culture. |
 
-## video-production (184)
+## video-production (206)
 
 | Skill | Description |
 |---|---|
@@ -2237,7 +2238,18 @@ All 2384 skills in this library, grouped by category. Descriptions come from eac
 | [profile-showreel-video](profile-showreel-video/) | Showreel hồ sơ cá nhân khổ ngang phong cách ghi hình: kinetic type, mindmap thành tựu, overlay máy quay — dùng cho portfolio cá nhân, hồ sơ ứng tuyển, giới thiệu chuyên gia. |
 | [property-location-video](property-location-video/) | Video dọc giới thiệu vị trí bất động sản: ảnh dự án + bản đồ tối với tuyến đường neon — dùng cho ra mắt dự án, vị trí đất/nền, điểm bán cần chứng minh tiện ích xung quanh. |
 | [remotion](remotion/) | Best practices and comprehensive guide for Remotion - programmatic video creation in React with animations, compositions, and media handling |
-| [remotion-best-practices](remotion-best-practices/) | Best practices for Remotion - Video creation in React |
+| [remotion-best-practices](remotion-best-practices/) | Router for all Remotion skills |
+| [remotion-captions](remotion-captions/) | Transcribing, displaying and animating captions |
+| [remotion-create](remotion-create/) | Create a new Remotion video |
+| [remotion-docs](remotion-docs/) | Search Remotion documentation |
+| [remotion-interactivity](remotion-interactivity/) | Structure Remotion markup for interactivity |
+| [remotion-maps](remotion-maps/) | Remotion Map animation knowledge |
+| [remotion-markup](remotion-markup/) | Content, animation and effects best practices |
+| [remotion-multimedia](remotion-multimedia/) | Interacting with Mediabunny |
+| [remotion-render](remotion-render/) | Export a Remotion video |
+| [remotion-saas](remotion-saas/) | Build an app with Remotion |
+| [remotion-studio](remotion-studio/) | Preview a Remotion video |
+| [remotion-upgrade](remotion-upgrade/) | Upgrade Remotion, and related packages |
 | [remotion-video-creation](remotion-video-creation/) | Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations, audio… |
 | [scene-detection](scene-detection/) | Scene detection craft: PySceneDetect detector selection, threshold tuning, hard cuts vs fades. |
 | [screen-recorder](screen-recorder/) | Capture professional screen recordings with setup, narration, editing, and delivery best practices. |
@@ -2316,6 +2328,17 @@ All 2384 skills in this library, grouped by category. Descriptions come from eac
 | [writing-guidelines](writing-guidelines/) | Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style", "audit prose", "review docs voice and tone", or "check this page against the writing handbook". |
 | [youtube-script](youtube-script/) | Write a complete YouTube script with a full spoken body in one of six genres: business/finance, tech review, commentary, documentary, true crime or explainer. Includes hook options, timestamps, production cues and a ret… |
 | [youtube-to-ppt-pro](youtube-to-ppt-pro/) | Transform one or more YouTube videos into professional learning and intelligence presentations. Use when the user provides YouTube links and wants a PPTX, summary deck, training deck, executive brief, lesson, tutorial,… |
+| [yt-audit](yt-audit/) | Audit a YouTube channel end to end - packaging, consistency, the first fifteen seconds, and what to fix first. Use for "audit my channel", "why isn't my channel growing", "review my videos", or a pasted channel URL. |
+| [yt-chapters](yt-chapters/) | Write YouTube chapters from a transcript, validated against YouTube's own rules so they actually render. Use for "add chapters", "timestamps", "break this video into sections". |
+| [yt-comment](yt-comment/) | Draft replies to YouTube comments in the creator's voice, triaged by which ones are worth answering. Use for "reply to my comments", "handle the comment section", "someone asked X", or a pasted comment thread. |
+| [yt-edit](yt-edit/) | Turn a raw recording's transcript into an edit decision list - dead air, filler cues and retakes, with timecodes. Use for "edit this", "cut the dead space", "tighten this video", "I rambled", or any request to shorten f… |
+| [yt-package](yt-package/) | Write and lint the title and thumbnail for a YouTube video as one pairing, checking truncation, duplication and vagueness before publish. Use for "title ideas", "what should I call this", "thumbnail text", "my CTR is ba… |
+| [yt-plan](yt-plan/) | Plan a week or a month of YouTube uploads - what to post, when, and in what order, sized to the creator's actual capacity. Use for "plan my week", "content calendar", "what should I post", "I have no idea what to make n… |
+| [yt-retention](yt-retention/) | Read a YouTube Studio audience-retention export and find where viewers actually leave, then say what to change. Use for "why do people stop watching", "my retention is bad", a pasted retention chart or CSV, or "fix my p… |
+| [yt-script](yt-script/) | Write a YouTube video script from a raw idea - hook options off 21 formulas, scored, then the full spoken script with the retention beats marked. Use whenever the user wants a video script, a hook, an opening line, "wha… |
+| [yt-seo](yt-seo/) | Write the description, tags and search-facing text for a YouTube video, aimed at the query a real person types. Use for "write my description", "tags", "SEO", "help this video get found", "nobody is finding this". |
+| [yt-shorts](yt-shorts/) | Find the Shorts hiding inside a long video and write them, using the transcript to pick self-contained moments. Use for "cut this into shorts", "clip this", "repurpose this video", "what should I clip". |
+| [yt-viral](yt-viral/) | Find what is actually working in the user's niche on YouTube and rank it by how far each video beat its own channel, then name the formula. Use for "what's working right now", "find viral videos in my niche", "why did t… |
 | [zoom-productivity](zoom-productivity/) | Run Zoom like a pro: settings, hosting controls, breakout rooms, recordings, and meeting facilitation. Use when hosting important meetings, webinars, or living on video calls daily. |
 
 ## web-dev (183)

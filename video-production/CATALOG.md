@@ -1,4 +1,4 @@
-# video-production — 184 skills
+# video-production — 206 skills
 
 | Skill | Description |
 |---|---|
@@ -106,7 +106,18 @@
 | [profile-showreel-video](profile-showreel-video/) | Showreel hồ sơ cá nhân khổ ngang phong cách ghi hình: kinetic type, mindmap thành tựu, overlay máy quay — dùng cho portfolio cá nhân, hồ sơ ứng tuyển, giới thiệu chuyên gia. |
 | [property-location-video](property-location-video/) | Video dọc giới thiệu vị trí bất động sản: ảnh dự án + bản đồ tối với tuyến đường neon — dùng cho ra mắt dự án, vị trí đất/nền, điểm bán cần chứng minh tiện ích xung quanh. |
 | [remotion](remotion/) | Best practices and comprehensive guide for Remotion - programmatic video creation in React with animations, compositions, and media handling |
-| [remotion-best-practices](remotion-best-practices/) | Best practices for Remotion - Video creation in React |
+| [remotion-best-practices](remotion-best-practices/) | Router for all Remotion skills |
+| [remotion-captions](remotion-captions/) | Transcribing, displaying and animating captions |
+| [remotion-create](remotion-create/) | Create a new Remotion video |
+| [remotion-docs](remotion-docs/) | Search Remotion documentation |
+| [remotion-interactivity](remotion-interactivity/) | Structure Remotion markup for interactivity |
+| [remotion-maps](remotion-maps/) | Remotion Map animation knowledge |
+| [remotion-markup](remotion-markup/) | Content, animation and effects best practices |
+| [remotion-multimedia](remotion-multimedia/) | Interacting with Mediabunny |
+| [remotion-render](remotion-render/) | Export a Remotion video |
+| [remotion-saas](remotion-saas/) | Build an app with Remotion |
+| [remotion-studio](remotion-studio/) | Preview a Remotion video |
+| [remotion-upgrade](remotion-upgrade/) | Upgrade Remotion, and related packages |
 | [remotion-video-creation](remotion-video-creation/) | Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations, audio… |
 | [scene-detection](scene-detection/) | Scene detection craft: PySceneDetect detector selection, threshold tuning, hard cuts vs fades. |
 | [screen-recorder](screen-recorder/) | Capture professional screen recordings with setup, narration, editing, and delivery best practices. |
@@ -185,4 +196,15 @@
 | [writing-guidelines](writing-guidelines/) | Review docs/prose for Writing Guidelines compliance. Use when asked to "review my docs", "check writing style", "audit prose", "review docs voice and tone", or "check this page against the writing handbook". |
 | [youtube-script](youtube-script/) | Write a complete YouTube script with a full spoken body in one of six genres: business/finance, tech review, commentary, documentary, true crime or explainer. Includes hook options, timestamps, production cues and a ret… |
 | [youtube-to-ppt-pro](youtube-to-ppt-pro/) | Transform one or more YouTube videos into professional learning and intelligence presentations. Use when the user provides YouTube links and wants a PPTX, summary deck, training deck, executive brief, lesson, tutorial,… |
+| [yt-audit](yt-audit/) | Audit a YouTube channel end to end - packaging, consistency, the first fifteen seconds, and what to fix first. Use for "audit my channel", "why isn't my channel growing", "review my videos", or a pasted channel URL. |
+| [yt-chapters](yt-chapters/) | Write YouTube chapters from a transcript, validated against YouTube's own rules so they actually render. Use for "add chapters", "timestamps", "break this video into sections". |
+| [yt-comment](yt-comment/) | Draft replies to YouTube comments in the creator's voice, triaged by which ones are worth answering. Use for "reply to my comments", "handle the comment section", "someone asked X", or a pasted comment thread. |
+| [yt-edit](yt-edit/) | Turn a raw recording's transcript into an edit decision list - dead air, filler cues and retakes, with timecodes. Use for "edit this", "cut the dead space", "tighten this video", "I rambled", or any request to shorten f… |
+| [yt-package](yt-package/) | Write and lint the title and thumbnail for a YouTube video as one pairing, checking truncation, duplication and vagueness before publish. Use for "title ideas", "what should I call this", "thumbnail text", "my CTR is ba… |
+| [yt-plan](yt-plan/) | Plan a week or a month of YouTube uploads - what to post, when, and in what order, sized to the creator's actual capacity. Use for "plan my week", "content calendar", "what should I post", "I have no idea what to make n… |
+| [yt-retention](yt-retention/) | Read a YouTube Studio audience-retention export and find where viewers actually leave, then say what to change. Use for "why do people stop watching", "my retention is bad", a pasted retention chart or CSV, or "fix my p… |
+| [yt-script](yt-script/) | Write a YouTube video script from a raw idea - hook options off 21 formulas, scored, then the full spoken script with the retention beats marked. Use whenever the user wants a video script, a hook, an opening line, "wha… |
+| [yt-seo](yt-seo/) | Write the description, tags and search-facing text for a YouTube video, aimed at the query a real person types. Use for "write my description", "tags", "SEO", "help this video get found", "nobody is finding this". |
+| [yt-shorts](yt-shorts/) | Find the Shorts hiding inside a long video and write them, using the transcript to pick self-contained moments. Use for "cut this into shorts", "clip this", "repurpose this video", "what should I clip". |
+| [yt-viral](yt-viral/) | Find what is actually working in the user's niche on YouTube and rank it by how far each video beat its own channel, then name the formula. Use for "what's working right now", "find viral videos in my niche", "why did t… |
 | [zoom-productivity](zoom-productivity/) | Run Zoom like a pro: settings, hosting controls, breakout rooms, recordings, and meeting facilitation. Use when hosting important meetings, webinars, or living on video calls daily. |

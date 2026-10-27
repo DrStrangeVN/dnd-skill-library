@@ -1,4 +1,4 @@
-# software-engineering — 107 skills
+# software-engineering — 108 skills
 
 | Skill | Description |
 |---|---|
@@ -66,6 +66,7 @@
 | [ponytail-review](ponytail-review/) | Code review focused exclusively on over-engineering. Finds what to delete: reinvented standard library, unneeded dependencies, speculative abstractions, dead flexibility. One line per finding: location, what to cut, wha… |
 | [post-training-openrlhf](post-training-openrlhf/) | High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, RLOO, DPO training of large models (7B-70B+). Built on Ray, vLLM, ZeRO-3. 2× faster than DeepSpeedChat with distributed architecture and GPU… |
 | [postmortem](postmortem/) | /em:postmortem — Honest analysis of what went wrong. Use after a failed |
+| [pr-review-expert](pr-review-expert/) | Use when the user asks to review pull requests, analyze code changes, check for security issues in PRs, or assess code quality of diffs. |
 | [production-audit](production-audit/) | Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks, and "what breaks in prod?" questions without sending repo data to an external audit service. Use when auditing productio… |
 | [production-code-audit](production-code-audit/) | Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations |
 | [push-notifications-pro](push-notifications-pro/) | Engineer push notification systems — architecture, delivery, personalization, and cross-platform best practices. |
@@ -96,7 +97,7 @@
 | [systematic-debugging](systematic-debugging/) | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
 | [tdd-workflow](tdd-workflow/) | Test-Driven Development workflow principles. RED-GREEN-REFACTOR cycle. |
 | [technical-interview-prep](technical-interview-prep/) | Prepare for coding interviews with DSA patterns, timed practice, and communication coaching. |
-| [test-driven-development](test-driven-development/) | Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when… |
+| [test-driven-development](test-driven-development/) | Use when implementing any feature or bugfix, before writing implementation code |
 | [test-fixing](test-fixing/) | Run tests and systematically fix all failing tests using smart error grouping. Use when user asks to fix failing tests, mentions test failures, runs test suite and failures occur, or requests to make tests pass. |
 | [the-pragmatic-programmer](the-pragmatic-programmer/) | Apply Hunt and Thomas-inspired pragmatic programming rules when improving engineering judgment, feedback loops, DRY knowledge, orthogonality, automation, or adaptability. |
 | [to-spec](to-spec/) | Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed. |

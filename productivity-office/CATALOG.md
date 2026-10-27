@@ -17,7 +17,7 @@
 | [behavioral-modes](behavioral-modes/) | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. |
 | [book-to-skill](book-to-skill/) | Converts books, documentation folders, and source collections (PDF, EPUB, |
 | [bookmark-manager](bookmark-manager/) | Build a bookmark system you'll actually use: capture, tagging, retrieval, and regular pruning. Use when bookmarks pile up unfindable or you keep losing useful links. |
-| [brainstorming](brainstorming/) | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. |
+| [brainstorming](brainstorming/) | You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation). |
 | [c-pro](c-pro/) | Professional C: memory ownership, defensive programming, build hygiene, and systems-level correctness. Use when writing, reviewing, or maintaining C code. |
 | [calendar-guardian](calendar-guardian/) | Protect your time with Muse as calendar guardian: time-blocking, buffer time, declining gracefully, weekly calendar audits, and defending focus and personal time. |
 | [calendar-pro](calendar-pro/) | Run your calendar like a pro: timeboxing, calendar layering, meeting hygiene, buffer design, and weekly planning rituals. Use when your schedule feels chaotic or your calendar controls you instead of the reverse. |
