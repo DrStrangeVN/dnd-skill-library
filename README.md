@@ -8,7 +8,7 @@ and **INDEX.md** for the full skill list.
 
 ## Contents
 
-- **2,409 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
+- **2,425 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
 - `INDEX.md` — every skill with its category and one-line description.
 - `<category>/CATALOG.md` — per-category table.
 - `SETUP.md` — install + toolchain + verification steps for a new machine.
@@ -33,6 +33,8 @@ Update 2026-10-27: +1 skill (`viet-font-kit` v1.0.1, Vietnamese font
 vietnamisation, by @nhatmotion) in `design-uiux/`. Total 2,408.
 
 Update 2026-10-29: +1 skill (`clone-website`, rebuild existing web pages as working local code, from JCodesMore/ai-website-cloner-template @ ee3f5a2, MIT) in `web-dev/`. Total 2,409.
+
+Update 2026-10-29: +16 skills (DESIGN:OS Vietnamese v5.2.0, 15 `vietnamese-*` + `vn-design-system-ux`, from jangtrinh/design-os-vietnamese @ 00dea26, PolyForm-Shield-1.0.0 — each skill folder carries the upstream LICENSE) in `design-uiux/`. Total 2,425.
 
 ## Updating incrementally
 

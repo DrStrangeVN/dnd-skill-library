@@ -1,6 +1,6 @@
 # Skill Index
 
-All 2409 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
+All 2425 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
 
 ## ai-agents-llm (258)
 
@@ -749,7 +749,7 @@ All 2409 skills in this library, grouped by category. Descriptions come from eac
 | [weekly-ops-report](weekly-ops-report/) | Turn raw operational data into a weekly management report that answers exactly three questions - what changed, where is it concentrated, what needs a decision. Use when the user mentions weekly report, haftalık rapor, y… |
 | [zero-trust-architect](zero-trust-architect/) | Design zero-trust architecture — identity-centric access, micro-segmentation, continuous verification, and phased migration. |
 
-## design-uiux (333)
+## design-uiux (349)
 
 | Skill | Description |
 |---|---|
@@ -1067,8 +1067,24 @@ All 2409 skills in this library, grouped by category. Descriptions come from eac
 | [vercel-react-view-transitions](vercel-react-view-transitions/) | Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user w… |
 | [version-control-strategy](version-control-strategy/) | Define version control for design files, components, and libraries — branching, naming, and release. Use when file history is chaotic. For design system contribution rules, use `design-system-governance` (design-systems… |
 | [viet-font-kit](viet-font-kit/) | Việt hoá font chữ (.otf/.ttf thiếu ậ ặ ơ ư…): dựng đủ chữ Việt từ chính bộ phận của font, duyệt từng VER trên trang artifact có khung kéo và bàn vẽ, chỉ xuất file khi người dùng chốt VER. |
+| [vietnamese-business-comms](vietnamese-business-comms/) | Authoritative Vietnamese omnichannel marketing and B2B commercial communications engineering skill for DESIGN:OS. Enforces strict linguistic pragmatics (xưng - hô), channel quotas, and statutory… |
+| [vietnamese-cybersecurity-infosec](vietnamese-cybersecurity-infosec/) | Drafts, localizes, and audits native-quality Vietnamese (vi-VN) cybersecurity incident communications, personal data breach notifications under Law 91/2025/QH15 Article 23 and Decree… |
+| [vietnamese-ecommerce-retail](vietnamese-ecommerce-retail/) | Drafts, localizes, and audits native-quality Vietnamese (vi-VN) e-commerce storefront copy, product detail pages (PDP), promotional flash sale campaigns, checkout UX microcopy, and customer return… |
+| [vietnamese-education-copy](vietnamese-education-copy/) | Writes, evaluates, and pedagogically audits native-quality Vietnamese (vi-VN) educational, academic, and EdTech communications across the full 7-tier Vietnamese Pedagogy Continuum (Mầm non -> Tiểu… |
+| [vietnamese-finance-copy](vietnamese-finance-copy/) | Writes, localizes, and audits native-quality Vietnamese (vi-VN) financial, banking, accounting, and FinTech communications. Enforces statutory financial statement terminology under Thông tư… |
+| [vietnamese-government-public-service](vietnamese-government-public-service/) | Drafts, localizes, and audits Vietnamese e-government communications, online public service portals (DVC toàn trình & một phần), administrative procedure guides (TTHC), VNeID electronic identity… |
+| [vietnamese-healthcare-copy](vietnamese-healthcare-copy/) | Writes, localizes, and audits native-quality Vietnamese (vi-VN) healthcare, medical, hospital, EMR, clinical, pharmacy, and dietary supplement (TPCN) communications. Enforces statutory terminology… |
+| [vietnamese-hospitality-travel](vietnamese-hospitality-travel/) | Writes, localizes, and audits native-quality Vietnamese (vi-VN) hospitality, resort, civil aviation, culinary F&B, and tourism communications. Enforces statutory hotel star rating boundaries under… |
+| [vietnamese-hr-recruitment](vietnamese-hr-recruitment/) | Writes, localizes, and audits native-quality Vietnamese (vi-VN) human resources, talent acquisition, recruitment marketing, and employment compliance communications. Enforces statutory labor… |
+| [vietnamese-insurance-insurtech](vietnamese-insurance-insurtech/) | Drafts, localizes, and audits native-quality Vietnamese (vi-VN) life insurance illustrations, general insurance policies, InsurTech digital platforms, claim settlement guides, and bancassurance… |
+| [vietnamese-landing-copy](vietnamese-landing-copy/) | Writes, optimizes, and audits high-converting native Vietnamese (vi-VN) landing pages and digital marketing copy across 6 critical verticals — SaaS/AI developer tools, FinTech & digital banking,… |
+| [vietnamese-legal-contracts](vietnamese-legal-contracts/) | Drafts, localizes, and audits native-quality Vietnamese (vi-VN) civil and commercial agreements, corporate governance contracts, Terms of Service (ToS), and Data Processing Agreements (DPA).… |
+| [vietnamese-media-journalism-pr](vietnamese-media-journalism-pr/) | Drafts, localizes, and audits native-quality Vietnamese (vi-VN) journalism copy, official press releases, press corrections and apologies under Article 42 of the Press Law 2016, and constructive… |
+| [vietnamese-real-estate-construction](vietnamese-real-estate-construction/) | Drafts, localizes, and audits native-quality Vietnamese (vi-VN) real estate project communications, off-plan residential sales contracts, booking agreements, condominium brochures, and… |
+| [vietnamese-tech-writing](vietnamese-tech-writing/) | Writes, edits, and audits native-quality Vietnamese (vi-VN) engineering, cloud, and product documentation — including commit subjects, PR reviews, RFCs, ADRs, blameless postmortems, operational… |
 | [visual-hierarchy](visual-hierarchy/) | Establish hierarchy through size, weight, colour, spacing, and position so the eye lands in the intended order. Use when composing new work. For judging an existing screen, use `critique-visual-hierarchy` (visual-critiq… |
 | [vite-vibe-coding](vite-vibe-coding/) | Prototype at speed with Vite + AI coding assistants: scaffolding, rapid iteration loops, and knowing when to slow down for production. Use for fast AI-assisted prototyping. |
+| [vn-design-system-ux](vn-design-system-ux/) | Vietnamese UI/UX microcopy, design systems, typography tokens, stacked-diacritic line-height gates, button/tab/badge/toast character caps, state copy (empty, loading, optimistic, partial failure,… |
 | [von-restorff-effect](von-restorff-effect/) | Apply the Von Restorff Effect — the element that differs from its neighbours is the one remembered. Use when a single action must dominate. For overall ordering rather than single-element emphasis, use `visual-hierarchy… |
 | [web-accessibility](web-accessibility/) | Build accessible websites: semantic HTML, ARIA, keyboard support, focus management, and WCAG testing. Use for inclusive, compliant web development. |
 | [web-artifacts-builder](web-artifacts-builder/) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or… |
@@ -1086,7 +1102,6 @@ All 2409 skills in this library, grouped by category. Descriptions come from eac
 | [wireframe-spec](wireframe-spec/) | Specify wireframe layout — content priority, component placement, and annotation. Use when defining structure before visual design. For grid mechanics, use `layout-grid` (ui-design). |
 | [wp-patterns](wp-patterns/) | Pattern: create or update WordPress block patterns (starter pages, templates, template parts, Query Loop layouts), review pattern registration, block markup, categories, accessibility, or i18n/escaping, or improve patte… |
 | [wpds](wpds/) | Use when building UIs leveraging the WordPress Design System (WPDS) and its components, tokens, patterns, etc. |
-
 ## devops-cloud (190)
 
 | Skill | Description |
