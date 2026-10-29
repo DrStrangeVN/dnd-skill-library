@@ -1,4 +1,4 @@
-# web-dev — 183 skills
+# web-dev — 184 skills
 
 | Skill | Description |
 |---|---|
@@ -34,6 +34,7 @@
 | [chartjs-pro](chartjs-pro/) | Build charts with Chart.js: configuration, plugins, custom tooltips, real-time updates, and dashboard patterns. Use for standard charts in web apps. |
 | [chrome-extension-developer](chrome-extension-developer/) | Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. |
 | [claude-d3js-skill](claude-d3js-skill/) | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires… |
+| [clone-website](clone-website/) | Rebuild existing web pages as working local code, matching their real content, assets, responsive layout, and interactions. Use for website cloning, replication, or reverse engineering, including Framer sites and animated pages. |
 | [cloudflare-email-service](cloudflare-email-service/) | Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building email sending (Workers binding or REST API), email routing, Agents SDK email handling, or integratin… |
 | [cobejs](cobejs/) | Use when adding a lightweight interactive globe with cobe (canvas setup, markers, interaction, performance, integration with React/Next.js). |
 | [convex](convex/) | Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment. |

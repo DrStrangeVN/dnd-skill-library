@@ -1,6 +1,6 @@
 # Skill Index
 
-All 2408 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
+All 2409 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
 
 ## ai-agents-llm (258)
 
@@ -2342,7 +2342,7 @@ All 2408 skills in this library, grouped by category. Descriptions come from eac
 | [yt-viral](yt-viral/) | Find what is actually working in the user's niche on YouTube and rank it by how far each video beat its own channel, then name the formula. Use for "what's working right now", "find viral videos in my niche", "why did t… |
 | [zoom-productivity](zoom-productivity/) | Run Zoom like a pro: settings, hosting controls, breakout rooms, recordings, and meeting facilitation. Use when hosting important meetings, webinars, or living on video calls daily. |
 
-## web-dev (183)
+## web-dev (184)
 
 | Skill | Description |
 |---|---|
@@ -2378,6 +2378,7 @@ All 2408 skills in this library, grouped by category. Descriptions come from eac
 | [chartjs-pro](chartjs-pro/) | Build charts with Chart.js: configuration, plugins, custom tooltips, real-time updates, and dashboard patterns. Use for standard charts in web apps. |
 | [chrome-extension-developer](chrome-extension-developer/) | Expert in building Chrome Extensions using Manifest V3. Covers background scripts, service workers, content scripts, and cross-context communication. |
 | [claude-d3js-skill](claude-d3js-skill/) | Creating interactive data visualisations using d3.js. This skill should be used when creating custom charts, graphs, network diagrams, geographic visualisations, or any complex SVG-based data visualisation that requires… |
+| [clone-website](clone-website/) | Rebuild existing web pages as working local code, matching their real content, assets, responsive layout, and interactions. Use for website cloning, replication, or reverse engineering, including Framer sites and animated pages. |
 | [cloudflare-email-service](cloudflare-email-service/) | Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building email sending (Workers binding or REST API), email routing, Agents SDK email handling, or integratin… |
 | [cobejs](cobejs/) | Use when adding a lightweight interactive globe with cobe (canvas setup, markers, interaction, performance, integration with React/Next.js). |
 | [convex](convex/) | Convex reactive backend expert: schema design, TypeScript functions, real-time subscriptions, auth, file storage, scheduling, and deployment. |
