@@ -57,6 +57,20 @@ machine's layout — recreate equivalents):
 - No toolchain: output is a single self-contained HTML file; QA via headless
   Chrome screenshots (same puppeteer-core setup as above).
 
+### claude-code-harness pack (`ai-agents-llm/`: `harness-*`, `breezing`, `cursor-*`, `ci`, `memory`, `maintenance`, `agent-browser`, `session-send`, `failure-codifier`, `cc-update-review`, `japanese-writing-drafter`)
+- These 23 skills are verbatim copies from Chachamaru127/claude-code-harness
+  v5.16.0 (MIT). They are NOT self-contained: most of them call the plugin
+  runtime via `${HARNESS_PLUGIN_ROOT}/scripts/...`, `bin/harness`, hooks, and
+  the `harness_mem` MCP server. Install the plugin itself in Claude Code /
+  Codex / Cursor / Grok (upstream: `/plugin marketplace add
+  Chachamaru127/claude-code-harness`, then `/plugin install
+  harness@claude-code-harness-marketplace`, then `/harness-setup`) before
+  relying on them. Copying the skill folders into `~/workspace/custom-skills/`
+  alone does not install the plugin.
+- Not in this repo: the plugin's `scripts/`, `bin/`, `hooks/`, `agents/`,
+  `docs/`, Go code, `skills/routing-rules.md`, and the Codex/OpenCode skill
+  variants.
+
 ## 3. Verify after setup
 
 1. `ls ~/workspace/custom-skills | wc -l` → **2384**.

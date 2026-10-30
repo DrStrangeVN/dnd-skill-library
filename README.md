@@ -8,7 +8,7 @@ and **INDEX.md** for the full skill list.
 
 ## Contents
 
-- **2,469 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
+- **2,492 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
 - `INDEX.md` — every skill with its category and one-line description.
 - `<category>/CATALOG.md` — per-category table.
 - `SETUP.md` — install + toolchain + verification steps for a new machine.
@@ -57,3 +57,5 @@ Remotion + finish/QA tooling) and **VieNeu-TTS** (`~/workspace/tools/VieNeu-TTS`
 SETUP.md lists what each pack needs and how to verify it after copying.
 
 Update 2026-10-30: +44 skills (coreyhaines31/marketingskills @ 820ad2c, MIT — each skill folder carries the upstream LICENSE) in `marketing-growth/`. The 8 same-named skills already in the library (content-strategy, copy-editing, copywriting, launch, marketing-ideas, marketing-psychology, programmatic-seo, seo-audit) were kept unchanged per the user's choice. Total 2,469.
+
+Update 2026-10-30: +23 skills (Chachamaru127/claude-code-harness v5.16.0 @ c2304c3, MIT — verbatim `skills/*` only, each skill folder carries the upstream LICENSE) in `ai-agents-llm/`. REQUIREMENT: these are plugin skills — they need the claude-code-harness plugin runtime (scripts/, bin/harness, hooks, harness_mem MCP) to run fully; the plugin itself, `skills/routing-rules.md` and the Codex/OpenCode variants are not in this repo. Total 2,492.

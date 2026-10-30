@@ -1,4 +1,6 @@
-# ai-agents-llm — 258 skills
+# ai-agents-llm — 281 skills
+
+> Plugin skills: these 23 harness skills are verbatim copies from Chachamaru127/claude-code-harness v5.16.0 (MIT) and REQUIRE the harness plugin runtime (its `scripts/`, `bin/harness`, hooks and `harness_mem` MCP) to run fully. Copying the skill folders alone does not install the plugin. Each folder carries the upstream MIT LICENSE. Not included: `skills/routing-rules.md`, the Codex/OpenCode variants, and the plugin's scripts/bin/hooks/docs/Go code.
 
 | Skill | Description |
 |---|---|
@@ -6,6 +8,7 @@
 | [academic-cv-builder](academic-cv-builder/) | Format CVs for academic positions, including publications, grants, teaching, and research experience. Use when the user mentions academic CV, faculty job, tenure-track, postdoc, PhD, research position, or needs to list… |
 | [aeo-magicstone](aeo-magicstone/) | Use when designing, implementing, or measuring Answer Engine Optimization (AEO) for AI answers, citations, generative search, or agent-readable web content. Do not use this as a general SEO audit or CMS operations guide… |
 | [aeon](aeon/) | This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data… |
+| [agent-browser](agent-browser/) | Browser automation through the repo agent-browser CLI. Explicit helper for navigation, forms, screenshots, scraping, and web-app checks. Prefer Browser Use or Playwright when available. Do NOT l… |
 | [agent-capability-extension](agent-capability-extension/) | Protocol for agents extending their own capabilities: gap classification, ad-hoc script guardrails (idempotent, logged, disclosed). |
 | [agent-decision-receipts](agent-decision-receipts/) | Mint a tamper-evident, post-quantum-signed receipt for a consequential |
 | [agent-development](agent-development/) | This skill should be used when the user asks to "create an agent", "add an agent", "write a subagent", "agent frontmatter", "when to use description", "agent examples", "agent tools", "agent colors", "autonomous agent",… |
@@ -40,15 +43,18 @@
 | [bleu](bleu/) | Use this skill whenever a developer wants to turn an idea into a complete, production-ready, end-to-end system plan BEFORE writing any code. Trigger on 'plan this system', 'design the architecture for', 'help me bluepri… |
 | [blog](blog/) | Full-lifecycle blog engine with 31 sub-skills, 12 templates, 100-point scoring, and 5 agents. Routes requests to the right sub-skill: writing, rewriting, analysis, outlines, audits, schema, charts, images, repurposing,… |
 | [blog-cluster](blog-cluster/) | Semantic topic cluster planning and automated execution engine for claude-blog. Performs SERP-based keyword research, groups keywords by search intent and SERP overlap, builds a hub-and-spoke cluster architecture, gener… |
+| [breezing](breezing/) | Team execution mode — backward-compatible alias for harness-work with team orchestration. Composer/composer 2.5 maps to the cursor backend. |
 | [browser-automation](browser-automation/) | Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to understanding selectors, waiting strategies, and anti-detection patte… |
 | [browser-testing-with-devtools](browser-testing-with-devtools/) | Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance… |
 | [budget-checkin](budget-checkin/) | Run a monthly money check-in with an AI assistant: categorize spending, spot leaks, set one savings target, and view it through the 50/30/20 lens — judgment-free. Use once a month to stay aware of where your money goes.… |
 | [causal-inference](causal-inference/) | Estimate causal effects from observational and experimental data — DAGs, confounding control, quasi-experimental designs, and sensitivity analysis. Use when you need "what causes what," not just correlation. |
+| [cc-update-review](cc-update-review/) | Quality guardrail for Claude/Codex update integration. Detects doc-only Feature Table additions and requires implementation or explicit planning. Internal use only. |
 | [cerebras-guide](cerebras-guide/) | Blazing inference on Cerebras wafer-scale hardware — ultra-fast open-model APIs for speed-critical workloads. |
 | [chatbot-marketer](chatbot-marketer/) | Use conversational marketing — chatbot strategy, conversation design, lead qualification bots, and messaging ROI. |
 | [chatglm-guide](chatglm-guide/) | Build with Zhipu AI's ChatGLM models — bilingual conversational models with strong Chinese dialogue. |
 | [chief-ai-officer-advisor](chief-ai-officer-advisor/) | Chief AI Officer advisory for startups: model build-vs-buy decisions |
 | [chunking-strategies](chunking-strategies/) | Split documents for retrieval effectively — fixed, semantic, structural, and hierarchical chunking with overlap tuning. Use when RAG retrieval quality depends on how documents are divided. |
+| [ci](ci/) | CI red? Call us. Pipeline fire brigade deploys. Use when user mentions CI failures, build errors, test failures, or pipeline issues. Do NOT load for: local builds, standard implementation work,… |
 | [clarifai-guide](clarifai-guide/) | Build multimodal AI apps on Clarifai — model marketplace, pipelines, and computer vision plus language workflows. |
 | [claude-code-guide](claude-code-guide/) | Get productive with agentic coding assistants — task framing, iterative prompting, file-scoped workflows, review loops, and multi-file refactors. Use when pairing with an AI coding agent on real codebases. |
 | [claude-code-sessions](claude-code-sessions/) | Search, analyze, and manage Claude Code session history. Use when the user wants to find past sessions, check token usage, review tool breakdowns, resume previous work, or manage tasks across sessions. Provides 11 skill… |
@@ -69,6 +75,10 @@
 | [conversation-memory](conversation-memory/) | Keep long conversations coherent — summarization checkpoints, entity tracking, topic stacks, and graceful context handoffs. Use when dialogues run long or span sessions and the agent keeps losing the thread. |
 | [crewai](crewai/) | Expert in CrewAI - the leading role-based multi-agent framework used by 60% of Fortune 500 companies. Covers agent design with roles and goals, task definition, crew orchestration, process types (sequential, hierarchica… |
 | [crewai-deep-dive](crewai-deep-dive/) | Design role-based agent teams with CrewAI — agents, tasks, crews, and collaboration patterns for complex workflows. |
+| [cursor-ask](cursor-ask/) | Read-only delegate to cursor-agent (Composer) for questions, investigation, design discussion, and adversarial sanity checks. No worktree, no cherry-pick, no Lead diff review — cursor-agent is l… |
+| [cursor-do](cursor-do/) | Delegate a single write task to Cursor Composer via cursor-companion.sh inside an isolated worktree, then Lead-review the diff and cherry-pick. Use when user invokes cursor:do, says delegate to… |
+| [cursor-review](cursor-review/) | Run a Cursor Composer review as an advisory second opinion while keeping the primary review verdict on the host brain. Use when user invokes cursor:review, asks Cursor to review, or wants compos… |
+| [cursor-setup](cursor-setup/) | Configure and verify the Cursor backend for Claude Code Harness. Use when user invokes cursor:setup, wants Cursor as the local default implementation backend, or asks to check Cursor plugin/agen… |
 | [curviate](curviate/) | Entry point for driving LinkedIn work through the Curviate CLI: which skill answers which task, how to resolve the `curviate` binary, the retrieval-mode concept and the flags only four commands accept, and the rule that… |
 | [daily-meeting-update](daily-meeting-update/) | Interactive daily standup/meeting update generator. Use when user says 'daily', 'standup', 'scrum update', 'status update', 'what did I do yesterday', 'prepare for meeting', 'morning update', or 'team sync'. Pulls activ… |
 | [data-analysis-nlp](data-analysis-nlp/) | Analyze text data with NLP — preprocessing, embeddings, topic modeling, sentiment, classification, and evaluation. Use when turning unstructured text into structured insight. |
@@ -100,6 +110,7 @@
 | [evaluation-bigcode-evaluation-harness](evaluation-bigcode-evaluation-harness/) | Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benchmarks with pass@k metrics. Use when benchmarking code models, comparing coding abilities, testing multi-language support, or measuring cod… |
 | [evaluation-lm-evaluation-harness](evaluation-lm-evaluation-harness/) | Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag). Use when benchmarking model quality, comparing models, reporting academic results, or tracking training progress. Industry s… |
 | [executing-plans](executing-plans/) | Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available |
+| [failure-codifier](failure-codifier/) | Extract recurring failure patterns from breezing orchestration logs and Judgment Ledger, emit failure-rule.v1 proposals with confidence scores. SSOT promotion to patterns.md or decisions.md is p… |
 | [featherless-guide](featherless-guide/) | Uncensored open-model inference on Featherless AI — raw model behavior for research and evaluation. |
 | [featured-snippet-optimizer](featured-snippet-optimizer/) | Use when you want to win a featured snippet for a keyword you already rank for. The agent checks the current snippet format, analyzes your content, and rewrites the relevant section to match what Google wants. |
 | [fine-tuning-axolotl](fine-tuning-axolotl/) | Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, multimodal support |
@@ -120,6 +131,16 @@
 | [groq-guide](groq-guide/) | Ultra-low-latency inference on Groq's LPU hardware — when tokens-per-second is the product requirement. |
 | [habit-tracker-coach](habit-tracker-coach/) | Build habits with your AI assistant as coach: start tiny, stack habits onto existing routines, do quick daily check-ins, repair streaks with the never-miss-twice rule, and review weekly. Use when starting exercise, read… |
 | [handoff](handoff/) | Compact the current conversation into a handoff document for another agent to pick up. |
+| [harness-accept](harness-accept/) | Generate an Acceptance Demo HTML for non-engineer vibecoders right before ship/wait/reject decision. Reads back the acceptance_criteria that were stored as personal-preference.v1 by harness-plan… |
+| [harness-loop](harness-loop/) | Long-running task loop using /loop (Claude Code dynamic mode) and ScheduleWakeup to re-enter with fresh context on each wake-up. Internally invokes harness-work through Agent. Trigger: long-runn… |
+| [harness-plan](harness-plan/) | HAR: Research-backed, team-validated task planning, Plans.md management, progress sync. Trigger: create a plan, add tasks, update Plans.md, mark complete, check progress. Do NOT load for: implem… |
+| [harness-plan-brief](harness-plan-brief/) | Generate a Plan Brief HTML for non-engineer vibecoders before implementation starts. Searches harness-mem (project-only) for relevant past decisions, patterns, and Plans archive entries, then re… |
+| [harness-progress](harness-progress/) | Generate a Progress Tracker HTML for non-engineer vibecoders to glance at session progress (cc:WIP / cc:TODO / cc:完了 counts, percentage, elapsed/estimated minutes, cost so far/estimate, drift al… |
+| [harness-release](harness-release/) | Generic release automation for projects using Keep a Changelog + GitHub. Single confirmation gate then end-to-end automation: bump detection, CHANGELOG promotion, PR/main merge, tag, GitHub Rele… |
+| [harness-review](harness-review/) | HAR: Multi-angle code, plan, scope review. Security/quality check. Trigger: review, code review, plan review, scope analysis. Do NOT load for: implementation, new features, bugfix, setup, releas… |
+| [harness-setup](harness-setup/) | HAR: Project init, tool setup, agent config, memory setup, skill mirror sync. Trigger: setup, init, new project, CI/Codex setup, harness-mem, mirror. Do NOT load for: implementation, review, rel… |
+| [harness-sync](harness-sync/) | HAR: Sync Plans.md with implementation. Drift detect, marker update, retrospective. Trigger: sync-status, where am I, check progress. --snapshot for snapshots. Do NOT load for: planning, impleme… |
+| [harness-work](harness-work/) | HAR: Execute Plans.md tasks from single task to full parallel team run. Trigger: implement, execute, do everything, breezing, team run, parallel, composer, composer 2.5. Do NOT load for: plannin… |
 | [haystack-agents](haystack-agents/) | Build retrieval-grounded agents with Haystack — pipelines, components, and agent patterns for search-heavy workflows. |
 | [huggingface-pro](huggingface-pro/) | Hugging Face guidance — Hub, Transformers, datasets, fine-tuning, inference endpoints, and Spaces. |
 | [human-gate](human-gate/) | Runs the human-verification lane of an agent loop, and proves review |
@@ -131,6 +152,7 @@
 | [internet-court](internet-court/) | The trust layer for agent-to-agent commerce — natural-language mandates, delegated permissions (ERC-7710), x402 payments, escrow, and dispute resolution as one open, catch-all skill. Use for agent mandates, delegated pe… |
 | [internlm-guide](internlm-guide/) | Build with Shanghai AI Lab's InternLM models — open models strong in reasoning, code, and Chinese. |
 | [jailbreak-analysis](jailbreak-analysis/) | Analyze LLM jailbreak techniques defensively — how bypasses work, detection signals, and hardening strategies. Use for safety research and building more robust guardrails. Taxonomy and defense only; no bypass instructio… |
+| [japanese-writing-drafter](japanese-writing-drafter/) | Detect when the operator corrects the agent's Japanese phrasing mid-conversation (rewrites a sentence, calls out a style problem, says 'this wording is bad, say it like X instead') and draft a p… |
 | [jenkins-pro](jenkins-pro/) | Jenkins guidance — pipeline-as-code, agents, shared libraries, credentials, scaling, and hardening. |
 | [keyword-deep-dive](keyword-deep-dive/) | Use when planning to rank for a specific keyword. The agent Googles it, reads the top 10, classifies intent, reads the top 3 competitor pages, and produces a 90-day ranking plan with intent, SERP analysis, and content r… |
 | [khazix-leader](khazix-leader/) | Turns a one-sentence idea into a self-contained goal brief that an AI agent can execute independently. Use when the user asks to write a goal or task brief for an agent, break down a goal in detail, write a project brie… |
@@ -141,9 +163,11 @@
 | [llm-evaluation](llm-evaluation/) | Master comprehensive evaluation strategies for LLM applications, from automated metrics to human evaluation and A/B testing. |
 | [llm-pro](llm-pro/) | Integrate LLMs into apps: prompting, structured output, streaming, function calling, RAG, evals, cost and latency control. Use when adding language-model features to software. |
 | [llm-wiki](llm-wiki/) | Use when building or maintaining a persistent personal knowledge base |
+| [maintenance](maintenance/) | File cleanup and archiving. Tidies up bloated Plans.md, session-log.md, old logs, and state files. Trigger: /maintenance, cleanup, archive, organize, split session-log. Do NOT load for: implemen… |
 | [meal-plan-generator](meal-plan-generator/) | Build a flexible weekly meal plan with an AI assistant: start from your preferences and constraints, get a 7-day plan with a grocery list, batch-cook smartly, and use up leftovers. Use for weekly cooking, saving money o… |
 | [mechanistic-interpretability-nnsight](mechanistic-interpretability-nnsight/) | Provides guidance for interpreting and manipulating neural network internals using nnsight with optional NDIF remote execution. Use when needing to run interpretability experiments on massive models (70B+) without local… |
 | [mechanistic-interpretability-transformer-lens](mechanistic-interpretability-transformer-lens/) | Provides guidance for mechanistic interpretability research using TransformerLens to inspect and manipulate transformer internals via HookPoints and activation caching. Use when reverse-engineering model algorithms, stu… |
+| [memory](memory/) | Manage SSOT, memory, and cross-tool memory search. Guardian of decisions.md and patterns.md. Use when user mentions memory, SSOT, decisions.md, patterns.md, merging, migration, SSOT promotion, s… |
 | [memory-engineering](memory-engineering/) | Use when designing, reviewing, or paying for an agent memory system — |
 | [memory-search](memory-search/) | Search agent memory effectively: recall prior decisions, facts, and context across conversations. Use when an agent needs to remember what was learned before. |
 | [mistral-guide](mistral-guide/) | Build with Mistral AI's models — efficient open and commercial models with strong multilingual and code performance. |
@@ -225,6 +249,7 @@
 | [senior-prompt-engineer](senior-prompt-engineer/) | Expert prompt design for LLM systems: instruction structure, few-shot examples, output control, and systematic evaluation. Use when building prompts, agents, or LLM features that must behave reliably. |
 | [seoagent](seoagent/) | Persistent SEO workflow for Claude Code — run a technical SEO audit, build a hub-and-spoke keyword strategy, write page-type-aware content briefs, and draft SEO-optimized articles, persisting every artifact to a .seoage… |
 | [session-handoff](session-handoff/) | Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (1) user requests handoff/memory/context save, (2) context window approaches capacity, (3) major task milestone completed,… |
+| [session-send](session-send/) | This skill should be used when the user asks to notify other session, requests a session handoff, says tell other agent, or needs a cross-session message. |
 | [sglang-guide](sglang-guide/) | Serve LLMs fast with SGLang — structured generation, radix attention caching, and high-throughput inference runtimes. |
 | [skill-comply](skill-comply/) | Visualize whether skills, rules, and agent definitions are actually followed — auto-generates scenarios at 3 prompt strictness levels, runs agents, classifies behavioral sequences, and reports compliance rates with full… |
 | [skill-creation-guide](skill-creation-guide/) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integr… |
