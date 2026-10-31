@@ -1,4 +1,4 @@
-# design-uiux — 349 skills
+# design-uiux — 350 skills
 
 | Skill | Description |
 |---|---|
@@ -305,6 +305,7 @@
 | [typography-expert](typography-expert/) | Master typographic craft with type selection, pairing, scale, spacing, and readability best practices. |
 | [typography-scale](typography-scale/) | Create a modular type scale with size, weight, and line-height relationships. Use when establishing typographic structure. For line length only use `readable-measure`; for judging type on an existing screen use `critiqu… |
 | [ui-design-system](ui-design-system/) | UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools. Use for creating design systems, maintaining visua… |
+| [ui-ux](ui-ux/) | Gu UI/UX cho app — dashboard, danh sách, bảng, form, cài đặt, modal, trang lướt để chọn. Mặc định như một designer - brief, 2–3 wireframe, người dùng chọn rồi mới dựng. Lối khác khi đề nói rõ - … |
 | [ui-ux-designer](ui-ux-designer/) | Design user interfaces and experiences from research and flows to wireframes, mockups, and usability testing. |
 | [ui-ux-pro-max](ui-ux-pro-max/) | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, respo… |
 | [umap-learn](umap-learn/) | UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data. |
