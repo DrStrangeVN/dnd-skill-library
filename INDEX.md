@@ -1,6 +1,6 @@
 # Skill Index
 
-All 2493 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
+All 2514 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
 
 ## ai-agents-llm (281)
 
@@ -288,22 +288,25 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [yi-guide](yi-guide/) | Build with 01.AI's Yi models — capable bilingual open models with strong Chinese-English performance. |
 | [zod-pro](zod-pro/) | Validate with Zod: schemas, coercion, transforms, discriminated unions, and shared client/server contracts. Use when runtime validation and type inference matter. |
 
-## audio-music (18)
+## audio-music (21)
 
 | Skill | Description |
 |---|---|
+| [ace-step-music-guide](ace-step-music-guide/) | Guide to ACE-Step, the music generation foundation model shown as ACE-Step 1.5 in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about ACE-Step, ACE-Step 1.5, or generatin… |
 | [affinity-diagram](affinity-diagram/) | Cluster many qualitative data points into themes and insight statements. Use when synthesising across multiple sessions or sources. For a single transcript use `summarize-interview`; for one segment's inner state use `e… |
 | [apply-aesthetic](apply-aesthetic/) | Apply a visual direction — an archetype (high-end agency, editorial minimal, brutalist, soft-SaaS, dark-tech) or one of 138 named design systems (apple, linear-app, stripe, vercel, notion, material, shadcn, spotify, tes… |
 | [audio-pro](audio-pro/) | Handle professional audio tasks with recording, editing, mixing basics, formats, and loudness standards. |
 | [follow-up-after-call](follow-up-after-call/) | Use after a completed customer, prospect, partner, or important internal sales call, discovery session, demo, or conversation, including when the user supplies or uploads a transcript, notes, recording summary, or other… |
 | [game-audio-engineer](game-audio-engineer/) | Interactive audio specialist - Masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines |
 | [hyperframes-creative](hyperframes-creative/) | Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / sty… |
+| [kokoro-tts-guide](kokoro-tts-guide/) | Guide to Kokoro-82M text-to-speech, the TTS model shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about Kokoro TTS, Kokoro voices, or running Kokoro locally. Kokor… |
 | [learning-sprint-planner](learning-sprint-planner/) | Learn any topic in a focused 2–4 week sprint: define a concrete outcome, break it into daily 25-minute sessions mixing input, practice, and recall, with the assistant quizzing you at checkpoints and running a final self… |
 | [meeting-insights-analyzer](meeting-insights-analyzer/) | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable feedback. Identifies when you avoid conflict, use filler words, dominate conversations, or miss opportun… |
 | [multicam-sync](multicam-sync/) | Synchronize footage from a multi-camera / multi-recorder shoot — several cameras plus separate audio recorders covering one session, imported as loose clips — and optionally turn all or part of it into speaker-follow fo… |
 | [multimodal-audiocraft](multimodal-audiocraft/) | PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioGen). Use when you need to generate music from text descriptions, create sound effects, or perform melody-conditioned music… |
 | [music](music/) | Shared ChatCut entry point for newly generated music, soundtrack, theme music, 配乐, background music, an intro theme, a music bed, BGM, or vocal songs. If vocals are unspecified, ask whether the user wants a vocal song o… |
 | [pdf-to-word-vietnamese](pdf-to-word-vietnamese/) | Convert a Vietnamese PDF, including scanned or image-only pages, into an editable DOCX. Use when the user wants PDF-to-Word conversion, OCR transcription, or a faithful editable copy that preserves the source wording an… |
+| [podcastify-guide](podcastify-guide/) | Guide for the "Podcastify" label shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". The video gives no repo or product link, and no matching repo was verified, so this skill does not instal… |
 | [pollinations-guide](pollinations-guide/) | Free, open AI APIs via Pollinations — text, image, and audio generation with minimal setup. |
 | [summarize-interview](summarize-interview/) | Turn one interview transcript into themes, supporting quotes, and action items. Use immediately after a session. For synthesising many sessions at once, use `affinity-diagram`. |
 | [swarmvault](swarmvault/) | Use SwarmVault when the user needs a local-first knowledge vault that writes durable markdown, graph, search, dashboard, review, and MCP artifacts to disk from books, notes, transcripts, exports, datasets, slide decks,… |
@@ -1450,13 +1453,14 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [simpy](simpy/) | Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations… |
 | [teslers-law](teslers-law/) | Apply Tesler's Law — every process has irreducible complexity that someone must absorb. Use when deciding whether the product or the user carries it. For reducing apparent choice, use `hicks-law`. |
 
-## marketing-growth (131)
+## marketing-growth (145)
 
 | Skill | Description |
 |---|---|
 | [ab-testing](ab-testing/) | When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "t… |
 | [account-based-marketing](account-based-marketing/) | Run ABM programs — target account selection, personalized campaigns, sales orchestration, and account-level measurement. |
 | [ad-creative](ad-creative/) | When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions… |
+| [ad-library-teardown](ad-library-teardown/) | Use when the user wants to analyze active ads from Meta/Facebook, Google, or LinkedIn ad libraries; tear down a competitor's messaging; extract hooks, offers, CTAs, video transcripts, landing pa… |
 | [ads](ads/) | When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,… |
 | [aeo](aeo/) | Answer Engine Optimization (AEO) skill — optimize content to be cited |
 | [aeo-geo](aeo-geo/) | Optimize content for AI answer engines (AEO/GEO): citation-friendly structure, factual precision, and measuring AI visibility. Use when AI search drives discovery. |
@@ -1466,6 +1470,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [announcement-banners](announcement-banners/) | Use announcement banners effectively — in-app and site banners for launches, alerts, and critical messages. |
 | [aso](aso/) | When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visib… |
 | [attribution](attribution/) | When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when… |
+| [audience-research](audience-research/) | Use when the user wants to evaluate a creator, influencer, or brand audience using public profile signals, TikTok audience demographics, follower/following data, comments, geography, language, a… |
 | [blog-audit](blog-audit/) | Full-site blog health assessment scanning all blog files for quality scores, orphan pages, topic cannibalization, stale content, and AI citation readiness. Runs canonical batch analysis before site-wide checks. Produces… |
 | [blog-calendar](blog-calendar/) | Generate editorial calendars for blogs with topic clusters, publishing schedules, material-change reviews, update plans, seasonal opportunities, content mix formula, template integration, and distribution scheduling. Pl… |
 | [blog-decay](blog-decay/) | Detect content decay from Google Search Console exports by comparing current and previous page performance, flagging quarter-over-quarter traffic drops, dropped pages, and refresh, consolidate, prune, or query-shift act… |
@@ -1478,6 +1483,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [co-marketing](co-marketing/) | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'w… |
 | [cold-email](cold-email/) | Write and run B2B cold outbound that gets replies, from cold emails and follow-ups to sending setup, LinkedIn, multichannel cadences, and reply handling. Use when the user mentions "cold email,"… |
 | [color-picker-pro](color-picker-pro/) | Pick, convert, and manage colors with format conversions, palette extraction, and harmony tools. |
+| [comment-mining](comment-mining/) | Use when the user wants to mine comments and replies for audience reactions, customer language, questions, objections, complaints, product ideas, buying intent, sentiment, or voice-of-customer i… |
 | [community-manager](community-manager/) | Build and manage brand communities — engagement strategy, moderation, advocacy programs, and community-led growth. |
 | [community-marketing](community-marketing/) | Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subr… |
 | [competitive-ads-extractor](competitive-ads-extractor/) | Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, problems, and creative approaches are working. Helps inspire and improve your own ad campaigns. |
@@ -1485,12 +1491,15 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [competitive-platform-analysis](competitive-platform-analysis/) | Use when scoping a competitive landscape — identifying, categorising, and score-filtering a competitor set before any benchmarking begins. Decides who counts as a competitor, which tier they belong to, and which sources… |
 | [competitive-teardown](competitive-teardown/) | Analyzes competitor products and companies by synthesizing data from |
 | [competitor-profiling](competitor-profiling/) | When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile thi… |
+| [competitor-social-research](competitor-social-research/) | Use when the user wants to research competitors' social media strategy, compare brands or creators, find what content is working in a niche, identify content gaps, or produce a practical social … |
 | [competitors](competitors/) | When the user wants to create competitor comparison or alternative pages for SEO and buyer-facing use. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'co… |
+| [content-repurposing](content-repurposing/) | Use when the user wants to turn public social videos, transcripts, posts, or creator research into reusable content assets such as LinkedIn posts, X threads, short-form scripts, newsletters, blo… |
 | [content-strategist](content-strategist/) | Design content strategies — audience research, pillar topics, editorial calendars, and measurement frameworks that tie content to revenue. |
 | [conversion-tracking](conversion-tracking/) | Set up, audit, verify, or fix website conversion tracking. Use when the conversion is a form submission, booked meeting, chat, phone call, signup, or purchase; when conversions must reach Google… |
 | [copy-editing](copy-editing/) | When the user wants to edit, review, or improve existing marketing copy. |
 | [creative-intake](creative-intake/) | Creative brief intake: 7 required questions (purpose, audience, platform, tone, references, outcome, constraints), conversational technique. |
 | [creative-portfolio-resume](creative-portfolio-resume/) | Balance visual design with ATS compatibility for creative roles. Use when the user is in design, art, writing, marketing creative, or any visual/creative field and needs a resume that looks distinctive but still parses. |
+| [creator-profile-teardown](creator-profile-teardown/) | Use when the user wants to analyze a creator, influencer, founder, or brand social account and understand positioning, content pillars, outlier posts, hooks, format choices, audience reaction, a… |
 | [cro](cro/) | When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact… |
 | [curviate-jobs](curviate-jobs/) | Create, publish and manage classic LinkedIn job postings with the Curviate CLI, and read their applicants. Covers `job` (get, list, create, update, budget, publish, close) and `job applicants` / `job applicant get/resum… |
 | [curviate-network](curviate-network/) | Grow and manage a LinkedIn network with the Curviate CLI. Covers `connect` (send with a note, sent, received, accept, decline, cancel), `profile follow`/`unfollow`, `profile relations`, `profile followers` and `profile… |
@@ -1516,6 +1525,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [image-pro](image-pro/) | Handle professional image tasks with format conversion, resizing, compression, and metadata workflows. |
 | [influencer-marketing](influencer-marketing/) | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, a… |
 | [influencer-outreach](influencer-outreach/) | Plan influencer partnerships — finding creators, outreach, negotiation, campaign management, and ROI measurement. |
+| [influencer-prospecting](influencer-prospecting/) | Use when the user wants to find creators, influencers, affiliates, or social accounts in a niche for outreach, partnerships, sponsorships, UGC, seeding, or competitive research. Produces scored … |
 | [internal-narrative](internal-narrative/) | Build and maintain one coherent company story across all audiences — |
 | [launch](launch/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early… |
 | [launch-strategy](launch-strategy/) | When the user wants to plan a product launch, feature announcement, or |
@@ -1546,6 +1556,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [offers](offers/) | When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment st… |
 | [onboarding](onboarding/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activ… |
 | [onboarding-cro](onboarding-cro/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions "onboarding flow," "activation rate," "user activation," "first-run experi… |
+| [outlier-post-finder](outlier-post-finder/) | Use when the user wants to find posts, videos, reels, shorts, tweets, or social content that overperformed versus a creator, brand, or competitor baseline. Finds outliers, explains why they work… |
 | [paid-ads](paid-ads/) | When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative… |
 | [paid-ads-specialist](paid-ads-specialist/) | Plan and optimize paid advertising — Google, Meta, and multi-channel campaigns, budgets, creative testing, and ROAS. |
 | [partnership-manager](partnership-manager/) | Build strategic partnerships — sourcing, structuring deals, co-marketing, and managing partner relationships. |
@@ -1555,6 +1566,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [popups](popups/) | When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions "exit intent," "popup conversions," "modal opti… |
 | [pr-specialist](pr-specialist/) | Run public relations — media outreach, press releases, thought leadership, and crisis communications. |
 | [pricing](pricing/) | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price in… |
+| [product-demand-research](product-demand-research/) | Use when the user wants to validate a product idea, find pain points, mine demand signals, discover objections, or gather voice-of-customer language from Reddit, social posts, video transcripts,… |
 | [product-marketer](product-marketer/) | Do product marketing — positioning, messaging, launches, sales enablement, and competitive intelligence. |
 | [product-marketing](product-marketing/) | When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is… |
 | [programmatic-seo](programmatic-seo/) | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location pages," "[keyword] +… |
@@ -1568,6 +1580,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [sales-enablement](sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave… |
 | [schema](schema/) | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "sch… |
 | [schema-markup](schema-markup/) | When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions "schema markup," "structured data," "JSON-LD," "rich snippets," "schema.org," "FAQ schema," "… |
+| [scrapecreators-api](scrapecreators-api/) | Scrape and extract public data from 27+ social media platforms using the ScrapeCreators REST API. Covers TikTok, Instagram, YouTube, LinkedIn, Facebook, Twitter/X, Reddit, Threads, Bluesky, Pint… |
 | [seo](seo/) | Optimize for search engine visibility and ranking. Use when asked to "improve SEO", "optimize for search", "fix meta tags", "add structured data", "sitemap optimization", or "search engine optimization". |
 | [seo-audit](seo-audit/) | When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO… |
 | [seo-fundamentals](seo-fundamentals/) | SEO fundamentals, E-E-A-T, Core Web Vitals, and Google algorithm principles. |
@@ -1579,10 +1592,14 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [sms](sms/) | When the user wants to plan, build, or optimize SMS, MMS, or WhatsApp marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth… |
 | [sms-marketer](sms-marketer/) | Run SMS marketing — compliant list building, campaign strategy, automation, and high-converting text programs. |
 | [social](social/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, or Facebook, or wants to do social listening and engagement triage.… |
+| [social-listening-brief](social-listening-brief/) | Use when the user wants a social listening report about what people are saying about a brand, person, product, topic, category, or niche across public social platforms. Produces cited themes, se… |
+| [social-media-agent-guide](social-media-agent-guide/) | Guide for the "Social Media Agent" label shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". The video gives no repo or product link, and no matching repo was verified, so this skill does no… |
 | [social-media-designer](social-media-designer/) | Design scroll-stopping social content with platform specs, hooks, carousels, and brand consistency. |
 | [social-media-manager](social-media-manager/) | Plan, create, and manage social media presence — content calendars, platform strategy, engagement, and performance reporting. |
 | [solo-founder](solo-founder/) | Your co-founder who doesn't exist yet. Covers product, engineering, marketing, |
 | [theming-system](theming-system/) | Design theming architecture — brand variants, dark mode, and high-contrast — mapped through token layers. Use when one system must serve multiple themes. For a single palette use `color-system` (ui-design); for dark mod… |
+| [transcript-intelligence](transcript-intelligence/) | Use when the user wants to summarize, analyze, or repurpose transcripts from TikTok, Instagram, YouTube, Facebook, X/Twitter, LinkedIn, Rumble, or Reddit video posts. Extracts hooks, claims, quo… |
+| [trend-discovery](trend-discovery/) | Use when the user wants to discover trending social topics, hashtags, sounds, posts, reels, shorts, creators, or formats in a niche. Searches public trend and discovery endpoints, ranks evidence… |
 | [video](video/) | When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperfra… |
 | [webinar](webinar/) | webinar — Webinar & virtual-event marketing workflow. Plan a webinar |
 
@@ -1818,7 +1835,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [zettelkasten](zettelkasten/) | Practice the Zettelkasten method: atomic notes, unique IDs, linking, and building a thinking partner from your notes. Use when doing research, writing, or long-term knowledge work. |
 | [zig-pro](zig-pro/) | Idiomatic Zig: explicit allocators, comptime, error unions, and no-hidden-control-flow philosophy. Use when writing, reviewing, or structuring Zig programs. |
 
-## science-research (82)
+## science-research (83)
 
 | Skill | Description |
 |---|---|
@@ -1854,6 +1871,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [literature-review](literature-review/) | Conduct systematic literature reviews — search strategy, screening, quality appraisal, synthesis, and gap identification. Use when mapping what a field knows on a question. |
 | [litreview](litreview/) | Academic literature orientation skill that searches papers via free keyless |
 | [lmql-guide](lmql-guide/) | Write LMQL queries that blend prompts with constraints — scripting language-model generation with logic. |
+| [local-deep-research-guide](local-deep-research-guide/) | Guide to Local Deep Research, the local research app shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about Local Deep Research, running deep research locally with … |
 | [market-research-reports](market-research-reports/) | Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics an… |
 | [materials-characterization](materials-characterization/) | Choosing and combining characterization techniques — diffraction, microscopy, spectroscopy, and thermal methods — to fully describe a material. |
 | [matterjs](matterjs/) | Use when implementing 2D physics interactions with Matter.js, including Engine/World setup, Render/Runner configuration, adding bodies and constraints, and scroll/interaction-friendly canvas scenes. |
@@ -2214,7 +2232,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [basketball](basketball/) | Bộ quản lý đội, câu lạc bộ hoặc học viện bóng rổ dùng cho roster, lịch tập, vận hành trận đấu và giải, ngân sách, tuyển thành viên, tài trợ và báo cáo mùa; không thay thế chuyên môn y tế. |
 | [leadership-coach](leadership-coach/) | Develop leadership capability with frameworks for influence, decision-making, feedback, and team culture. |
 
-## video-production (206)
+## video-production (209)
 
 | Skill | Description |
 |---|---|
@@ -2224,6 +2242,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [ai-host-video](ai-host-video/) | Produce a complete channel episode with one consistent AI presenter, supporting visuals and a measured final edit. Activate when the current request authorizes that complete episode. An earlier episode plan does not mak… |
 | [ai-search-optimization](ai-search-optimization/) | Use to get a brand and its content CITED and RECOMMENDED by AI answer engines — the GEO (Generative Engine Optimization) / AI-search-visibility skill. Run when the user says "GEO," "get cited by ChatGPT/Perplexity/Googl… |
 | [ai-video-prompts](ai-video-prompts/) | Proven prompts behind viral AI-made videos across 4 models — Claude, Muse AI, ChatGPT, Gemini. Browse by model, category, or tech tag, copy a creator's prompt, adapt it to your own model and renderer. Use when you need… |
+| [ai-youtube-shorts-generator-guide](ai-youtube-shorts-generator-guide/) | Guide to the AI YouTube Shorts Generator, the open-source clipping tool shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about turning a long-form video into ranked… |
 | [animated-lecture-video](animated-lecture-video/) | Bài giảng ngang bằng hoạt hình vector phẳng với mascot robot dẫn dắt — dùng cho bài học, khoá học, giải thích kiến thức theo chương mục. |
 | [article-writing](article-writing/) | Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content lon… |
 | [avoid-ai-writing](avoid-ai-writing/) | Audit and rewrite content to remove AI writing patterns ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writing for AI patterns," "audit writing for AI tells," or "make this soun… |
@@ -2269,6 +2288,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [figure-captions](figure-captions/) | Writing figure captions that make figures self-contained — what to include, ordering, and statistical reporting. |
 | [find-customer-quotes](find-customer-quotes/) | Use when the user wants verbatim customer or prospect quotes, voice-of-customer evidence, theme validation, objection evidence, product-friction examples, or support for a product area, use case, or sales narrative. Ret… |
 | [flux-image-gen](flux-image-gen/) | FLUX image generation for video frames: resolution constraints (multiples of 16, 4MP cap), batch strategy, consistency. |
+| [flux2-guide](flux2-guide/) | Guide to FLUX.2, the Black Forest Labs image model shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA" for thumbnails and banners. Use when the user asks about FLUX.2, FLUX.2 dev/klein/pro/fl… |
 | [general-video](general-video/) | Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static titl… |
 | [grok-video-prompting](grok-video-prompting/) | Grok Imagine video prompting guide: reference-image placeholders, identity and product carryover. |
 | [heygen-best-practices](heygen-best-practices/) | Best practices for HeyGen - AI avatar video creation API |
@@ -2345,6 +2365,7 @@ All 2493 skills in this library, grouped by category. Descriptions come from eac
 | [shader-gen](shader-gen/) | AI shader generator for WebGL video effects, transitions, masks, and color grading (LUT / 调色 / 电影感 / film look). Use when the user wants a video effect (滤镜 / 特效), a transition (转场 / crossfade / wipe / cube / 3d), a mask… |
 | [ship-learn-next](ship-learn-next/) | Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content in… |
 | [short-form-video](short-form-video/) | Short-form video production spec (TikTok/Reels/Shorts): safe zones per platform, upload specs, duration strategy, hooks, captions. |
+| [short-video-factory-guide](short-video-factory-guide/) | Guide to Short Video Factory (AI Short Video Factory), the desktop short-video app shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about Short Video Factory, one-c… |
 | [social-content](social-content/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter threa… |
 | [social-publisher](social-publisher/) | Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. Use when the user wants to publish to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit,… |
 | [sora](sora/) | Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI\u2019s video API using the bundled CLI (`scripts/sora.py`), including requests like \u201cgenerate AI video,\u201d \u201c… |

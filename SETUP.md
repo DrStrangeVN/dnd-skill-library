@@ -71,6 +71,10 @@ machine's layout — recreate equivalents):
   `docs/`, Go code, `skills/routing-rules.md`, and the Codex/OpenCode skill
   variants.
 
+### ScrapeCreators pack (`marketing-growth/`: 13 skills from ScrapeCreators/social-media-research-skills @ 64ba7b4, MIT)
+- These skills call the ScrapeCreators REST API (`https://api.scrapecreators.com`, `x-api-key` header). Set `SCRAPECREATORS_API_KEY` from a key obtained at scrapecreators.com before use; without a key the skills cannot fetch data. Never commit a key to this repo.
+- The 8 guide skills added 2026-11-02 (`*-guide`) are documentation only: the Local Deep Research, Short Video Factory, AI YouTube Shorts Generator apps and the FLUX.2, Kokoro, ACE-Step models are not installed by copying the skill folders — install each upstream separately, following its own README and licence (see the guide skill for the verified upstream and its limits).
+
 ## 3. Verify after setup
 
 1. `ls ~/workspace/custom-skills | wc -l` → **2384**.

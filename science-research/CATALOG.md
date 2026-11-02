@@ -1,4 +1,4 @@
-# science-research — 82 skills
+# science-research — 83 skills
 
 | Skill | Description |
 |---|---|
@@ -34,6 +34,7 @@
 | [literature-review](literature-review/) | Conduct systematic literature reviews — search strategy, screening, quality appraisal, synthesis, and gap identification. Use when mapping what a field knows on a question. |
 | [litreview](litreview/) | Academic literature orientation skill that searches papers via free keyless |
 | [lmql-guide](lmql-guide/) | Write LMQL queries that blend prompts with constraints — scripting language-model generation with logic. |
+| [local-deep-research-guide](local-deep-research-guide/) | Guide to Local Deep Research, the local research app shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about Local Deep Research, running deep research locally with … |
 | [market-research-reports](market-research-reports/) | Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics an… |
 | [materials-characterization](materials-characterization/) | Choosing and combining characterization techniques — diffraction, microscopy, spectroscopy, and thermal methods — to fully describe a material. |
 | [matterjs](matterjs/) | Use when implementing 2D physics interactions with Matter.js, including Engine/World setup, Render/Runner configuration, adding bodies and constraints, and scroll/interaction-friendly canvas scenes. |

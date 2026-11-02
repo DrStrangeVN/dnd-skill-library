@@ -1,4 +1,4 @@
-# video-production — 206 skills
+# video-production — 209 skills
 
 | Skill | Description |
 |---|---|
@@ -8,6 +8,7 @@
 | [ai-host-video](ai-host-video/) | Produce a complete channel episode with one consistent AI presenter, supporting visuals and a measured final edit. Activate when the current request authorizes that complete episode. An earlier episode plan does not mak… |
 | [ai-search-optimization](ai-search-optimization/) | Use to get a brand and its content CITED and RECOMMENDED by AI answer engines — the GEO (Generative Engine Optimization) / AI-search-visibility skill. Run when the user says "GEO," "get cited by ChatGPT/Perplexity/Googl… |
 | [ai-video-prompts](ai-video-prompts/) | Proven prompts behind viral AI-made videos across 4 models — Claude, Muse AI, ChatGPT, Gemini. Browse by model, category, or tech tag, copy a creator's prompt, adapt it to your own model and renderer. Use when you need… |
+| [ai-youtube-shorts-generator-guide](ai-youtube-shorts-generator-guide/) | Guide to the AI YouTube Shorts Generator, the open-source clipping tool shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about turning a long-form video into ranked… |
 | [animated-lecture-video](animated-lecture-video/) | Bài giảng ngang bằng hoạt hình vector phẳng với mascot robot dẫn dắt — dùng cho bài học, khoá học, giải thích kiến thức theo chương mục. |
 | [article-writing](article-writing/) | Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content lon… |
 | [avoid-ai-writing](avoid-ai-writing/) | Audit and rewrite content to remove AI writing patterns ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writing for AI patterns," "audit writing for AI tells," or "make this soun… |
@@ -53,6 +54,7 @@
 | [figure-captions](figure-captions/) | Writing figure captions that make figures self-contained — what to include, ordering, and statistical reporting. |
 | [find-customer-quotes](find-customer-quotes/) | Use when the user wants verbatim customer or prospect quotes, voice-of-customer evidence, theme validation, objection evidence, product-friction examples, or support for a product area, use case, or sales narrative. Ret… |
 | [flux-image-gen](flux-image-gen/) | FLUX image generation for video frames: resolution constraints (multiples of 16, 4MP cap), batch strategy, consistency. |
+| [flux2-guide](flux2-guide/) | Guide to FLUX.2, the Black Forest Labs image model shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA" for thumbnails and banners. Use when the user asks about FLUX.2, FLUX.2 dev/klein/pro/fl… |
 | [general-video](general-video/) | Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static titl… |
 | [grok-video-prompting](grok-video-prompting/) | Grok Imagine video prompting guide: reference-image placeholders, identity and product carryover. |
 | [heygen-best-practices](heygen-best-practices/) | Best practices for HeyGen - AI avatar video creation API |
@@ -129,6 +131,7 @@
 | [shader-gen](shader-gen/) | AI shader generator for WebGL video effects, transitions, masks, and color grading (LUT / 调色 / 电影感 / film look). Use when the user wants a video effect (滤镜 / 特效), a transition (转场 / crossfade / wipe / cube / 3d), a mask… |
 | [ship-learn-next](ship-learn-next/) | Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content in… |
 | [short-form-video](short-form-video/) | Short-form video production spec (TikTok/Reels/Shorts): safe zones per platform, upload specs, duration strategy, hooks, captions. |
+| [short-video-factory-guide](short-video-factory-guide/) | Guide to Short Video Factory (AI Short Video Factory), the desktop short-video app shown in the Facebook Reel "MỘT NỘI DUNG NHIỀU ĐẦU RA". Use when the user asks about Short Video Factory, one-c… |
 | [social-content](social-content/) | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter threa… |
 | [social-publisher](social-publisher/) | Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. Use when the user wants to publish to X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit,… |
 | [sora](sora/) | Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI\u2019s video API using the bundled CLI (`scripts/sora.py`), including requests like \u201cgenerate AI video,\u201d \u201c… |
