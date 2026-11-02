@@ -75,6 +75,11 @@ machine's layout — recreate equivalents):
 - These skills call the ScrapeCreators REST API (`https://api.scrapecreators.com`, `x-api-key` header). Set `SCRAPECREATORS_API_KEY` from a key obtained at scrapecreators.com before use; without a key the skills cannot fetch data. Never commit a key to this repo.
 - The 8 guide skills added 2026-11-02 (`*-guide`) are documentation only: the Local Deep Research, Short Video Factory, AI YouTube Shorts Generator apps and the FLUX.2, Kokoro, ACE-Step models are not installed by copying the skill folders — install each upstream separately, following its own README and licence (see the guide skill for the verified upstream and its limits).
 
+### Appllama pack (`mobile-dev/`: 2 skills from Appllama/appllama-skills @ dd5caae, MIT)
+- `appllama-usage` needs the Appllama MCP (`https://mcp.appllama.io/mcp`), a paid Pro service: every call except `get_credits` spends 1 credit, credits reset in full on the 1st of each month. No MCP connection, account or credential is configured in this repo — connect it separately with the user's Appllama account before relying on the research playbooks, and never commit a credential.
+- `appllama-app-design-skill` works standalone (Expo / React Native, Apple HIG bar, simulator-verified loop) and is sharper with the MCP connected for studying real top-grossing screens first.
+- Not in this repo: the upstream `.claude-plugin/` / `.cursor-plugin/` manifests and `mcp.json` files. The Appllama name/logo are trademarks; the MIT licence does not grant rights to use them.
+
 ## 3. Verify after setup
 
 1. `ls ~/workspace/custom-skills | wc -l` → **2384**.
