@@ -1,4 +1,4 @@
-# video-production — 209 skills
+# video-production — 211 skills
 
 | Skill | Description |
 |---|---|
@@ -64,6 +64,7 @@
 | [hyperframes](hyperframes/) | Mandatory entry point: read this first for any request to make, create, edit, animate, or render a video, animation, or motion graphic, including a promo, explainer, captioned clip, title card, overlay, slideshow or int… |
 | [hyperframes-audio](hyperframes-audio/) | Use when audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects… |
 | [hyperframes-cli](hyperframes-cli/) | Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback,… |
+| [hyperframes-general](hyperframes-general/) | HyperFrames tổng quát ngoài video dọc có voice: phim motion ngắn khổ vuông hoặc ngang, KHÔNG voice, chỉ nhạc/SFX tổng hợp đồng bộ beat, vòng lặp kín seek(0)=seek(cuối). Dùng khi brief yêu cầu Hy… |
 | [hyperframes-keyframes](hyperframes-keyframes/) | Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAA… |
 | [hyperframes-studio](hyperframes-studio/) | Use when working with a person on a HyperFrames project in Studio: first, whether their message asks for a change at all (questions, loose ideas and "don't change anything" get an answer and a plan, not an edit); for a… |
 | [isometric-system-video](isometric-system-video/) | Video giải thích hệ thống bằng sơ đồ isometric line-art trong khung dashboard 60fps — dùng cho quy trình, nhà máy, kiến trúc phần mềm, luồng vận hành. |
@@ -112,6 +113,7 @@
 | [remotion-captions](remotion-captions/) | Transcribing, displaying and animating captions |
 | [remotion-create](remotion-create/) | Create a new Remotion video |
 | [remotion-docs](remotion-docs/) | Search Remotion documentation |
+| [remotion-general](remotion-general/) | Pipeline tổng quát dựng showreel, promo và explainer bằng Remotion (React) từ chất liệu thật của sản phẩm — storyboard theo mốc giờ, một camera liên tục, trạng thái là hàm thuần của thời gian, s… |
 | [remotion-interactivity](remotion-interactivity/) | Structure Remotion markup for interactivity |
 | [remotion-maps](remotion-maps/) | Remotion Map animation knowledge |
 | [remotion-markup](remotion-markup/) | Content, animation and effects best practices |
