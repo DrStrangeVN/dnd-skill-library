@@ -2234,7 +2234,7 @@ All 2518 skills in this library, grouped by category. Descriptions come from eac
 | [basketball](basketball/) | Bộ quản lý đội, câu lạc bộ hoặc học viện bóng rổ dùng cho roster, lịch tập, vận hành trận đấu và giải, ngân sách, tuyển thành viên, tài trợ và báo cáo mùa; không thay thế chuyên môn y tế. |
 | [leadership-coach](leadership-coach/) | Develop leadership capability with frameworks for influence, decision-making, feedback, and team culture. |
 
-## video-production (211)
+## video-production (212)
 
 | Skill | Description |
 |---|---|
@@ -2411,6 +2411,7 @@ All 2518 skills in this library, grouped by category. Descriptions come from eac
 | [video-music](video-music/) | Background music for video: BPM selection by video type, instrumental requirements, ducking levels, prompt fragments. |
 | [video-pro](video-pro/) | Handle professional video tasks with codecs, compression, aspect ratios, and delivery specifications. |
 | [video-production-pro](video-production-pro/) | Turn rough video ideas, campaign briefs, product or event information into complete professional video production plans including concept, storytelling, timecoded script, storyboard, shot list, cinematography, sound, ed… |
+| [video-shotcraft](video-shotcraft/) | Create cinematic product videos from frontend projects or webpages with Remotion, real page captures, shot cards, the Ink Press template, beat sync and sound design. Use for full product promos,… |
 | [video-sound-design](video-sound-design/) | Video sound design: dialogue/music/SFX level targets, ducking, voice EQ and compression, LUFS loudness standards. |
 | [video-stitching](video-stitching/) | Assembling clips into unified video: stitching decision tree, continuity at boundaries, audio crossfades. |
 | [video-storytelling](video-storytelling/) | Explainer-video narrative craft: the explainer arc template with timestamps, hooks, tension gaps, aha moments. |

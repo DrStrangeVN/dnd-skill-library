@@ -8,7 +8,7 @@ and **INDEX.md** for the full skill list.
 
 ## Contents
 
-- **2,518 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
+- **2,519 skills** in 24 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
 - `INDEX.md` — every skill with its category and one-line description.
 - `<category>/CATALOG.md` — per-category table.
 - `SETUP.md` — install + toolchain + verification steps for a new machine.
@@ -69,3 +69,5 @@ Update 2026-11-02: +8 guide skills authored on the origin machine from the tools
 Update 2026-11-02: +2 skills (Appllama/appllama-skills @ dd5caae, 2026-09-06, MIT — verbatim `skills/*` only, each skill folder carries the upstream LICENSE) in `mobile-dev/`: `appllama-usage` (v1.1.0) and `appllama-app-design-skill` (v1.3.0). REQUIREMENT: `appllama-usage` runs on the Appllama MCP (https://mcp.appllama.io/mcp), a paid Pro service with per-call credits; `appllama-app-design-skill` works standalone and is sharper with the MCP connected. No MCP connection, account or credential is configured or stored in this repo. Not in this repo: the upstream `.claude-plugin/` / `.cursor-plugin/` manifests and `mcp.json` files. Total 2,516.
 
 Update 2026-11-04: +2 skills authored on the origin machine (original skills distilled in the author's own words from the structure of verified prompt-motion.com items, with credit + source links in each SKILL.md; no upstream prompt, copy or artwork copied verbatim, no LICENSE — there is no upstream source to license) in `video-production/`: `remotion-general` (general Remotion pipeline for showreels/promos/explainers from real product material, 10 prompt-motion items) and `hyperframes-general` (general HyperFrames pipeline for square/landscape motion films without voice, music/SFX only, closed loop, 6 prompt-motion items). REQUIREMENT: `remotion-general` needs the Remotion toolchain (Node + Remotion CLI, already covered by the video-kit pipeline in SETUP.md); `hyperframes-general` needs the HyperFrames/GSAP + headless-capture video-kit pipeline (also covered in SETUP.md). No credential is stored in this repo. Total 2,518.
+
+Update 2026-11-05: +1 skill (`video-shotcraft`, cinematic product videos from frontend projects/webpages with Remotion, real page captures, 124 shot cards, Ink Press template, beat sync and sound design, from Vincentwei1021/video-shotcraft @ 1266a3e, 2026-10-30, Apache-2.0 — verbatim, folder carries the upstream LICENSE) in `video-production/`. REQUIREMENT: needs Node/npm + Remotion, ffmpeg/ffprobe, puppeteer for page capture, uv only for the BGM beat script; Remotion licence and each audio file's licence per its ATTRIBUTION are separate from Apache-2.0. Not in this repo: the upstream `.claude-plugin/` manifest. No credential is stored in this repo. Total 2,519.

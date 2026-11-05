@@ -1,4 +1,4 @@
-# video-production — 211 skills
+# video-production — 212 skills
 
 | Skill | Description |
 |---|---|
@@ -175,6 +175,7 @@
 | [video-music](video-music/) | Background music for video: BPM selection by video type, instrumental requirements, ducking levels, prompt fragments. |
 | [video-pro](video-pro/) | Handle professional video tasks with codecs, compression, aspect ratios, and delivery specifications. |
 | [video-production-pro](video-production-pro/) | Turn rough video ideas, campaign briefs, product or event information into complete professional video production plans including concept, storytelling, timecoded script, storyboard, shot list, cinematography, sound, ed… |
+| [video-shotcraft](video-shotcraft/) | Create cinematic product videos from frontend projects or webpages with Remotion, real page captures, shot cards, the Ink Press template, beat sync and sound design. Use for full product promos,… |
 | [video-sound-design](video-sound-design/) | Video sound design: dialogue/music/SFX level targets, ducking, voice EQ and compression, LUFS loudness standards. |
 | [video-stitching](video-stitching/) | Assembling clips into unified video: stitching decision tree, continuity at boundaries, audio crossfades. |
 | [video-storytelling](video-storytelling/) | Explainer-video narrative craft: the explainer arc template with timestamps, hooks, tension gaps, aha moments. |
