@@ -2,7 +2,7 @@
 
 **Nhánh mặc định** (chủ dự án chốt): mọi đề dựng hay làm lại một màn trở lên đều
 vào đây, tiếng Việt hay tiếng Anh, sản phẩm mới hay màn đã có. Chỉ không vào khi đề nói rõ lối
-khác (bảng câu 1 của `SKILL.md`): soi, giữ brand, dựng lại theo gu skill, refactor, dựng
+khác (bảng câu 1 của `SKILL.md`): soi, phân tích sản phẩm chưa dựng (`U6`), giữ brand, dựng lại theo gu skill, refactor, dựng
 luôn, hoặc việc nhỏ hơn một màn.
 
 Khác nhánh `V` (`review.md`): `V` giữ khung trang, sửa lỗi và làm gọn. Kết quả là bản hi-fi
@@ -17,8 +17,8 @@ Hai cổng chờ của nhánh này là hai chỗ duy nhất skill dừng hỏi. 
 **"Dựng luôn" thì không vẽ wireframe** (vẽ wireframe tốn nhiều token, chủ dự án chốt).
 Đề có "dựng luôn", "just build it", hoặc người dùng trả lời `dựng luôn` ở cổng 1: vẫn làm `U1`,
 `U2` và chọn phương án `U3` sẽ khuyên dùng, **trong đầu, không gửi, không dừng**, rồi dựng thẳng
-theo phương án đó (`U4`), màu theo nấc sẽ khuyên. Lúc giao ghi một dòng: *"Bố cục: [phương án]
-vì [việc chính]. Muốn xem các hướng khác thì nhắn `vẽ wireframe`."* Lúc gửi brief ở cổng 1, thêm một dòng cuối: *"Muốn bỏ wireframe, dựng luôn thì
+theo phương án đó (`U4`), màu theo nấc sẽ khuyên, bộ mặt theo bộ sẽ khuyên (`P13`, màn trong app web chưa có phong cách). Lúc giao ghi một dòng: *"Bố cục: [phương án]
+vì [việc chính]. Muốn xem các hướng khác thì nhắn `vẽ wireframe`."* và dòng bộ mặt theo mẫu của `P13`. Lúc gửi brief ở cổng 1, thêm một dòng cuối: *"Muốn bỏ wireframe, dựng luôn thì
 trả lời `dựng luôn`."* (tiếng Anh: *"Reply `just build it` to skip the wireframes."*)
 
 ---
@@ -62,10 +62,16 @@ Mỗi màn trong phạm vi một dòng:
 
 - Cột "so sánh bằng gì" quyết định card và bảng: thứ người dùng dùng để chọn giữa các mục
   phải **nổi nhất và đứng đầu**. Thứ không giúp chọn thì lùi xuống hoặc để trang chi tiết.
-- Cột cuối: **tra thật** cách vài sản phẩm cùng loại đang làm (tìm web nếu có công cụ), ghi
-  thành quy ước, không ghi tên sản phẩm vào code hay vào file của dự án. Không tra được thì
+- Cột cuối: đọc `industry-patterns.md` trước. Ngành có trong đó thì lấy quy ước của màn đó,
+  ghi nguồn *"bảng ngành, 4/5"*. Màn hay ngành bảng chưa có thì **tra thật** cách vài sản phẩm
+  cùng loại đang làm (tìm web nếu có công cụ), ghi thành quy ước, không ghi tên sản phẩm vào
+  code hay vào file của dự án. Không tra được thì
   ghi *"theo trí nhớ, cần kiểm"*. Quy ước số đông thắng gu riêng.
 - Điểm khác biệt ở `U1` phải **hiện trên màn chính**, không chỉ nằm trong bộ lọc.
+- **Sản phẩm mới, hoặc các màn trong phạm vi nằm trên cùng một luồng**: thêm một dòng **Luồng**
+  dưới bảng: các bước tới việc chính đầu tiên, số màn, số ô phải điền (`flows.md`, `O2`). `U3`
+  vẽ cả màn lần đầu chưa có dữ liệu (`O1`), `U4` dựng thêm trạng thái vừa xong của hành động
+  chính (`O3`).
 
 Gửi `U1` và `U2` trong **một** tin, kết bằng *"Đúng thì trả lời `ok`, sai dòng nào thì sửa
 dòng đó."* Dừng chờ.
@@ -243,18 +249,49 @@ dòng đó."* Dừng chờ.
 
   **Dự án chưa có màu brand** (màu nhấn là gần đen mặc định, `brand-tokens.md`; dự án đã qua
   `D9` thì màu nhấn đã chốt ở cổng đó, kể cả khi chốt gần đen, không tính là chưa có) thì thêm nhóm
-  **Nhấn: ● ● ●** gồm ba màu gợi ý (chàm `#4f46e5`, xanh ngọc `#0d9488`, cam `#ea580c`), đổi
-  `--primary` tại chỗ. Không có nhóm này thì nấc Màu của dự án mới vẫn đen trắng. Màu người dùng
+  **Nhấn: ● ● ●** gồm ba màu gợi ý **theo ngành ở `U1`**, lấy từ bảng "Màu nhấn gợi ý theo
+  ngành" của `brand-tokens.md` (màu đầu là quy ước của ngành; ngành khác thì chàm, xanh ngọc,
+  cam), đổi `--primary` tại chỗ. Đổi `data-value`, `aria-label` và mã màu trong mẫu dưới theo
+  ba màu đó. Không có nhóm này thì nấc Màu của dự án mới vẫn đen trắng. Màu người dùng
   chọn thành màu nhấn lúc dựng (`brand-tokens.md`); không chọn thì dựng màu đầu, báo một dòng.
   Đổi màu bằng biến CSS trên `:root[data-mau]`, `:root[data-nhan]` (không trên `body`, xem trên), không vẽ lại. Probe nhanh ở
   nấc Màu đo tương phản chữ trắng trên nút chính, trên mục đang chọn, với màu nhấn đầu; hai màu còn lại
-  tự so bằng mắt trên ảnh, chữ trắng trên cam là chỗ hay hụt.
+  tự so bằng mắt trên ảnh. Bảng màu đã đo sẵn chữ trắng từ 5 : 1, nên trượt là do tự lấy màu ngoài bảng.
 
   **Dự án chưa có logo** thì thêm nhóm **Logo: 1 · 2 · 3** (`?logo=`): ba dấu theo ba hướng của
   `components/logo.md`, đã kiểm ở 16px, đổi ở mọi chỗ có logo trên trang. Khung lý do có một dòng
   vì sao cho từng dấu. Không có nhóm này thì đầu sidebar là ô chữ cái, người dùng duyệt xong vẫn
   chưa thấy sản phẩm mình trông ra sao. Logo người dùng chọn thành logo lúc dựng; không chọn thì
   dựng hướng khuyên dùng, báo một dòng.
+
+  **Dự án chưa có phong cách riêng** (audit tầng 3 ra flat hoặc trống, `P4`) và đề không nêu
+  phong cách thì thêm nhóm **Kiểu** (`?kieu=`). **Màn trong app web**: bốn bộ mặt của `P13`
+  (`gon`, `sidebar`, `mem`, `dem`: Gọn, Sidebar tối, Mềm, Đêm), **mặc định là bộ khuyên dùng**
+  theo người dùng ở `U1`, có nhãn nhỏ "khuyên dùng" sau tên trong menu, không trên nút. Màn khác (trang
+  lướt để chọn, trang giá): Flat (`P6`) cùng hai khối hợp sản phẩm nhất trong `P7`–`P10` (`flat`,
+  `toi`, `noi`; Glass chỉ khi phía sau có ảnh hay gradient, `F19`), mặc định Flat (`P1`). Không có
+  nhóm này thì người dùng chỉ thấy bố cục xám rồi bản dựng flat, muốn xem bản tối hay bản nổi
+  phải nhắn vẽ lại cả trang; có nhóm mà mặc định luôn Gọn thì dự án nào cũng ra cùng một mặt.
+  - **Kiểu chỉ đổi bộ mặt, không đổi bố cục** ⚑: cùng khối, cùng dữ liệu, cùng chỗ đặt. Bố cục
+    là việc của Phương án. Kiểu Tối mà thêm hàng KPI, biểu đồ thì người xem không biết mình
+    đang chọn bố cục hay chọn màu, chọn xong `U4` không biết dựng theo cái nào.
+  - Đổi bằng biến CSS và rule dưới `:root[data-kieu]` (nền, bề mặt, viền, bóng, blur, `--app-font`), không vẽ
+    lại khối. Bộ mặt đổi font thì nạp đủ font của bốn bộ ngay từ đầu (một link Google Fonts),
+    không thì đổi sang Mềm vẫn ra Inter. Sidebar tối: khung sidebar của bản thiết kế mang class
+    `wf-sidebar`, rule `[data-kieu="sidebar"] .wf-sidebar` chép nguyên khối token `.force-dark` của
+    `tokens.css` (`P13`), không tô riêng nền. Mỗi kiểu theo đủ khối `P` của nó, **cả phần bẫy**: Tối có bề mặt sáng dần theo tầng
+    và viền `white/10` (`P10`), Glass có lớp gradient phía sau (`P8`), Nổi đủ bốn bậc bóng (`P7`).
+  - Chọn một kiểu khác Flat, Gọn là bật luôn nấc Màu (link mang `mau=mau`): kiểu ở nấc Xám không
+    thấy gì khác, người xem tưởng nút hỏng. Mở đầu vẫn ở nấc Xám để duyệt bố cục; bật Màu là thấy
+    ngay bộ khuyên dùng, không phải Gọn.
+  - **Probe nhanh phương án khuyên dùng ở từng kiểu** (`&mau=mau&kieu=toi`…). Chỗ hay hụt: kiểu
+    Tối đổi nền mà quên đổi màu tiêu đề, tên sản phẩm chìm vào nền (`P3`). Kiểu nào trượt tương
+    phản là lỗi phải sửa trước khi gửi, không phải nhược điểm của kiểu.
+  - Khung lý do thêm một dòng vì sao cho từng kiểu, bám người dùng ở `U1`: *"Tối: người trực
+    theo dõi số cả ca, nền tối đỡ chói"*, không viết "hiện đại, sang".
+  - Kiểu người dùng chọn thành phong cách lúc dựng (`U4` mở khối `P` đó) và giữ cho các màn sau
+    của dự án (`P1`); bộ mặt thì ghi dòng comment ở khối font (`P13`). Không chọn thì màn trong
+    app web dựng bộ khuyên dùng, báo một dòng theo mẫu `P13`; màn khác Flat, không cần báo.
 
 - **Control trong wireframe bấm được và hiện trạng thái như bản thật** ⚑: ô nhập, ô tìm focus
   thì viền và ring màu nhấn (`I13`: `--border-focus`, `--ring-focus`); select, dropdown, nút lọc
@@ -279,7 +316,7 @@ dòng đó."* Dừng chờ.
   56px, nền trắng, viền dưới xám nhạt, chữ 14px, **không dính đỉnh**: thanh dính đè lên sidebar,
   header, panel `sticky top-0` của chính bản thiết kế, người xem thấy sidebar mất logo khi cuộn và
   tưởng bản dựng sẽ vậy. Các nhóm xếp liền từ trái, cách nhau
-  24px, theo thứ tự: Màn (đề nhiều màn) · **Phương án** · **Gọn chữ · Bỏ lặp** · **Màu** (công tắc) · Nhấn (dự án chưa có brand) · Logo (dự án chưa có logo) · Khổ · Nav (mobile, ít mục)
+  24px, theo thứ tự: Màn (đề nhiều màn) · **Phương án** · **Gọn chữ · Bỏ lặp** · **Màu** (công tắc) · Kiểu (dự án chưa có phong cách) · Nhấn (dự án chưa có brand) · Logo (dự án chưa có logo) · Khổ · Nav (mobile, ít mục)
   · **Trạng thái**.
   - **Đề nhiều màn** (lịch và hồ sơ, danh sách và chi tiết) thì một file, nhóm **Màn** đứng đầu
     (`?man=`), nhãn một hai chữ ("Lịch", "Hồ sơ"); mỗi màn có A, B, C riêng. **Ở 1280 thanh phải
@@ -294,7 +331,8 @@ dòng đó."* Dừng chờ.
     dài trên thanh ("A · Báo cáo một trang (khuyên dùng)") đẩy cả thanh phải cuộn ngang ở 1280.
   - **Khổ có icon**: màn hình trước Desktop, điện thoại trước Mobile (icon 16px, nét 2).
   - **Trạng thái là menu thả**, nhãn xám "Trạng thái:" kèm giá trị đang xem đậm và mũi tên nhỏ;
-    bấm thì ra bốn link. Bốn trạng thái ít đổi, không đáng chiếm bốn nút trên thanh.
+    bấm thì ra bốn link. Bốn trạng thái ít đổi, không đáng chiếm bốn nút trên thanh. **Kiểu cũng
+    là menu thả** ("Kiểu: Flat ⌄"), cùng lý do, và để thanh có đủ Nhấn, Logo vẫn vừa 1280.
   - **Nút trong rãnh và mục trong menu Trạng thái cách nhau 4px** (luật chốt 19): hai nút cùng nền
     trắng (Gọn chữ, Bỏ lặp cùng bật) hay mục rê cạnh mục đang xem mà dính sát thì đọc thành một khối.
   - **Màu là công tắc** có nhãn "Màu" đứng trước, không phải segmented: chỉ còn hai nấc.
@@ -305,8 +343,9 @@ dòng đó."* Dừng chờ.
     chọn một trong hai, trong khi bật cùng lúc được).
   - **Chữ trên thanh và khung lý do theo tiếng người dùng đang viết (`T27`)**, không theo
     `T24`: đó là lời skill nói với người dùng, không phải chữ của sản phẩm. Mẫu HTML dưới viết
-    tiếng Việt; đề tiếng Anh thì đổi hết: Phương án → Option, Màu → Color, Nhấn (`aria-label`
-    Chàm, Xanh ngọc, Cam) → Indigo, Teal, Orange, Thanh dưới → Bottom bar, Trạng thái → State
+    tiếng Việt; đề tiếng Anh thì đổi hết: Phương án → Option, Màu → Color, Kiểu → Style (Gọn, Sidebar tối, Mềm, Đêm, khuyên dùng → Clean, Dark sidebar, Soft, Night, recommended; Flat,
+    Nổi, Glass, Gradient, Tối → Flat, Elevated, Glass, Gradient, Dark), Nhấn (`aria-label`
+    Chàm, Xanh ngọc, Cam; các màu khác của bảng: Xanh dương, Tím, Hồng tím, Xanh lá) → Indigo, Teal, Orange; Blue, Violet, Fuchsia, Green, Thanh dưới → Bottom bar, Trạng thái → State
     (Có dữ liệu, Đang tải, Rỗng, Lỗi → Data, Loading, Empty, Error), Khuyên dùng → Recommended,
     Gọn chữ, Bỏ lặp → Concise, No repeats, Ưu, nhược → Pros, cons, Ưu / Nhược / Hợp khi → Pros / Cons / Best when, Gợi ý góp ý →
     Feedback ideas, tên phương án, câu lý do, câu gợi ý cũng tiếng Anh. Tham số URL (`v`, `gon`, `bolap`,
@@ -319,7 +358,7 @@ dòng đó."* Dừng chờ.
   (`?uu=1`). Người dùng mở Ưu, nhược để so A với B; bấm sang B mà khung đóng lại thì lần nào cũng
   phải bấm mở lại. Thứ mở thêm sau này (bảng so sánh, ghi chú) cũng giữ theo cách đó. Màn hẹp thì thanh
   cuộn ngang, không xuống dòng. Mở không tham số thì: phương án khuyên dùng, Gọn chữ và Bỏ lặp tắt,
-  Màu tắt, Desktop, Có dữ liệu. Thiếu thanh thì người dùng phải tự gõ `?v=`.
+  Màu tắt, Kiểu khuyên dùng, Desktop, Có dữ liệu. Thiếu thanh thì người dùng phải tự gõ `?v=`.
 
 - **Khung lý do ngay dưới thanh**, không modal (modal che mất bản thiết kế đúng lúc cần nhìn),
   nền xám rất nhạt. **Dòng đóng**: tên phương án đậm đen, nhãn "Khuyên dùng" (chỉ phương án khuyên
@@ -351,6 +390,11 @@ dòng đó."* Dừng chờ.
     </div>
     <span class="wf-set wf-flags"><a data-wf-toggle="gon" data-on="1" data-off="0">Gọn chữ</a><a data-wf-toggle="bolap" data-on="1" data-off="0">Bỏ lặp</a></span>
     <a class="wf-switch" data-wf-toggle="mau" data-on="mau" data-off="xam" role="switch">Màu <i></i></a>
+    <details class="wf-menu">
+      <summary><span>Kiểu:</span><b data-wf-current="kieu"></b><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <!-- Màn trong app web: bốn bộ mặt P13, bộ khuyên dùng có nhãn nhỏ "khuyên dùng" trong menu. Màn khác: flat, toi, noi. -->
+      <div class="wf-popover" data-wf-param="kieu"><a data-value="gon">Gọn</a><a data-value="sidebar">Sidebar tối</a><a data-value="mem">Mềm <small>khuyên dùng</small></a><a data-value="dem">Đêm</a></div>
+    </details>
     <span class="wf-set" data-wf-param="nhan"><a data-value="cham" aria-label="Chàm"><i></i></a><a data-value="ngoc" aria-label="Xanh ngọc"><i></i></a><a data-value="cam" aria-label="Cam"><i></i></a></span>
     <span class="wf-set" data-wf-param="kho">
       <a data-value="desktop"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Desktop</a>
@@ -411,8 +455,9 @@ dòng đó."* Dừng chờ.
       width: 5px; height: 5px; border-radius: 50%; background: #4f46e5; }
     [data-wf-param="nhan"] a { padding: 0 8px; }
     [data-wf-param="nhan"] i { width: 14px; height: 14px; border-radius: 50%; background: currentColor; }
-    [data-wf-param="nhan"] a[data-value="cham"] { color: #4f46e5; } [data-wf-param="nhan"] a[data-value="ngoc"] { color: #0d9488; }
-    [data-wf-param="nhan"] a[data-value="cam"] { color: #ea580c; }
+    /* Ba màu theo ngành, bảng ở brand-tokens.md. Mẫu là bộ "ngành khác". */
+    [data-wf-param="nhan"] a[data-value="cham"] { color: #4f46e5; } [data-wf-param="nhan"] a[data-value="ngoc"] { color: #0f766e; }
+    [data-wf-param="nhan"] a[data-value="cam"] { color: #c2410c; }
     .wf-menu { flex-shrink: 0; }
     .wf-menu summary { display: flex; align-items: center; gap: 6px; height: 36px; padding: 0 10px; border-radius: 8px;
       cursor: pointer; list-style: none; }
@@ -474,7 +519,15 @@ dòng đó."* Dừng chờ.
     /* Màu nhấn đổi trên :root, cùng chỗ khai token: var(--primary) khai ở :root đã tính xong tại :root, đổi ở
        body thì viền focus, ring, hover vẫn màu cũ. */
     :root[data-mau="xam"] { --primary: #2c2c2c; } /* nấc Xám: bỏ màu nhấn, cả màu trạng thái */
-    :root:not([data-mau="xam"])[data-nhan="cham"] { --primary: #4f46e5; } /* …ngoc, cam tương tự */
+    :root:not([data-mau="xam"])[data-nhan="cham"] { --primary: #4f46e5; } /* …ngoc #0f766e, cam #c2410c tương tự */
+    /* Kiểu: đổi token và rule bề mặt theo khối P, không vẽ lại khối. Đổi nền thì đổi cả chữ (P3, P10). */
+    :root:not([data-mau="xam"]):is([data-kieu="toi"], [data-kieu="dem"]) { color-scheme: dark; --background: #09090b; --surface: #18181b;
+      --foreground: #f4f4f5; --muted: #a1a1aa; --border: rgb(255 255 255 / .1); }
+    :root:not([data-mau="xam"]):is([data-kieu="noi"], [data-kieu="mem"]) { --border: transparent; } /* …kèm thang bóng bốn bậc của P7 */
+    /* Bộ mặt P13: font đổi theo bộ, nạp sẵn cả ba font. Sidebar tối chép khối .force-dark của tokens.css vào .wf-sidebar. */
+    :root:not([data-mau="xam"])[data-kieu="mem"] { --app-font: "Be Vietnam Pro", ui-sans-serif, system-ui, sans-serif; }
+    :root:not([data-mau="xam"])[data-kieu="dem"] { --app-font: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif; }
+    :root:not([data-mau="xam"])[data-kieu="sidebar"] .wf-sidebar { color-scheme: dark; /* …nguyên khối token .force-dark */ }
     /* Token suy từ màu nhấn, tính lại theo nấc (brand-tokens.md). Chỉ ở nấc Xám hoặc khi có nhóm Nhấn: dự án đã có
        brand thì ở nấc Màu giữ nguyên token của dự án. */
     :root[data-mau="xam"], :root:has([data-wf-param="nhan"]) {
@@ -489,22 +542,26 @@ dòng đó."* Dừng chờ.
   </style>
   <script>
     const params = new URLSearchParams(location.search);
-    // Mặc định: phương án khuyên dùng, đủ nội dung, Xám, màu nhấn gợi ý đầu, Desktop, ☰, Có dữ liệu.
-    const state = { v: "a", gon: "0", bolap: "0", mau: "xam", nhan: "cham", kho: "desktop", nav: "menu", tt: "du-lieu", uu: "0" };
+    // Mặc định: phương án khuyên dùng, đủ nội dung, Xám, kiểu khuyên dùng (màn app: bộ mặt P13; màn khác: flat),
+    // màu nhấn gợi ý đầu, Desktop, ☰, Có dữ liệu.
+    const state = { v: "a", gon: "0", bolap: "0", mau: "xam", kieu: "mem", nhan: "cham", kho: "desktop", nav: "menu", tt: "du-lieu", uu: "0" };
     for (const key of Object.keys(state)) state[key] = params.get(key) || state[key];
     Object.assign(document.body.dataset, state);
-    Object.assign(document.documentElement.dataset, { mau: state.mau, nhan: state.nhan }); // màu nhấn đổi trên :root
+    Object.assign(document.documentElement.dataset, { mau: state.mau, kieu: state.kieu, nhan: state.nhan }); // token đổi trên :root
     if (params.has("frame")) document.body.dataset.frame = "1";
     const linkTo = (changes) => `?${new URLSearchParams({ ...state, ...changes })}`;
     // Gọi lại mỗi khi state đổi tại chỗ (khung lý do mở, đóng), để link nào cũng mang state mới.
     function updateLinks() {
       for (const set of document.querySelectorAll("[data-wf-param]")) {
         for (const link of set.querySelectorAll("a")) {
-          link.href = linkTo({ [set.dataset.wfParam]: link.dataset.value });
+          // Kiểu khác Flat, Gọn bật luôn nấc Màu: ở nấc Xám kiểu không hiện gì khác.
+          const isStyleLink = set.dataset.wfParam === "kieu" && !["flat", "gon"].includes(link.dataset.value);
+          link.href = linkTo({ [set.dataset.wfParam]: link.dataset.value, ...(isStyleLink && { mau: "mau" }) });
           if (state[set.dataset.wfParam] !== link.dataset.value) continue;
           link.setAttribute("aria-current", "page");
           const currentLabel = document.querySelector(`[data-wf-current="${set.dataset.wfParam}"]`);
-          if (currentLabel) currentLabel.textContent = link.textContent;
+          // Chỉ lấy tên, bỏ nhãn nhỏ "khuyên dùng" trong menu Kiểu.
+          if (currentLabel) currentLabel.textContent = link.firstChild.textContent.trim();
         }
       }
       // Công tắc Màu, nút Gọn chữ, Bỏ lặp: một link, bấm là sang nấc kia.
@@ -526,13 +583,17 @@ dòng đó."* Dừng chờ.
         updateLinks();
       });
     }
-    // Menu Trạng thái: thanh cuộn ngang cắt mất khối absolute, nên menu là fixed, đặt ngay dưới nút.
-    const statusMenu = document.querySelector(".wf-menu");
-    statusMenu?.addEventListener("toggle", () => {
-      const summaryRect = statusMenu.querySelector("summary").getBoundingClientRect();
-      Object.assign(statusMenu.querySelector(".wf-popover").style, { top: `${summaryRect.bottom + 6}px`, left: `${summaryRect.left}px` });
+    // Menu Kiểu, Trạng thái: thanh cuộn ngang cắt mất khối absolute, nên menu là fixed, đặt ngay dưới nút.
+    const barMenus = [...document.querySelectorAll(".wf-menu")];
+    for (const barMenu of barMenus) {
+      barMenu.addEventListener("toggle", () => {
+        const summaryRect = barMenu.querySelector("summary").getBoundingClientRect();
+        Object.assign(barMenu.querySelector(".wf-popover").style, { top: `${summaryRect.bottom + 6}px`, left: `${summaryRect.left}px` });
+      });
+    }
+    document.addEventListener("click", (event) => {
+      for (const barMenu of barMenus) if (!barMenu.contains(event.target)) barMenu.open = false;
     });
-    document.addEventListener("click", (event) => { if (statusMenu && !statusMenu.contains(event.target)) statusMenu.open = false; });
     if (state.kho === "mobile" && !params.has("frame")) {
       const frameSource = `?${new URLSearchParams({ ...state, kho: "desktop", frame: "1" })}`;
       document.getElementById("wf-design").innerHTML =
@@ -545,7 +606,7 @@ dòng đó."* Dừng chờ.
     document.addEventListener("keydown", (event) => {
       if (event.key !== "Escape") return;
       document.body.removeAttribute("data-menu-open");
-      if (statusMenu) statusMenu.open = false;
+      for (const barMenu of barMenus) barMenu.open = false;
     });
     for (const button of document.querySelectorAll("[data-copy]")) {
       button.addEventListener("click", async () => {
@@ -614,6 +675,8 @@ màu và nhấn theo mức đã khuyên, không hỏi lại.
 - **Sản phẩm mới:** audit câu 2 đã chạy ở `U1`; đi tiếp câu 3 của mục 0 trong `SKILL.md`,
   rồi dựng theo phương án đã chọn thay cho bố cục mặc định của câu 4. Chưa có logo thì dựng
   `ProductBrand` với dấu đã chọn ở nhóm Logo, kèm favicon từ cùng dấu (`components/logo.md`).
+- **Ghi `DESIGN.md`** (`system.md`, `D10`) khi dựng xong: brief của `U1`, bộ mặt, màu nhấn,
+  phương án đã chọn của màn này. Có file rồi thì sửa tại chỗ, thêm dòng Màn đã dựng.
 - **Đề nhiều hơn một màn:** chốt hợp đồng nguyên tố `D1` (`system.md`) ở đây, trước khi dựng
   màn đầu tiên. Wireframe đã chọn nói khung, bảng `D1` nói control nào dùng kiểu nào cho cả bộ.
 - Ráp bằng mẫu của skill (`SKILL.md` mục 2). Chạy probe `--sweep --wireframe "<link phương án
@@ -715,3 +778,59 @@ màu và nhấn theo mức đã khuyên, không hỏi lại.
 - Không đổi vai màu của dự án đã có, trừ khi người dùng nói bỏ style cũ (`review.md`, chế độ
   dựng lại theo gu skill).
 - Không quay về nhánh `V` giữa chừng để "vá cho nhanh": người dùng đã xin nghĩ lại khung.
+
+## U6. Phân tích sản phẩm, chưa dựng ⚑
+
+Đề hỏi sản phẩm nên thiết kế ra sao mà chưa muốn dựng: "phân tích sản phẩm", "nên thiết kế ra
+sao", "hướng thiết kế", "gợi ý màu, trải nghiệm cho ngành…", "analyze my product", "what design
+direction". Ra **một tin báo cáo** trong chat. Không vẽ wireframe, không đụng file dự án, không
+viết code. Lối này **không có cổng**: không hỏi; dòng nào không suy ra được thì ghi *đoán*,
+người dùng sửa dòng đó.
+
+Báo cáo đi đúng thứ tự dưới đây, mỗi phần ngắn, viết theo ngôn ngữ của đề:
+
+1. **Audit** một dòng (câu 2 của `SKILL.md`), chỉ khi đã có code. Chưa có code thì ghi *"Chưa
+   có code, brief theo lời bạn."*
+2. **Brief** năm dòng như `U1`, mỗi dòng ghi nguồn (*đọc code*, *người dùng nói*, *đoán*).
+3. **Màn chính**: bảng `U2` cho 3–6 màn sản phẩm cần nhất, kèm dòng Luồng tới việc chính đầu
+   tiên (`flows.md`, `O2`). Đã có code thì lấy theo route; chưa có thì lấy những màn loại sản
+   phẩm này hay có.
+4. **Quy ước của loại sản phẩm này**: 5–8 dòng, mỗi dòng nói *làm gì*, *vì sao người dùng cần*,
+   *nguồn*. Ngành có trong `industry-patterns.md` thì lấy từ đó trước, ghi *"bảng ngành, 4/5"*;
+   chỉ tra thêm cho màn bảng chưa có. Còn lại **tra thật** khoảng năm sản phẩm cùng loại (tìm web nếu có công cụ; app có gói free
+   thì xem bản free, không trả tiền). Nguồn ghi bằng số đếm: *"tra 5, 4 làm vậy"*, **không nêu
+   tên sản phẩm**. Không tra được thì ghi *"theo trí nhớ, cần kiểm"*. Quy ước mà sản phẩm chưa
+   có thì ghi thêm *(chưa có)*: đó là chỗ đáng giá nhất của báo cáo, nhưng chỉ ghi là gợi ý,
+   không tự đưa vào brief (`U5`).
+5. **Màu nhấn**: dự án có brand thì giữ brand, nói một dòng. Chưa có thì ba màu của ngành trong
+   bảng "Màu nhấn gợi ý theo ngành" (`brand-tokens.md`), kèm cột *Đo được* của ngành đó; ngành
+   không có trong bảng thì dòng "Ngành khác". Không chọn màu theo sáo ("học thì xanh lá cho
+   tươi", "spa thì hồng").
+6. **Bộ mặt**: một bộ khuyên dùng theo `P13`, đúng mẫu dòng báo của `P13` (nói bằng người dùng).
+   Dự án đã có phong cách riêng (audit tầng 3) thì ghi *"giữ phong cách đang có"*, không khuyên
+   bộ mới (`P1`).
+7. **Điểm khác biệt hiện ở đâu**: một dòng, màn nào, chỗ nào trên màn (`U2`).
+
+Mỗi dòng nói bằng việc của người dùng cuối, không bằng tính từ. Đúng: *"Trang đầu của người
+học là nút Học tiếp bài đang dở, vì họ quay lại để học tiếp chứ không để tìm khoá mới (tra 5,
+5 làm vậy)."* Sai: *"UI thân thiện, hiện đại, tối ưu trải nghiệm học tập."*
+
+Kết tin bằng một dòng: *"Sai dòng nào thì sửa dòng đó. Muốn dựng thì nói `dựng màn …`, hoặc
+`dựng luôn màn …` nếu không cần wireframe."* (tiếng Anh: *"Correct any line that's wrong. To
+build, say `build the … screen`, or `just build the … screen` to skip the wireframes."*)
+
+**`DESIGN.md` đã có** (`system.md`, `D10`): mục 5, 6 lấy theo file, ghi *"theo `DESIGN.md`"*,
+không khuyên màu hay bộ mặt khác. Báo cáo không ghi vào file; lượt dựng sau mới ghi (`U4`).
+
+**Lượt dựng sau báo cáo.** Brief và bảng `U2` người dùng đã đọc, nên đề dựng kế tiếp mà không sửa
+dòng nào thì coi như **đã qua cổng 1**: đi thẳng `U3` (hay `U4` nếu "dựng luôn"). Nhóm Nhấn của
+wireframe lấy đúng ba màu trong báo cáo, Kiểu mặc định là bộ mặt đã khuyên. Màn chưa có trong
+bảng thì thêm dòng `U2` của màn đó vào đầu tin wireframe, không dừng.
+
+**Không:**
+
+- Persona, hành trình người dùng, số liệu không có nguồn ("70% người học dùng điện thoại"),
+  như `U1`. Model không phỏng vấn được ai.
+- Báo cáo dài như tài liệu: vừa đọc trong một lượt cuộn, không bảng lồng bảng, không mục nào
+  ngoài bảy mục trên.
+- Ghi báo cáo ra file trong dự án khi người dùng không xin.
