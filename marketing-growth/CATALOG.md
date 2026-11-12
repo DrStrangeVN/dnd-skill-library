@@ -1,4 +1,4 @@
-# marketing-growth — 145 skills
+# marketing-growth — 146 skills
 
 | Skill | Description |
 |---|---|
@@ -120,6 +120,7 @@
 | [referral-program](referral-program/) | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,'… |
 | [referrals](referrals/) | When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word… |
 | [retail-marketer](retail-marketer/) | Market for retail — in-store experience, promotions, merchandising, omnichannel, and foot traffic growth. |
+| [reverse-engineer-marketing](reverse-engineer-marketing/) | When the user wants to reverse engineer how another company grew and copy what worked. Also use when the user mentions 'reverse engineer,' 'how did X grow,' 'how does X get customers,' 'growth t… |
 | [revops](revops/) | When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scorin… |
 | [rss-reader-pro](rss-reader-pro/) | Master RSS readers: feed curation, triage workflows, filtering, and turning feeds into signal. Use when you want news and blogs on your terms instead of algorithmic timelines. |
 | [sales-enablement](sales-enablement/) | When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave… |
