@@ -1,0 +1,20 @@
+# opuscar — 16 skills
+
+| Skill | Description |
+|---|---|
+| [opuscar-3d-miniature](opuscar-3d-miniature/) | Kỹ thuật làm phim 3D và mô hình thu nhỏ kiểu Lemo-Opuscar (nhóm 3D & Miniature, 8 style) — gạch nhựa stop-motion trên bàn thật, sách pop-up giấy, tilt-shift biến nơi thật thành đồ chơi, đảo low-… |
+| [opuscar-cartoons](opuscar-cartoons/) | Kỹ thuật phim hoạt hình 2D vẽ tay mô phỏng bằng code (spin-out từ bộ Lemo-Opuscar) — 6 style: ống cao su 1930, anime cel 80s, sitcom khoa học viễn tưởng, hoạt hình phẳng 50s, lịch sử hài bằng gi… |
+| [opuscar-data-maps](opuscar-data-maps/) | Kỹ thuật làm phim bằng dữ liệu và bản đồ kiểu Lemo-Opuscar (nhóm Data & Maps, 6 style) — biểu đồ kể chuyện trên giấy, mô hình trắng chiếu sáng dữ liệu, dữ liệu vật chất hóa thành chồng vật, bản … |
+| [opuscar-edit-documentary](opuscar-edit-documentary/) | Kỹ thuật dựng phim tư liệu và bản tin từ tư liệu thật (spin-out từ bộ Lemo-Opuscar) — caption dẫn nhịp xem không cần tiếng, phim thời sự thập niên 1920, đếm ngược chia màn hình theo thời gian th… |
+| [opuscar-film-tape](opuscar-film-tape/) | Kỹ thuật phim mà chất liệu ghi hình là nhân vật chính (spin-out từ bộ Lemo-Opuscar) — 5 style: terminal ký tự CRT, phim câm 1920, băng VHS found footage, phim khắc trực tiếp, chồng hình kép. Dùn… |
+| [opuscar-games](opuscar-games/) | Kỹ thuật phim kể chuyện bằng ngôn ngữ trò chơi điện tử (spin-out từ bộ Lemo-Opuscar) — 4 style: RPG pixel 16-bit, pixel 2.5D HD-2D, microgame tốc độ tăng dần, gameshow theo nhịp. Dùng khi brief … |
+| [opuscar-graphic-type](opuscar-graphic-type/) | Kỹ thuật phim đồ họa phẳng & chữ làm hình (spin-out từ bộ Lemo-Opuscar) — 8 style: Swiss lưới, mở đầu gián điệp thập niên 60, Art Deco, pictogram, hình học Bauhaus, du hành tỉ lệ phẳng, chữ chớp… |
+| [opuscar-instruments-evidence](opuscar-instruments-evidence/) | Kỹ thuật làm phim bằng dụng cụ và bằng chứng kiểu Lemo-Opuscar (nhóm Instruments & Evidence, 8 style) — ảnh vệ tinh, bảng họp kỹ thuật, đám mây điểm LiDAR, hiển vi, bàn sáng lưu trữ, X-quang an … |
+| [opuscar-light-lines](opuscar-light-lines/) | Kỹ thuật làm phim bằng ánh sáng và đường nét kiểu Lemo-Opuscar (nhóm Light & Lines, 5 style) — mạch in nhìn từ trên xuống, điểm sáng đom đóm, đường dòng của trường gió, toán học trên máy hiện só… |
+| [opuscar-line-diagrams](opuscar-line-diagrams/) | Kỹ thuật phim sơ đồ nét giải thích máy móc & hệ thống (spin-out từ bộ Lemo-Opuscar) — 8 style: bản vẽ xanh blueprint, infographic đẳng cự, bóc tách sản phẩm, mặt cắt nét mực, cơ chế tô màu theo … |
+| [opuscar-painting-illustration](opuscar-painting-illustration/) | Kỹ thuật phim hội họa và minh họa (spin-out từ bộ Lemo-Opuscar) — sách tranh sáp màu, tranh màu nước, sơn dầu bay, ký họa bút kim và màu nước lệch nét, minh họa khoa học bằng chì màu với mặt cắt… |
+| [opuscar-printmaking](opuscar-printmaking/) | Kỹ thuật phim in ấn (spin-out từ bộ Lemo-Opuscar) — risograph, hồ sơ halftone, khắc gỗ, khắc đồng, lụa poster, long-take khắc bản, pop-art, collage cổ. Dùng khi brief là "phim trông như in riso"… |
+| [opuscar-router](opuscar-router/) | Router điều phối toàn bộ thư viện phim làm bằng code Lemo-Opuscar (99 style, 15 chuyên đề) — chọn chuyên đề và style theo brief, rồi trỏ sang skill nhóm chuyên trách. Dùng khi brief chưa chốt st… |
+| [opuscar-screens-interfaces](opuscar-screens-interfaces/) | Kỹ thuật làm phim về màn hình và giao diện kiểu Lemo-Opuscar (nhóm Screens & Interfaces, 6 style) — keynote tối, ghi màn hình có linh vật pixel, HUD hologram quét vật thể, bàn làm việc với thẻ g… |
+| [opuscar-sketch-board](opuscar-sketch-board/) | Kỹ thuật phim vẽ tay trên bảng và giấy (spin-out từ bộ Lemo-Opuscar) — một nét liền, bảng trắng marker, bảng phấn, sketchnote, người que giải thích, vẽ số trên iPad, marker trên giấy. Dùng khi b… |
+| [opuscar-traditional-crafts](opuscar-traditional-crafts/) | Kỹ thuật phim thủ công truyền thống (spin-out từ bộ Lemo-Opuscar) — thủy mặc, rối bóng, tranh khắc gỗ Nhật, giấy cắt đỏ, đèn lồng giấy, kính màu, sách minh họa mạ vàng. Dùng khi brief là "kể chu… |
