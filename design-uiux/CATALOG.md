@@ -1,4 +1,4 @@
-# design-uiux — 350 skills
+# design-uiux — 351 skills
 
 | Skill | Description |
 |---|---|
@@ -308,6 +308,7 @@
 | [ui-ux](ui-ux/) | Gu UI/UX cho app — dashboard, danh sách, bảng, form, cài đặt, modal, trang lướt để chọn. Mặc định như một designer - brief, 2–3 wireframe, người dùng chọn rồi mới dựng. Lối khác khi đề nói rõ - … |
 | [ui-ux-designer](ui-ux-designer/) | Design user interfaces and experiences from research and flows to wireframes, mockups, and usability testing. |
 | [ui-ux-pro-max](ui-ux-pro-max/) | UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, respo… |
+| [ui8-top10-app-ui-kits](ui8-top10-app-ui-kits/) | 10 mẫu UI kit app/webapp tốt nhất trên UI8 (khảo sát 16/11/2026) — chưng cất cấu trúc, màn hình chính, component và cách dựng lại từng mẫu bằng code. Dùng khi cần chọn nhanh một mẫu dashboard/ap… |
 | [umap-learn](umap-learn/) | UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data. |
 | [unity-shader-graph-artist](unity-shader-graph-artist/) | Visual effects and material specialist - Masters Unity Shader Graph, HLSL, URP/HDRP rendering pipelines, and custom pass authoring for real-time visual effects |
 | [ux-researcher-designer](ux-researcher-designer/) | UX research and design toolkit for Senior UX Designer/Researcher including data-driven persona generation, journey mapping, usability testing frameworks, and research synthesis. Use for user research, persona creation,… |
