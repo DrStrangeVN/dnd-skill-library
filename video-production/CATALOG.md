@@ -1,4 +1,4 @@
-# video-production — 212 skills
+# video-production — 213 skills
 
 | Skill | Description |
 |---|---|
@@ -108,6 +108,7 @@
 | [podcast-marketer](podcast-marketer/) | Market through podcasts — launching shows, guest booking, promotion, and measuring podcast ROI. |
 | [profile-showreel-video](profile-showreel-video/) | Showreel hồ sơ cá nhân khổ ngang phong cách ghi hình: kinetic type, mindmap thành tựu, overlay máy quay — dùng cho portfolio cá nhân, hồ sơ ứng tuyển, giới thiệu chuyên gia. |
 | [property-location-video](property-location-video/) | Video dọc giới thiệu vị trí bất động sản: ảnh dự án + bản đồ tối với tuyến đường neon — dùng cho ra mắt dự án, vị trí đất/nền, điểm bán cần chứng minh tiện ích xung quanh. |
+| [rea-video](rea-video/) | 逆向拆解一条视频是怎么做出来的——逐镜头判断实拍 / 影视片段 / AI 生成 / 3D 渲染 / 2D 动画 / 定格动画 / 代码模板渲染 / 录屏截图 / 静态图推拉 / 静帧，以及实拍是否经过 AI 加工（换脸、对口型、风格化），标出后期叠加层（逐句字幕时间轴、花字、标题、贴纸 / GIF / 表情包、画中画）和用户真实素材，拆解人声、背景音乐、音效（卡在哪个画面事件上）与剪辑… |
 | [remotion](remotion/) | Best practices and comprehensive guide for Remotion - programmatic video creation in React with animations, compositions, and media handling |
 | [remotion-best-practices](remotion-best-practices/) | Router for all Remotion skills |
 | [remotion-captions](remotion-captions/) | Transcribing, displaying and animating captions |
