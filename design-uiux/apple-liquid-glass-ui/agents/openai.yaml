@@ -1,0 +1,7 @@
+interface:
+  display_name: "Apple Liquid Glass UI"
+  short_description: "Chuẩn kính Liquid Glass trong suốt thật (T-VPN / Loon Mac) + slider 0–100%"
+  brand_color: "#3D74CC"
+  default_prompt: "Dùng $apple-liquid-glass-ui thiết kế giao diện kính trong suốt Liquid Glass chuẩn macOS/iOS/Web (xuyên nền thật .hudWindow + .active, thanh trượt độ trong suốt 0–100%, đồng nhất 100% modal/input/editor và split-screen 900x760)."
+policy:
+  allow_implicit_invocation: true

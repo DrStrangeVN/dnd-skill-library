@@ -1,0 +1,96 @@
+/* True Translucent Apple Liquid Glass CSS Tokens (Web & Electron)
+ * Set --glass-tr from 0 (Solid) -> 0.56 (Loon Balanced default) -> 1 (Crystal Clear).
+ * For Electron BrowserWindow on macOS:
+ *   transparent: true, backgroundColor: '#00000000',
+ *   vibrancy: 'hud-window', visualEffectState: 'active', titleBarStyle: 'hiddenInset'
+ */
+
+:root {
+  --glass-tr: 0.56;
+  --ease-glass: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Light Mode (default) — NO opaque white inset sheet! */
+  color-scheme: light;
+  --outer-bg: transparent;
+  --sidebar-bg: rgba(255, 255, 255, calc(0.88 - var(--glass-tr) * 0.80));
+  --card-bg: rgba(255, 255, 255, calc(0.95 - var(--glass-tr) * 0.78));
+  --field-bg: rgba(255, 255, 255, calc(0.90 - var(--glass-tr) * 0.70));
+  --modal-bg: rgba(240, 244, 249, 0.82);
+  --raised-bg: rgba(24, 35, 52, 0.06);
+  --selected-pill: rgba(59, 118, 214, 0.16);
+  --line: rgba(24, 35, 52, 0.08);
+  --line-strong: rgba(24, 35, 52, 0.15);
+  --specular-top: inset 0 0.75px 0 rgba(255, 255, 255, 0.72);
+  --card-shadow: 0 2px 10px rgba(0, 0, 0, 0.045);
+  --blur: blur(24px) saturate(160%);
+
+  --text: #262C36;
+  --muted: #545C6B;
+  --dim: #7A8292;
+  --primary: #3D74CC;
+  --green: #2B9367;
+  --amber: #BE7632;
+  --rose: #C65165;
+  --indigo: #675FB8;
+
+  --r-window: 20px;
+  --r-bento: 18px;
+  --r-panel: 16px;
+  --r-sheet: 14px;
+  --r-control: 9px;
+  --r-pill: 999px;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --outer-bg: rgba(12, 17, 28, calc(0.96 - var(--glass-tr) * 0.90));
+  --sidebar-bg: rgba(16, 21, 34, calc(0.94 - var(--glass-tr) * 0.84));
+  --card-bg: rgba(27, 34, 50, calc(0.95 - var(--glass-tr) * 0.74));
+  --field-bg: rgba(255, 255, 255, calc(0.16 - var(--glass-tr) * 0.11));
+  --modal-bg: rgba(23, 28, 41, 0.86);
+  --raised-bg: rgba(255, 255, 255, 0.075);
+  --selected-pill: rgba(91, 141, 239, 0.22);
+  --line: rgba(255, 255, 255, 0.09);
+  --line-strong: rgba(255, 255, 255, 0.17);
+  --specular-top: inset 0 0.75px 0 rgba(255, 255, 255, 0.14);
+  --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.28);
+
+  --text: #E3E8F2;
+  --muted: #9CA7BD;
+  --dim: #76819A;
+  --primary: #5B8DEF;
+  --green: #4CC99A;
+  --amber: #E6B35A;
+  --rose: #E87C8E;
+  --indigo: #9B92E8;
+}
+
+.glass-bento {
+  background: var(--card-bg);
+  backdrop-filter: var(--blur);
+  -webkit-backdrop-filter: var(--blur);
+  border-radius: var(--r-bento);
+  border: 0.5px solid var(--line);
+  box-shadow: var(--specular-top), var(--card-shadow);
+}
+
+.glass-modal {
+  background: var(--modal-bg);
+  backdrop-filter: blur(36px) saturate(180%);
+  -webkit-backdrop-filter: blur(36px) saturate(180%);
+  border-radius: var(--r-sheet);
+  border: 0.75px solid var(--line-strong);
+  box-shadow: var(--specular-top), 0 18px 48px rgba(0, 0, 0, 0.18);
+}
+
+.glass-input, .glass-editor {
+  background: var(--field-bg);
+  color: var(--text);
+  border: 0.75px solid var(--line-strong);
+  border-radius: var(--r-control);
+  outline: none;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  :root { --glass-tr: 0; --blur: none; }
+}

@@ -1,4 +1,4 @@
-# design-uiux — 351 skills
+# design-uiux — 352 skills
 
 | Skill | Description |
 |---|---|
@@ -31,6 +31,7 @@
 | [antislop-layoutmobile](antislop-layoutmobile/) | Mobile layout skill for antislop. Use for layouts that reflow across screen sizes, phone to desktop: grids, overflow, tap targets. Load with the core. |
 | [antislop-ui](antislop-ui/) | UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion. Load with the core. |
 | [apple-design](apple-design/) | Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible tra… |
+| [apple-liquid-glass-ui](apple-liquid-glass-ui/) | True translucent Apple Liquid Glass design system (T-VPN v4 / Loon Mac standard) for macOS SwiftUI/AppKit, iOS, Electron, and Web apps — real `.hudWindow` vibrancy, 0–100% transparency slider, unified glass modals/inputs. |
 | [artifact-template-minimal-letterhead](artifact-template-minimal-letterhead/) | Create a document using the Minimal Letterhead template and its retained reference file. Use when the user selects or names Minimal Letterhead. Write professional business letters with sender, recipient, message, and si… |
 | [artifacts-builder](artifacts-builder/) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or… |
 | [ask-sonner](ask-sonner/) | Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning an… |

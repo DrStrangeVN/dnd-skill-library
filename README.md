@@ -8,7 +8,7 @@ and **INDEX.md** for the full skill list.
 
 ## Contents
 
-- **2,556 skills** in 25 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
+- **2,557 skills** in 25 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
 - `INDEX.md` — every skill with its category and one-line description.
 - `<category>/CATALOG.md` — per-category table.
 - `SETUP.md` — install + toolchain + verification steps for a new machine.
@@ -79,4 +79,6 @@ Update 2026-11-13: +16 skills in a new `opuscar/` group (Lemo-Opuscar 2.0, lemom
 Update 2026-11-16: +1 skill (`rea-video`, reverse-engineer any video shot by shot into VIDEO.md + report — filmed/AI/3D/code, captions, audio, remake plan — from JuneYaooo/rea-video @ 820d661, 2026-11-16, Apache-2.0 — verbatim, folder carries the upstream LICENSE) in `video-production/`. Demo: decomposed the 20s countdown-gameday demo (6 shots, boundaries exact, verdict code/template 100% correct); known limits: BPM unreliable, Vietnamese OCR poor (defaults to zh), no ASR/VLM installed. REQUIREMENT: ffmpeg + Python 3.10+; CLI runs from a venv. No credential is stored in this repo. Total 2,555.
 Update 2026-11-16: +1 skill (`ui8-top10-app-ui-kits`, 10 best app/webapp UI kits on UI8 surveyed 16/11/2026 — Junctly, Nakko, Northwind, Cohort, HumaniZen, Garavelle, Oxtra, Moola, Viola UI, Vigil — distilled in the author's own words from the public previews, with credit + source links in each section; no paid Figma file copied or redistributed, no LICENSE — original distillation) in `design-uiux/`. Demo: 10 interactive UI demos in the artifact '10 Template UI/UX cho App/Webapp'. No credential is stored in this repo. Total 2,556.
 Update 2026-11-21: skill `diagram-design` refreshed to upstream HEAD d74d8c2 (cathrynlavery/diagram-design, MIT — verbatim `skills/diagram-design/` + repo-root `commands/`, folder carries the upstream LICENSE; 41 → 51 visual types, Mermaid + PlantUML import, 8 scripts, 242 example assets; also adds the LICENSE file the old copy lacked) in `web-dev/`. Demo: flowchart of the Học Bóng Rổ video pipeline (9 nodes, self_check OK, verify_geometry 0 findings). No credential is stored in this repo. Total stays 2,556.
+
+Update 2026-11-25: +1 skill (`apple-liquid-glass-ui`, original design system distilled from T-VPN v4 / Loon Mac — true translucent `.hudWindow` + `.active` behind-window vibrancy, continuous 0–100% glass transparency slider, unified glass modals/inputs/segmented controls, `references/swiftui-kit.swift`, `references/web-electron-tokens.css`, and Codex `agents/openai.yaml`) in `design-uiux/`. No credential is stored in this repo. Total 2,557.
 
