@@ -1,4 +1,4 @@
-# education — 25 skills
+# education — 26 skills
 
 | Skill | Description |
 |---|---|
@@ -24,6 +24,7 @@
 | [reinforcement-learning](reinforcement-learning/) | Understand and apply reinforcement learning — MDPs, value and policy methods, exploration, reward design, and RLHF basics. Use when decisions are sequential and feedback comes as rewards. |
 | [rlhf-pipeline](rlhf-pipeline/) | Build the full reinforcement-learning-from-human-feedback stack — preference data, reward model, and policy optimization. |
 | [scaffold-exercises](scaffold-exercises/) | Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section. |
+| [skill-design-review](skill-design-review/) | Review một skill trước khi đưa vào thư viện — kiểm tra trigger có rõ không, scope có hẹp không, SKILL.md có gọn không, lệnh/path/auth có khớp runtime thật không. Dùng khi viết skill mới, sửa ski… |
 | [start-learning](start-learning/) | One-time onboarding for the AI Engineering from Scratch curriculum (542 lessons, 20 phases). Interviews the learner, runs the placement quiz, and writes LEARNING.md, a persistent study plan the … |
 | [teach](teach/) | Teach the user a new skill or concept, within this workspace. |
 | [write-manual](write-manual/) | Writes a long technical manual that explains one subject at one pinned version, from its purpose to each request and response. Every listing comes from an offline capture, every claim traces to … |

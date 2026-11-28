@@ -8,7 +8,7 @@ and **INDEX.md** for the full skill list.
 
 ## Contents
 
-- **2,557 skills** in 25 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
+- **2,562 skills** in 25 category folders (layout: `<category>/<skill-name>/SKILL.md` + the skill's own references/scripts/assets).
 - `INDEX.md` — every skill with its category and one-line description.
 - `<category>/CATALOG.md` — per-category table.
 - `SETUP.md` — install + toolchain + verification steps for a new machine.
@@ -81,4 +81,5 @@ Update 2026-11-16: +1 skill (`ui8-top10-app-ui-kits`, 10 best app/webapp UI kits
 Update 2026-11-21: skill `diagram-design` refreshed to upstream HEAD d74d8c2 (cathrynlavery/diagram-design, MIT — verbatim `skills/diagram-design/` + repo-root `commands/`, folder carries the upstream LICENSE; 41 → 51 visual types, Mermaid + PlantUML import, 8 scripts, 242 example assets; also adds the LICENSE file the old copy lacked) in `web-dev/`. Demo: flowchart of the Học Bóng Rổ video pipeline (9 nodes, self_check OK, verify_geometry 0 findings). No credential is stored in this repo. Total stays 2,556.
 
 Update 2026-11-25: +1 skill (`apple-liquid-glass-ui`, original design system distilled from T-VPN v4 / Loon Mac — true translucent `.hudWindow` + `.active` behind-window vibrancy, continuous 0–100% glass transparency slider, unified glass modals/inputs/segmented controls, `references/swiftui-kit.swift`, `references/web-electron-tokens.css`, and Codex `agents/openai.yaml`) in `design-uiux/`. No credential is stored in this repo. Total 2,557.
+Update 2026-11-28: +5 skills distilled in the author's own words from workflow designs in the unofficial win4r/MuseAI-Skills archive (HEAD 6c12bde, 26/11/2026 — a snapshot of Muse system skills, NO LICENSE; nothing copied verbatim, no file copied from the archive, credit + source links in each SKILL.md) — `magic-moment-video` in `video-production/` (vertical story video from a real talking-head clip about work the AI assistant did; demo: 55.9s BINA-story video, -14.02 LUFS, QA-passed), `artifact-acceptance-gate` and `agent-self-review-loop` in `productivity-office/` (acceptance gate: re-render + eyeball + placeholder scan, max 3 fixes; self-review loop: memory/dreaming/skill review), `wide-research-coordinator` in `science-research/` (manager fan-out + coverage report; demo: Ticketbox/TicketGo/Eventbrite comparison), `skill-design-review` in `education/` (pre-push skill review checklist, companion to the local skill-creator). Demos run for all 5 skills and approved by the user before push. No credential is stored in this repo. Total 2,562.
 

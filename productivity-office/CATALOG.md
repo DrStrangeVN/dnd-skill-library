@@ -1,12 +1,14 @@
-# productivity-office — 208 skills
+# productivity-office — 210 skills
 
 | Skill | Description |
 |---|---|
 | [abstract-writing](abstract-writing/) | Writing abstracts that get papers read — structured content, the 5-sentence core, and journal-specific constraints. |
+| [agent-self-review-loop](agent-self-review-loop/) | Vòng lặp tự review của agent chạy nền — memory upkeep, dreaming synthesis, skill review/retire — để rút ra bài học từ công việc đã làm và cải thiện lần sau. Dùng định kỳ (cuối ngày / cuối tuần /… |
 | [ai21-guide](ai21-guide/) | Build with AI21 Labs' models — Jurassic for generation and strong task-specific models for enterprise use. |
 | [alfred-pro](alfred-pro/) | Master Alfred on macOS: search, workflows, clipboard history, snippets, and the Powerpack. Use when building a keyboard-driven command layer on the Mac with Alfred. |
 | [andreessen](andreessen/) | Marc Andreessen-mode decision and productivity skill. A blunt, market-first |
 | [architecture](architecture/) | Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design. |
+| [artifact-acceptance-gate](artifact-acceptance-gate/) | Nghiệm thu một deliverable trước khi giao cho Trí — render lại từ đầu và xem bằng mắt thứ Trí sẽ thấy, quét placeholder còn sót, sửa tối đa 3 lần. Dùng mỗi khi sắp trả link hoặc file: video, dec… |
 | [artifact-template-design-report](artifact-template-design-report/) | Create a document using the Design Report template and its retained reference file. Use when the user selects or names Design Report. Produce design reports with an executive summary, key findings, implications, recomme… |
 | [artifact-template-experiment-analysis](artifact-template-experiment-analysis/) | Create a document using the Experiment Analysis template and its retained reference file. Use when the user selects or names Experiment Analysis. Analyze experiments with hypotheses, methodology, results, interpretation… |
 | [artifact-template-legal-memorandum](artifact-template-legal-memorandum/) | Create a document using the Legal Memorandum template and its retained reference file. Use when the user selects or names Legal Memorandum. Draft legal memoranda with the issue, brief answer, relevant facts, analysis, a… |

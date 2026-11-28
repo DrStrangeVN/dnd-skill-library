@@ -1,6 +1,6 @@
 # Skill Index
 
-All 2557 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
+All 2562 skills in this library, grouped by category. Descriptions come from each skill's SKILL.md frontmatter.
 
 ## ai-agents-llm (281)
 
@@ -1326,7 +1326,7 @@ All 2557 skills in this library, grouped by category. Descriptions come from eac
 | [zoom-pro](zoom-pro/) | Run professional Zoom meetings — hosting, facilitation, webinars, recordings, and hybrid meeting excellence. |
 | [zsh-pro](zsh-pro/) | Zsh guidance — interactive shell mastery, completion, prompt themes, plugins, and scripting differences from bash. |
 
-## education (25)
+## education (26)
 
 | Skill | Description |
 |---|---|
@@ -1352,6 +1352,7 @@ All 2557 skills in this library, grouped by category. Descriptions come from eac
 | [reinforcement-learning](reinforcement-learning/) | Understand and apply reinforcement learning — MDPs, value and policy methods, exploration, reward design, and RLHF basics. Use when decisions are sequential and feedback comes as rewards. |
 | [rlhf-pipeline](rlhf-pipeline/) | Build the full reinforcement-learning-from-human-feedback stack — preference data, reward model, and policy optimization. |
 | [scaffold-exercises](scaffold-exercises/) | Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section. |
+| [skill-design-review](skill-design-review/) | Review một skill trước khi đưa vào thư viện — kiểm tra trigger có rõ không, scope có hẹp không, SKILL.md có gọn không, lệnh/path/auth có khớp runtime thật không. Dùng khi viết skill mới, sửa ski… |
 | [start-learning](start-learning/) | One-time onboarding for the AI Engineering from Scratch curriculum (542 lessons, 20 phases). Interviews the learner, runs the placement quiz, and writes LEARNING.md, a persistent study plan the … |
 | [teach](teach/) | Teach the user a new skill or concept, within this workspace. |
 | [write-manual](write-manual/) | Writes a long technical manual that explains one subject at one pinned version, from its purpose to each request and response. Every listing comes from an offline capture, every claim traces to … |
@@ -1666,15 +1667,17 @@ All 2557 skills in this library, grouped by category. Descriptions come from eac
 | [improve](improve/) | Use when the user wants an audit, improvement opportunities, roadmap advice, or an implementation handoff from a read-only senior-advisor survey of a codebase. |
 | [issue-triage](issue-triage/) | Triaging error reports — prioritization, ownership, and keeping the backlog actionable — works with any error tracker. |
 
-## productivity-office (208)
+## productivity-office (210)
 
 | Skill | Description |
 |---|---|
 | [abstract-writing](abstract-writing/) | Writing abstracts that get papers read — structured content, the 5-sentence core, and journal-specific constraints. |
+| [agent-self-review-loop](agent-self-review-loop/) | Vòng lặp tự review của agent chạy nền — memory upkeep, dreaming synthesis, skill review/retire — để rút ra bài học từ công việc đã làm và cải thiện lần sau. Dùng định kỳ (cuối ngày / cuối tuần /… |
 | [ai21-guide](ai21-guide/) | Build with AI21 Labs' models — Jurassic for generation and strong task-specific models for enterprise use. |
 | [alfred-pro](alfred-pro/) | Master Alfred on macOS: search, workflows, clipboard history, snippets, and the Powerpack. Use when building a keyboard-driven command layer on the Mac with Alfred. |
 | [andreessen](andreessen/) | Marc Andreessen-mode decision and productivity skill. A blunt, market-first |
 | [architecture](architecture/) | Architectural decision-making framework. Requirements analysis, trade-off evaluation, ADR documentation. Use when making architecture decisions or analyzing system design. |
+| [artifact-acceptance-gate](artifact-acceptance-gate/) | Nghiệm thu một deliverable trước khi giao cho Trí — render lại từ đầu và xem bằng mắt thứ Trí sẽ thấy, quét placeholder còn sót, sửa tối đa 3 lần. Dùng mỗi khi sắp trả link hoặc file: video, dec… |
 | [artifact-template-design-report](artifact-template-design-report/) | Create a document using the Design Report template and its retained reference file. Use when the user selects or names Design Report. Produce design reports with an executive summary, key findings, implications, recomme… |
 | [artifact-template-experiment-analysis](artifact-template-experiment-analysis/) | Create a document using the Experiment Analysis template and its retained reference file. Use when the user selects or names Experiment Analysis. Analyze experiments with hypotheses, methodology, results, interpretation… |
 | [artifact-template-legal-memorandum](artifact-template-legal-memorandum/) | Create a document using the Legal Memorandum template and its retained reference file. Use when the user selects or names Legal Memorandum. Draft legal memoranda with the issue, brief answer, relevant facts, analysis, a… |
@@ -1879,7 +1882,7 @@ All 2557 skills in this library, grouped by category. Descriptions come from eac
 | [zettelkasten](zettelkasten/) | Practice the Zettelkasten method: atomic notes, unique IDs, linking, and building a thinking partner from your notes. Use when doing research, writing, or long-term knowledge work. |
 | [zig-pro](zig-pro/) | Idiomatic Zig: explicit allocators, comptime, error unions, and no-hidden-control-flow philosophy. Use when writing, reviewing, or structuring Zig programs. |
 
-## science-research (83)
+## science-research (84)
 
 | Skill | Description |
 |---|---|
@@ -1965,6 +1968,7 @@ All 2557 skills in this library, grouped by category. Descriptions come from eac
 | [user-persona](user-persona/) | Build research-grounded personas with goals, frustrations, and behavioural patterns. Use when decisions need a consistent user reference. For one session's emotional snapshot use `empathy-map`; for motivation framing us… |
 | [variant-annotation](variant-annotation/) | Annotating genetic variants — consequence prediction, population frequency, and clinical interpretation. |
 | [viral-generator-builder](viral-generator-builder/) | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools… |
+| [wide-research-coordinator](wide-research-coordinator/) | Điều phối nghiên cứu song song trên nhiều input độc lập — một manager subagent fan-out cùng một nhiệm vụ qua nhiều mục, trả về một tập kết quả chuẩn hóa kèm báo cáo coverage. Dùng khi cần khảo s… |
 | [zarr-python](zarr-python/) | Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines. |
 
 ## security (52)
@@ -2276,7 +2280,7 @@ All 2557 skills in this library, grouped by category. Descriptions come from eac
 | [basketball](basketball/) | Bộ quản lý đội, câu lạc bộ hoặc học viện bóng rổ dùng cho roster, lịch tập, vận hành trận đấu và giải, ngân sách, tuyển thành viên, tài trợ và báo cáo mùa; không thay thế chuyên môn y tế. |
 | [leadership-coach](leadership-coach/) | Develop leadership capability with frameworks for influence, decision-making, feedback, and team culture. |
 
-## video-production (213)
+## video-production (214)
 
 | Skill | Description |
 |---|---|
@@ -2353,6 +2357,7 @@ All 2557 skills in this library, grouped by category. Descriptions come from eac
 | [long-form-video](long-form-video/) | Long-form YouTube craft (8-15 min): 30-second cliff, pattern interrupts, retention targets, chapters, narration pace. |
 | [loom-pro](loom-pro/) | Master Loom for async video: recording, editing, organizing, and replacing meetings with video messages. Use when adopting async communication or making video updates that people actually watch. |
 | [ltx-video-prompting](ltx-video-prompting/) | LTX video prompting guide: model-specific prompt craft for short-clip generation. |
+| [magic-moment-video](magic-moment-video/) | Biến clip talking-head/selfie của Trí thành video dọc kể lại một câu chuyện công việc thật mà trợ lý AI đã làm — lời thoại gốc giữ nguyên, câu chuyện tái hiện đồng bộ bằng bong bóng chat, gõ chữ… |
 | [manim](manim/) | Comprehensive guide for Manim Community - Python framework for creating mathematical animations and educational videos with programmatic control |
 | [manim-video](manim-video/) | Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user wants a clean animated explainer rather… |
 | [markitdown](markitdown/) | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more. |

@@ -1,4 +1,4 @@
-# science-research — 83 skills
+# science-research — 84 skills
 
 | Skill | Description |
 |---|---|
@@ -84,4 +84,5 @@
 | [user-persona](user-persona/) | Build research-grounded personas with goals, frustrations, and behavioural patterns. Use when decisions need a consistent user reference. For one session's emotional snapshot use `empathy-map`; for motivation framing us… |
 | [variant-annotation](variant-annotation/) | Annotating genetic variants — consequence prediction, population frequency, and clinical interpretation. |
 | [viral-generator-builder](viral-generator-builder/) | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers the psychology of sharing, viral mechanics, and building tools… |
+| [wide-research-coordinator](wide-research-coordinator/) | Điều phối nghiên cứu song song trên nhiều input độc lập — một manager subagent fan-out cùng một nhiệm vụ qua nhiều mục, trả về một tập kết quả chuẩn hóa kèm báo cáo coverage. Dùng khi cần khảo s… |
 | [zarr-python](zarr-python/) | Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines. |

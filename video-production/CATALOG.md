@@ -1,4 +1,4 @@
-# video-production — 213 skills
+# video-production — 214 skills
 
 | Skill | Description |
 |---|---|
@@ -75,6 +75,7 @@
 | [long-form-video](long-form-video/) | Long-form YouTube craft (8-15 min): 30-second cliff, pattern interrupts, retention targets, chapters, narration pace. |
 | [loom-pro](loom-pro/) | Master Loom for async video: recording, editing, organizing, and replacing meetings with video messages. Use when adopting async communication or making video updates that people actually watch. |
 | [ltx-video-prompting](ltx-video-prompting/) | LTX video prompting guide: model-specific prompt craft for short-clip generation. |
+| [magic-moment-video](magic-moment-video/) | Biến clip talking-head/selfie của Trí thành video dọc kể lại một câu chuyện công việc thật mà trợ lý AI đã làm — lời thoại gốc giữ nguyên, câu chuyện tái hiện đồng bộ bằng bong bóng chat, gõ chữ… |
 | [manim](manim/) | Comprehensive guide for Manim Community - Python framework for creating mathematical animations and educational videos with programmatic control |
 | [manim-video](manim-video/) | Build reusable Manim explainers for technical concepts, graphs, system diagrams, and product walkthroughs, then hand off to the wider ECC video stack if needed. Use when the user wants a clean animated explainer rather… |
 | [markitdown](markitdown/) | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more. |
